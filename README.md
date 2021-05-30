@@ -24,13 +24,31 @@ other autoimmune disease data
 
 meta analysis
 
-Similar to what Mingdong's research finds out, GWAS findings sometimes do not explain heritability, for diseases hold 30%-80% heritability from twins and family study, GWAS gives no more than 5%-10%.[1] There're many theories explaining this problem including uncovered rare variants, complex associations/epistasis, lack of power(need more data), epigenetic effects, maybe a better way out is to continue and extend GWAS with further analysis. A preliminary study considering all SNPs simultaneously [2] can be conducted to prove heritability has been well detected. According to the results shared on GWAS catalog (https://www.ebi.ac.uk/gwas/efotraits/EFO_0000685), it's possible to find genes with significant P-val, and some genes identified by Mingdong are also annotated by other researchers. In another recent study on Covid-19 [3], GWAS is unable to improve on 6.5% heritability estimate, post-GWAS analyses like Mendelian randomization and transcriptome-wide association study (TWAS) with extra data considered are performed. Summary association statistics is a powerful and common evidence source to dissect the genetics of complex trait (like RA) which has a large number of causal variants with small effects. Inferences about causal relationships among traits (between RA and other autoimmune disease) also worths exploring.
+Similar to what Mingdong's research finds out, GWAS findings sometimes do not explain heritability, for diseases hold 30%-80% heritability from twins and family study, GWAS gives no more than 5%-10%.[1] There're many theories explaining this problem including uncovered rare variants, complex associations/epistasis, lack of power(need more data), epigenetic effects, maybe a better way out is to continue and extend GWAS with further analysis. A preliminary study considering all SNPs simultaneously [2] can be conducted to prove heritability has been well detected. According to the results shared on GWAS catalog (https://www.ebi.ac.uk/gwas/efotraits/EFO_0000685), it's possible to find genes with significant P-val, and some genes identified by Mingdong are also annotated by other researchers. 
+
+In another recent study on Covid-19 [3], GWAS is unable to improve on 6.5% heritability estimate, post-GWAS analyses like Mendelian randomization and transcriptome-wide association study (TWAS) with extra data considered are performed, integration of eQTL is a direction to find causal genes[9]. Summary association statistics is a powerful and common evidence source to dissect the genetics of complex trait (like RA) which has a large number of causal variants with small effects. Combining our current GWAS result with other existing GWAS archive on ieu open gwas project [5] (https://gwas.mrcieu.ac.uk/, a database of 184,790,518,159 genetic associations from 39,603 GWAS summary datasets) enables many further analyses including:
+1. Fine-mapping: conditional and joint multiple-SNP analysis (GCTA-COJO, SOJO)[6,7].
+2. Causal inference: Inferences about causal relationships and genetic correlation among traits (between RA and other autoimmune disease) also worths exploring[8]. 
+3. GWAS meta-analysis
+4. 
 
 References
 1. Maher, Brendan. "Personal genomes: The case of the missing heritability." Nature News 456.7218 (2008): 18-21.
 2. Yang, J., Benyamin, B., McEvoy, B. et al. Common SNPs explain a large proportion of the heritability for human height. Nat Genet 42, 565–569 (2010). https://doi-org.vu-nl.idm.oclc.org/10.1038/ng.608
 3. Pairo-Castineira, E., Clohisey, S., Klaric, L. et al. Genetic mechanisms of critical illness in COVID-19. Nature 591, 92–98 (2021). https://doi-org.vu-nl.idm.oclc.org/10.1038/s41586-020-03065-y
-4. 
+4. Pasaniuc, B., Price, A. Dissecting the genetics of complex traits using summary association statistics. Nat Rev Genet 18, 117–127 (2017). https://doi-org.vu-nl.idm.oclc.org/10.1038/nrg.2016.142
+5. Lyon, M.S., Andrews, S.J., Elsworth, B. et al. The variant call format provides efficient and robust storage of GWAS summary statistics. Genome Biol 22, 32 (2021). https://doi.org/10.1186/s13059-020-02248-0
+6. Yang, J., Ferreira, T., Morris, A. et al. Conditional and joint multiple-SNP analysis of GWAS summary statistics identifies additional variants influencing complex traits. Nat Genet 44, 369–375 (2012). https://doi-org.vu-nl.idm.oclc.org/10.1038/ng.2213
+7. Ning Z, Lee Y, Joshi PK, Wilson JF, Pawitan Y, Shen X. A Selection Operator for Summary Association Statistics Reveals Allelic Heterogeneity of Complex Traits. Am J Hum Genet. 2017;101(6):903-912. doi:10.1016/j.ajhg.2017.09.027
+8. Pickrell, J., Berisa, T., Liu, J. et al. Detection and interpretation of shared genetic influences on 42 human traits. Nat Genet 48, 709–717 (2016). https://doi-org.vu-nl.idm.oclc.org/10.1038/ng.3570
+9. Zhu, Z., Zhang, F., Hu, H., Bakshi, A., Robinson, M. R., Powell, J. E., ... & Yang, J. (2016). Integration of summary data from GWAS and eQTL studies predicts complex trait gene targets. Nature genetics, 48(5), 481-487.
+10. 
+
+
+
+
+
+
 
 
 
