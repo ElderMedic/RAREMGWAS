@@ -29,10 +29,10 @@ Similar to what Mingdong's research finds out, GWAS findings sometimes do not ex
 In another recent study on Covid-19 [3], GWAS is unable to improve on 6.5% heritability estimate, post-GWAS analyses like Mendelian randomization and transcriptome-wide association study (TWAS) with extra data considered are performed, integration of eQTL is a direction to find causal genes[9]. Summary association statistics is a powerful and common evidence source to dissect the genetics of complex trait (like RA) which has a large number of causal variants with small effects. Combining our current GWAS result with other existing GWAS archive on ieu open gwas project [5] (https://gwas.mrcieu.ac.uk/, a database of 184,790,518,159 genetic associations from 39,603 GWAS summary datasets) enables many further analyses including:
 1. Fine-mapping: conditional and joint multiple-SNP analysis (GCTA-COJO, SOJO)[6,7].
 2. Inferences about causal relationships and genetic correlations among traits (between RA and other autoimmune disease or BMI, smoking history...) also worths exploring[8]. 
-3. GWAS meta-analysis
+3. GWAS meta-analysis: p-val, bayes...
 4. heritability from summary statistics: LD Score regression [10]. Partitioning heritability by functional annotation [11].
 
-Another way to solve the problem of low effect size is implementing Genome-wide polygenic risk scores(GPS), GPS can find a lot more patients at high disease risk than clinical application simply relying on monogenic mutations[12,13].
+Complex traits are often controlled by multiple genes, and there are interactions between genes. Many GWAS methods only consider monogenic, traditional detection methods are based on regression analysis to perform statistical tests on all gene combinations, they require a lot of time and are difficult to process high-dimensional data. Multifactor Dimensionality Reduction, derived from machine learning, first considers all possible combinations of reciprocal loci and treats these combinations as a series of polygenic factors, then integrates the available data into a new variable and uses the phenotypic information to classify genotypes into low and high risk[14]. Another way to solve the problem of low effect size is implementing Genome-wide polygenic risk scores(GPS), GPS can find a lot more patients at high disease risk than clinical application simply relying on monogenic mutations[12,13].
 
 References
 1. Maher, Brendan. "Personal genomes: The case of the missing heritability." Nature News 456.7218 (2008): 18-21.
@@ -48,6 +48,7 @@ References
 11. Finucane, H., Bulik-Sullivan, B., Gusev, A. et al. Partitioning heritability by functional annotation using genome-wide association summary statistics. Nat Genet 47, 1228–1235 (2015). https://doi-org.vu-nl.idm.oclc.org/10.1038/ng.3404
 12. Khera, A. V., Chaffin, M., Wade, K. H., Zahid, S., Brancale, J., Xia, R., ... & Kathiresan, S. (2019). Polygenic prediction of weight and obesity trajectories from birth to adulthood. Cell, 177(3), 587-596.
 13. Khera, A.V., Chaffin, M., Aragam, K.G. et al. Genome-wide polygenic scores for common diseases identify individuals with risk equivalent to monogenic mutations. Nat Genet 50, 1219–1224 (2018). https://doi-org.vu-nl.idm.oclc.org/10.1038/s41588-018-0183-z
+14. Damian Gola, Jestinah M. Mahachie John, Kristel van Steen, Inke R. König, A roadmap to multifactor dimensionality reduction methods, Briefings in Bioinformatics, Volume 17, Issue 2, March 2016, Pages 293–308, https://doi.org/10.1093/bib/bbv038
 
 
 
