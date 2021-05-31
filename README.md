@@ -28,11 +28,11 @@ Similar to what Mingdong's research finds out, GWAS findings sometimes do not ex
 
 In another recent study on Covid-19 [3], GWAS is unable to improve on 6.5% heritability estimate, post-GWAS analyses like Mendelian randomization and transcriptome-wide association study (TWAS) with extra data considered are performed, integration of eQTL is a direction to find causal genes[9]. Summary association statistics is a powerful and common evidence source to dissect the genetics of complex trait (like RA) which has a large number of causal variants with small effects. Combining our current GWAS result with other existing GWAS archive on ieu open gwas project [5] (https://gwas.mrcieu.ac.uk/, a database of 184,790,518,159 genetic associations from 39,603 GWAS summary datasets) enables many further analyses including:
 1. Fine-mapping: conditional and joint multiple-SNP analysis (GCTA-COJO, SOJO)[6,7].
-2. Inferences about causal relationships and genetic correlations among traits (between RA and other autoimmune disease) also worths exploring[8]. 
+2. Inferences about causal relationships and genetic correlations among traits (between RA and other autoimmune disease or BMI, smoking history...) also worths exploring[8]. 
 3. GWAS meta-analysis
 4. heritability from summary statistics: LD Score regression [10]. Partitioning heritability by functional annotation [11].
 
-
+Another way to solve the problem of low effect size is implementing Genome-wide polygenic risk scores(GPS), GPS can find a lot more patients at high disease risk than clinical application simply relying on monogenic mutations[12,13].
 
 References
 1. Maher, Brendan. "Personal genomes: The case of the missing heritability." Nature News 456.7218 (2008): 18-21.
@@ -46,7 +46,10 @@ References
 9. Zhu, Z., Zhang, F., Hu, H., Bakshi, A., Robinson, M. R., Powell, J. E., ... & Yang, J. (2016). Integration of summary data from GWAS and eQTL studies predicts complex trait gene targets. Nature genetics, 48(5), 481-487.
 10. Bulik-Sullivan, B., Loh, PR., Finucane, H. et al. LD Score regression distinguishes confounding from polygenicity in genome-wide association studies. Nat Genet 47, 291–295 (2015). https://doi-org.vu-nl.idm.oclc.org/10.1038/ng.3211
 11. Finucane, H., Bulik-Sullivan, B., Gusev, A. et al. Partitioning heritability by functional annotation using genome-wide association summary statistics. Nat Genet 47, 1228–1235 (2015). https://doi-org.vu-nl.idm.oclc.org/10.1038/ng.3404
-12. 
+12. Khera, A. V., Chaffin, M., Wade, K. H., Zahid, S., Brancale, J., Xia, R., ... & Kathiresan, S. (2019). Polygenic prediction of weight and obesity trajectories from birth to adulthood. Cell, 177(3), 587-596.
+13. Khera, A.V., Chaffin, M., Aragam, K.G. et al. Genome-wide polygenic scores for common diseases identify individuals with risk equivalent to monogenic mutations. Nat Genet 50, 1219–1224 (2018). https://doi-org.vu-nl.idm.oclc.org/10.1038/s41588-018-0183-z
+
+
 
 
 
