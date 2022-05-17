@@ -1,0 +1,44 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --a1-allele /exports/reum/CKe/Pipelinerun_withPC/Vienna/mergedChr/vienna_merged_AllelesCorr.txt
+  --allow-no-sex
+  --bfile /exports/reum/CKe/Pipelinerun_withPC/Vienna/mergedChr/vienna_merged_noDup
+  --biallelic-only strict list
+  --ci 0.95
+  --covar /exports/reum/CKe/Pipelinerun_withPC/Vienna/mergedChr/Vienna_re_pc.covar
+  --freq
+  --hide-covar
+  --logistic
+  --out /exports/reum/CKe/Pipelinerun_withPC/Vienna/mergedChr/gwas_Vienna_flipped_noMAFfilter
+
+Hostname: res-hpc-mem01.researchlumc.nl
+Working directory: /exports/reum/CKe/Pipelinerun_withPC
+Start time: Fri Nov 26 20:00:16 2021
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Random number seed: 1637953216
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+11420881 variants loaded from .bim file.
+406 people (0 males, 0 females, 406 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/Pipelinerun_withPC/Vienna/mergedChr/gwas_Vienna_flipped_noMAFfilter.nosex
+.
+349 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 12 covariates loaded.
+20 people were not seen in the covariate file.
+Before main variant filters, 406 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.988005.
+--a1-allele: 11420881 assignments made.
+--freq: Allele frequencies (founders only) written to
+/exports/reum/CKe/Pipelinerun_withPC/Vienna/mergedChr/gwas_Vienna_flipped_noMAFfilter.frq
+.
+11420881 variants and 406 people pass filters and QC.
+Among remaining phenotypes, 142 are cases and 207 are controls.  (57 phenotypes
+are missing.)
+Writing logistic model association results to
+/exports/reum/CKe/Pipelinerun_withPC/Vienna/mergedChr/gwas_Vienna_flipped_noMAFfilter.assoc.logistic
+... done.
+
+End time: Fri Nov 26 20:18:16 2021

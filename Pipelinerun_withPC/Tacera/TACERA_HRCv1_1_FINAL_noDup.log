@@ -1,0 +1,37 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --bfile /exports/reum/CKe/Pipelinerun_withPC/Tacera/Final_imputed/TACERA_HRCv1_1_FINAL
+  --exclude /exports/reum/CKe/Pipelinerun_withPC/Tacera/Final_imputed/TACERA_HRCv1_1_FINAL_dupsExclude.txt
+  --make-bed
+  --out /exports/reum/CKe/Pipelinerun_withPC/Tacera/Final_imputed/TACERA_HRCv1_1_FINAL_noDup
+
+Hostname: res-hpc-mem01.researchlumc.nl
+Working directory: /exports/reum/CKe/Pipelinerun_withPC
+Start time: Fri Nov 26 18:39:15 2021
+
+Random number seed: 1637948355
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+21193891 variants loaded from .bim file.
+295 people (66 males, 175 females, 54 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/Pipelinerun_withPC/Tacera/Final_imputed/TACERA_HRCv1_1_FINAL_noDup.nosex
+.
+222 phenotype values loaded from .fam.
+--exclude: 19404037 variants remaining.
+Warning: At least 32288 duplicate IDs in --exclude file.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 295 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.998552.
+19404037 variants and 295 people pass filters and QC.
+Among remaining phenotypes, 84 are cases and 138 are controls.  (73 phenotypes
+are missing.)
+--make-bed to
+/exports/reum/CKe/Pipelinerun_withPC/Tacera/Final_imputed/TACERA_HRCv1_1_FINAL_noDup.bed
++
+/exports/reum/CKe/Pipelinerun_withPC/Tacera/Final_imputed/TACERA_HRCv1_1_FINAL_noDup.bim
++
+/exports/reum/CKe/Pipelinerun_withPC/Tacera/Final_imputed/TACERA_HRCv1_1_FINAL_noDup.fam
+... done.
+
+End time: Fri Nov 26 18:39:40 2021

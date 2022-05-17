@@ -1,0 +1,31 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --bfile /exports/reum/CKe/Pipelinerun_withPC/EAC/mergedChr/EAC_merged
+  --out /exports/reum/CKe/Pipelinerun_withPC/EAC/mergedChr/EAC_merged
+  --recode
+
+Hostname: res-hpc-lo02.researchlumc.nl
+Working directory: /home/cke
+Start time: Tue Jan  4 16:27:05 2022
+
+Random number seed: 1641310025
+128524 MB RAM detected; reserving 64262 MB for main workspace.
+18801643 variants loaded from .bim file.
+1007 people (0 males, 0 females, 1007 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/Pipelinerun_withPC/EAC/mergedChr/EAC_merged.nosex .
+709 phenotype values loaded from .fam.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1007 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.991998.
+18801643 variants and 1007 people pass filters and QC.
+Among remaining phenotypes, 218 are cases and 491 are controls.  (298
+phenotypes are missing.)
+--recode ped to
+/exports/reum/CKe/Pipelinerun_withPC/EAC/mergedChr/EAC_merged.ped +
+/exports/reum/CKe/Pipelinerun_withPC/EAC/mergedChr/EAC_merged.map ... done.
+
+End time: Tue Jan  4 16:43:00 2022

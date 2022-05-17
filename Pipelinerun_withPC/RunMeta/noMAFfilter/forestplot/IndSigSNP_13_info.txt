@@ -1,0 +1,12 @@
+/exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/ACPA_noNA_noMAFfilter_meta.txt:13	13:86311267:G	86311267	G	ADD	158	2.312	0.8145	0.838112950810131	0.4685	11.41	1.029	0.3034
+/exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/EAC_noNA_noMAFfilter_meta.txt:13	13:86311267:G	86311267	G	ADD	709	1.486	0.3045	0.39608794629556743	0.8184	2.7	1.302	0.1929
+/exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/EARTH_A_noNA_noMAFfilter_meta.txt:13	13:86311267:G	86311267	G	ADD	78	2096000.0	2048.0	14.55554132442307	0.0	inf	0.007107	0.9943
+/exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/EARTH_B_noNA_noMAFfilter_meta.txt:13	13:86311267:G	86311267	G	ADD	66	10.13	1.277	2.315501318260592	0.8291	123.7	1.813	0.06981
+/exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/EIRA_noNA_noMAFfilter_meta.txt:13	13:86311267:G	86311267	G	ADD	2074	1.606	0.1439	0.47374661552457	1.211	2.129	3.292	0.0009943
+/exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/Glasgow_noNA_noMAFfilter_meta.txt:13	13:86311267:G	86311267	G	ADD	324	2.013	0.5481	0.6996261466576543	0.6877	5.894	1.277	0.2017
+/exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/Madrid_noNA_noMAFfilter_meta.txt:13	13:86311267:G	86311267	G	ADD	115	2.476	1.644	0.9066443548223496	0.09869	62.14	0.5515	0.5813
+/exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/Manchester_noNA_noMAFfilter_meta.txt:13	13:86311267:G	86311267	G	ADD	188	3.539	0.6726	1.2638442013633264	0.947	13.23	1.879	0.06023
+/exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/PEAC_noNA_noMAFfilter_meta.txt:13	13:86311267:G	86311267	G	ADD	99	0.9963	1.263	-0.003706861931326512	0.08381	11.84	-0.002913	0.9977
+/exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/RAMS_noNA_noMAFfilter_meta.txt:13	13:86311267:G	86311267	G	ADD	245	1.707	0.5402	0.5347374438123036	0.5921	4.92	0.9896	0.3224
+/exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/SERA_noNA_noMAFfilter_meta.txt:13	13:86311267:G	86311267	G	ADD	421	1.096	0.4203	0.09166718852582387	0.4808	2.497	0.2176	0.8278
+/exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/Vienna_noNA_noMAFfilter_meta.txt:13	13:86311267:G	86311267	G	ADD	348	3.056	0.4568	1.117106871304274	1.248	7.482	2.446	0.01446

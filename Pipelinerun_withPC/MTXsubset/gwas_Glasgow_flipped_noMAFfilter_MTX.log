@@ -1,0 +1,49 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --a1-allele /exports/reum/CKe/Pipelinerun_withPC/Glasgow/mergedChr/Glasgow_merged_AllelesCorr.txt
+  --allow-no-sex
+  --bfile /exports/reum/CKe/Pipelinerun_withPC/Glasgow/mergedChr/Glasgow_merged
+  --biallelic-only strict list
+  --ci 0.95
+  --covar /exports/reum/CKe/Pipelinerun_withPC/Glasgow/mergedChr/Glasgow_re_pc.covar
+  --exclude /exports/reum/CKe/Pipelinerun_withPC/Glasgow/mergedChr/Glasgow_merged_dupsExclude.txt
+  --extract /exports/reum/CKe/Pipelinerun_withPC/Glasgow/mergedChr/Glasgow_top100_4ksup_chrbpa1.txt
+  --freq
+  --hide-covar
+  --keep /exports/reum/CKe/Pipelinerun_withPC/MTXsubset/Glasgow_merged_MTX.fam
+  --logistic
+  --out /exports/reum/CKe/Pipelinerun_withPC/MTXsubset/gwas_Glasgow_flipped_noMAFfilter_MTX
+
+Hostname: res-hpc-lo02.researchlumc.nl
+Working directory: /exports/reum/CKe/Pipelinerun_withPC/MTXsubset
+Start time: Wed Dec 15 14:49:06 2021
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Random number seed: 1639576146
+128524 MB RAM detected; reserving 64262 MB for main workspace.
+12933249 variants loaded from .bim file.
+344 people (117 males, 207 females, 20 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/Pipelinerun_withPC/MTXsubset/gwas_Glasgow_flipped_noMAFfilter_MTX.nosex
+.
+324 phenotype values loaded from .fam.
+--extract: 100 variants remaining.
+--exclude: 100 variants remaining.
+--keep: 104 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 12 covariates loaded.
+Before main variant filters, 104 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.989808.
+--a1-allele: 100 assignments made.
+--freq: Allele frequencies (founders only) written to
+/exports/reum/CKe/Pipelinerun_withPC/MTXsubset/gwas_Glasgow_flipped_noMAFfilter_MTX.frq
+.
+100 variants and 104 people pass filters and QC.
+Among remaining phenotypes, 43 are cases and 55 are controls.  (6 phenotypes
+are missing.)
+Writing logistic model association results to
+/exports/reum/CKe/Pipelinerun_withPC/MTXsubset/gwas_Glasgow_flipped_noMAFfilter_MTX.assoc.logistic
+... done.
+
+End time: Wed Dec 15 14:49:17 2021

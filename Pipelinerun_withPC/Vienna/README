@@ -1,0 +1,14 @@
+############
+#  Vienna  #
+############
+
+Files in directory as of 04 08 2020
+
+Directory Clinicdata:
+  -Rachel_data_ready_to deliver.csv
+    []Vienna patient data in .csv format
+
+Directory Gendata  
+  - vienna_sorted_GWAS
+    []Includes the input files for plink (.fam, .bim, .bed) and the relevant .ped and .map from GSA_2019_523_025_V3
+    []Includes the cleaned and pruned vienna files

@@ -1,0 +1,38 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --bfile /exports/reum/CKe/Pipelinerun_withPC/ACPA/mergedChr/ACPAneg_merged
+  --exclude /exports/reum/CKe/Pipelinerun_withPC/ACPA/mergedChr/ACPAneg_merged_dupsExclude.txt
+  --make-bed
+  --out /exports/reum/CKe/Pipelinerun_withPC/ACPA/mergedChr/ACPAneg_merged_noDup
+  --remove /exports/reum/CKe/Pipelinerun_withPC/ACPA/mergedChr/ACPAneg_merged_overlapsToRemove.fam
+
+Hostname: res-hpc-exe036.researchlumc.nl
+Working directory: /exports/reum/CKe/Pipelinerun_withPC/ACPA/mergedChr
+Start time: Wed Dec 15 10:47:41 2021
+
+Random number seed: 1639561661
+386866 MB RAM detected; reserving 193433 MB for main workspace.
+12954732 variants loaded from .bim file.
+273 people (0 males, 0 females, 273 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/Pipelinerun_withPC/ACPA/mergedChr/ACPAneg_merged_noDup.nosex
+.
+175 phenotype values loaded from .fam.
+--exclude: 9816911 variants remaining.
+--remove: 235 people remaining.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 235 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.984423.
+9816911 variants and 235 people pass filters and QC.
+Among remaining phenotypes, 45 are cases and 118 are controls.  (72 phenotypes
+are missing.)
+--make-bed to
+/exports/reum/CKe/Pipelinerun_withPC/ACPA/mergedChr/ACPAneg_merged_noDup.bed +
+/exports/reum/CKe/Pipelinerun_withPC/ACPA/mergedChr/ACPAneg_merged_noDup.bim +
+/exports/reum/CKe/Pipelinerun_withPC/ACPA/mergedChr/ACPAneg_merged_noDup.fam
+... done.
+
+End time: Wed Dec 15 10:48:07 2021

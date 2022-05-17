@@ -1,0 +1,51 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --a1-allele /exports/reum/CKe/Pipelinerun_withPC/Vienna/mergedChr/vienna_merged_AllelesCorr.txt
+  --allow-no-sex
+  --bfile /exports/reum/CKe/Pipelinerun_withPC/Vienna/mergedChr/vienna_merged
+  --biallelic-only strict list
+  --ci 0.95
+  --covar /exports/reum/CKe/Pipelinerun_withPC/Vienna/mergedChr/Vienna_re_pc.covar
+  --exclude /exports/reum/CKe/Pipelinerun_withPC/Vienna/mergedChr/vienna_merged_dupsExclude.txt
+  --extract /exports/reum/CKe/Pipelinerun_withPC/Vienna/mergedChr/Vienna_top100_4ksup_chrbpa1.txt
+  --fam /exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS/Vienna_merged_cDAI.fam
+  --freq
+  --hide-covar
+  --keep /exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS/Vienna_merged_cDAI.fam
+  --logistic
+  --out /exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS/gwas_Vienna_flipped_noMAFfilter_cDAI
+
+Hostname: res-hpc-exe040.researchlumc.nl
+Working directory: /exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS
+Start time: Fri Jan  7 12:51:42 2022
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Random number seed: 1641556302
+386867 MB RAM detected; reserving 193433 MB for main workspace.
+14572254 variants loaded from .bim file.
+406 people (0 males, 0 females, 406 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS/gwas_Vienna_flipped_noMAFfilter_cDAI.nosex
+.
+362 phenotype values loaded from .fam.
+--extract: 100 variants remaining.
+--exclude: 100 variants remaining.
+--keep: 406 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 12 covariates loaded.
+20 people were not seen in the covariate file.
+Before main variant filters, 406 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.981379.
+--a1-allele: 100 assignments made.
+--freq: Allele frequencies (founders only) written to
+/exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS/gwas_Vienna_flipped_noMAFfilter_cDAI.frq
+.
+100 variants and 406 people pass filters and QC.
+Among remaining phenotypes, 54 are cases and 308 are controls.  (44 phenotypes
+are missing.)
+Writing logistic model association results to
+/exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS/gwas_Vienna_flipped_noMAFfilter_cDAI.assoc.logistic
+... done.
+
+End time: Fri Jan  7 12:51:49 2022

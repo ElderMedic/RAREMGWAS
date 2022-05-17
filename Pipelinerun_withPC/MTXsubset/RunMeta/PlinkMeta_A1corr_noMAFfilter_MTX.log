@@ -1,0 +1,15 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --meta-analysis ./RunMeta/EARTH_A_noNA_noMAFfilter_MTX_meta.txt ./RunMeta/EARTH_B_noNA_noMAFfilter_MTX_meta.txt ./RunMeta/Glasgow_noNA_noMAFfilter_MTX_meta.txt ./RunMeta/Madrid_noNA_noMAFfilter_MTX_meta.txt ./RunMeta/RAMS_noNA_noMAFfilter_MTX_meta.txt ./RunMeta/SERA_noNA_noMAFfilter_MTX_meta.txt ./RunMeta/Tacera_noNA_noMAFfilter_MTX_meta.txt ./RunMeta/Vienna_noNA_noMAFfilter_MTX_meta.txt
+  --out ./RunMeta/PlinkMeta_A1corr_noMAFfilter_MTX
+
+Hostname: res-hpc-lo02.researchlumc.nl
+Working directory: /exports/reum/CKe/Pipelinerun_withPC/MTXsubset
+Start time: Wed Dec 15 14:53:56 2021
+
+Random number seed: 1639576436
+128524 MB RAM detected; reserving 64262 MB for main workspace.
+--meta-analysis: 100 variants processed; results written to
+./RunMeta/PlinkMeta_A1corr_noMAFfilter_MTX.meta .
+
+End time: Wed Dec 15 14:53:56 2021

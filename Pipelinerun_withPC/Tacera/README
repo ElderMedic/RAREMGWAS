@@ -1,0 +1,34 @@
+############
+#  Tacera  #
+############
+
+!!IMPORTANT!!
+Small Print:  Please note the data are shared subject to the terms of your original data application - most importantly that publications arising from the collaboration are subject to the RA-MAP Consortium Publications Agreement - key points are that papers be reviewed ahead of publication by the RA-MAP Publications Review group and that the RA-MAP Consortium be included as an author with a link to the full list of RA-MAP Consortium members
+
+Files in directory as of 17 06 2020
+
+-Final_imputed
+  []Contains .ped and .map file made from the plink binary files
+  []Contains both raw PLINK binaries (TACERA_HRCv1_1_FINAL.bim/fam/bed)
+  []As well as output of the QC.sh script using the binary files
+  []See https://git.lumc.nl/mpmaurits/remission-gwas for QC.sh explanation
+  
+-By Chrom
+  []Presumably contains genotyping data by chromosome, unclear
+
+-atcg.snps
+  []Seems to contain SNP lists by chromosome
+  
+-Scripts
+  []Contains 2 scripts used by the Tacera people to construct the files provided
+  []merge_plink.sh merges several plink files into 1
+  []make_plink.sh creates plink files from their imputed data files it seems
+  
+-RA-MAP_data_clinical.csv
+  []Clinical data for the Tacera patients in .csv format
+  
+-RA-MAP_data_clinical.csv
+  []Keyfile for linking the genotyped data to the patient data
+  
+-Tacera_SOP.docx
+  []General steps before / after imputation

@@ -1,0 +1,16 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --meta-analysis /exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS/RunMeta/Vienna_noNA_noMAFfilter_cDAI_meta.txt /exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS/RunMeta/Madrid_noNA_noMAFfilter_cDAI_meta.txt
+  --out /exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS/RunMeta/Madrid_Vienna_cDAI
+
+Hostname: res-hpc-lo02.researchlumc.nl
+Working directory: /home/cke
+Start time: Fri Jan  7 13:43:05 2022
+
+Random number seed: 1641559385
+128524 MB RAM detected; reserving 64262 MB for main workspace.
+--meta-analysis: 98 variants processed; results written to
+/exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS/RunMeta/Madrid_Vienna_cDAI.meta
+.
+
+End time: Fri Jan  7 13:43:05 2022

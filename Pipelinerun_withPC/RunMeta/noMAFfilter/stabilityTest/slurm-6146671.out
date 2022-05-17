@@ -1,0 +1,154 @@
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ./stabilityTest/PlinkMeta_withPC_noEAC.log.
+Options in effect:
+  --meta-analysis Vienna_noNA_noMAFfilter_meta.txt PEAC_noNA_noMAFfilter_meta.txt EARTH_A_noNA_noMAFfilter_meta.txt SERA_noNA_noMAFfilter_meta.txt ACPA_noNA_noMAFfilter_meta.txt EIRA_noNA_noMAFfilter_meta.txt EARTH_B_noNA_noMAFfilter_meta.txt RAMS_noNA_noMAFfilter_meta.txt Madrid_noNA_noMAFfilter_meta.txt Leeds_noNA_noMAFfilter_meta.txt Tacera_noNA_noMAFfilter_meta.txt Manchester_noNA_noMAFfilter_meta.txt
+  --out ./stabilityTest/PlinkMeta_withPC_noEAC
+
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+--meta-analysis: 3605954 problematic lines; see
+./stabilityTest/PlinkMeta_withPC_noEAC.prob .
+--meta-analysis: 8299567 variants processed; results written to
+./stabilityTest/PlinkMeta_withPC_noEAC.meta .
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ./stabilityTest/PlinkMeta_withPC_noVienna.log.
+Options in effect:
+  --meta-analysis EAC_noNA_noMAFfilter_meta.txt PEAC_noNA_noMAFfilter_meta.txt EARTH_A_noNA_noMAFfilter_meta.txt SERA_noNA_noMAFfilter_meta.txt ACPA_noNA_noMAFfilter_meta.txt EIRA_noNA_noMAFfilter_meta.txt EARTH_B_noNA_noMAFfilter_meta.txt RAMS_noNA_noMAFfilter_meta.txt Madrid_noNA_noMAFfilter_meta.txt Leeds_noNA_noMAFfilter_meta.txt Tacera_noNA_noMAFfilter_meta.txt Manchester_noNA_noMAFfilter_meta.txt
+  --out ./stabilityTest/PlinkMeta_withPC_noVienna
+
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+--meta-analysis: 3605963 problematic lines; see
+./stabilityTest/PlinkMeta_withPC_noVienna.prob .
+--meta-analysis: 8635927 variants processed; results written to
+./stabilityTest/PlinkMeta_withPC_noVienna.meta .
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ./stabilityTest/PlinkMeta_withPC_noPEAC.log.
+Options in effect:
+  --meta-analysis EAC_noNA_noMAFfilter_meta.txt Vienna_noNA_noMAFfilter_meta.txt EARTH_A_noNA_noMAFfilter_meta.txt SERA_noNA_noMAFfilter_meta.txt ACPA_noNA_noMAFfilter_meta.txt EIRA_noNA_noMAFfilter_meta.txt EARTH_B_noNA_noMAFfilter_meta.txt RAMS_noNA_noMAFfilter_meta.txt Madrid_noNA_noMAFfilter_meta.txt Leeds_noNA_noMAFfilter_meta.txt Tacera_noNA_noMAFfilter_meta.txt Manchester_noNA_noMAFfilter_meta.txt
+  --out ./stabilityTest/PlinkMeta_withPC_noPEAC
+
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+--meta-analysis: 3605955 problematic lines; see
+./stabilityTest/PlinkMeta_withPC_noPEAC.prob .
+--meta-analysis: 8484342 variants processed; results written to
+./stabilityTest/PlinkMeta_withPC_noPEAC.meta .
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ./stabilityTest/PlinkMeta_withPC_noEARTHA.log.
+Options in effect:
+  --meta-analysis EAC_noNA_noMAFfilter_meta.txt Vienna_noNA_noMAFfilter_meta.txt PEAC_noNA_noMAFfilter_meta.txt SERA_noNA_noMAFfilter_meta.txt ACPA_noNA_noMAFfilter_meta.txt EIRA_noNA_noMAFfilter_meta.txt EARTH_B_noNA_noMAFfilter_meta.txt RAMS_noNA_noMAFfilter_meta.txt Madrid_noNA_noMAFfilter_meta.txt Leeds_noNA_noMAFfilter_meta.txt Tacera_noNA_noMAFfilter_meta.txt Manchester_noNA_noMAFfilter_meta.txt
+  --out ./stabilityTest/PlinkMeta_withPC_noEARTHA
+
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+--meta-analysis: 3605877 problematic lines; see
+./stabilityTest/PlinkMeta_withPC_noEARTHA.prob .
+--meta-analysis: 8703042 variants processed; results written to
+./stabilityTest/PlinkMeta_withPC_noEARTHA.meta .
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ./stabilityTest/PlinkMeta_withPC_noSERA.log.
+Options in effect:
+  --meta-analysis EAC_noNA_noMAFfilter_meta.txt Vienna_noNA_noMAFfilter_meta.txt PEAC_noNA_noMAFfilter_meta.txt EARTH_A_noNA_noMAFfilter_meta.txt ACPA_noNA_noMAFfilter_meta.txt EIRA_noNA_noMAFfilter_meta.txt EARTH_B_noNA_noMAFfilter_meta.txt RAMS_noNA_noMAFfilter_meta.txt Madrid_noNA_noMAFfilter_meta.txt Leeds_noNA_noMAFfilter_meta.txt Tacera_noNA_noMAFfilter_meta.txt Manchester_noNA_noMAFfilter_meta.txt
+  --out ./stabilityTest/PlinkMeta_withPC_noSERA
+
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+--meta-analysis: 3605961 problematic lines; see
+./stabilityTest/PlinkMeta_withPC_noSERA.prob .
+--meta-analysis: 8612164 variants processed; results written to
+./stabilityTest/PlinkMeta_withPC_noSERA.meta .
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ./stabilityTest/PlinkMeta_withPC_noACPA.log.
+Options in effect:
+  --meta-analysis EAC_noNA_noMAFfilter_meta.txt Vienna_noNA_noMAFfilter_meta.txt PEAC_noNA_noMAFfilter_meta.txt EARTH_A_noNA_noMAFfilter_meta.txt SERA_noNA_noMAFfilter_meta.txt EIRA_noNA_noMAFfilter_meta.txt EARTH_B_noNA_noMAFfilter_meta.txt RAMS_noNA_noMAFfilter_meta.txt Madrid_noNA_noMAFfilter_meta.txt Leeds_noNA_noMAFfilter_meta.txt Tacera_noNA_noMAFfilter_meta.txt Manchester_noNA_noMAFfilter_meta.txt
+  --out ./stabilityTest/PlinkMeta_withPC_noACPA
+
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+--meta-analysis: 3605950 problematic lines; see
+./stabilityTest/PlinkMeta_withPC_noACPA.prob .
+--meta-analysis: 8777196 variants processed; results written to
+./stabilityTest/PlinkMeta_withPC_noACPA.meta .
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ./stabilityTest/PlinkMeta_withPC_noEIRA.log.
+Options in effect:
+  --meta-analysis EAC_noNA_noMAFfilter_meta.txt Vienna_noNA_noMAFfilter_meta.txt PEAC_noNA_noMAFfilter_meta.txt EARTH_A_noNA_noMAFfilter_meta.txt SERA_noNA_noMAFfilter_meta.txt ACPA_noNA_noMAFfilter_meta.txt EARTH_B_noNA_noMAFfilter_meta.txt RAMS_noNA_noMAFfilter_meta.txt Madrid_noNA_noMAFfilter_meta.txt Leeds_noNA_noMAFfilter_meta.txt Tacera_noNA_noMAFfilter_meta.txt Manchester_noNA_noMAFfilter_meta.txt
+  --out ./stabilityTest/PlinkMeta_withPC_noEIRA
+
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+--meta-analysis: 3605767 problematic lines; see
+./stabilityTest/PlinkMeta_withPC_noEIRA.prob .
+--meta-analysis: 7777180 variants processed; results written to
+./stabilityTest/PlinkMeta_withPC_noEIRA.meta .
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ./stabilityTest/PlinkMeta_withPC_noEARTHB.log.
+Options in effect:
+  --meta-analysis EAC_noNA_noMAFfilter_meta.txt Vienna_noNA_noMAFfilter_meta.txt PEAC_noNA_noMAFfilter_meta.txt EARTH_A_noNA_noMAFfilter_meta.txt SERA_noNA_noMAFfilter_meta.txt ACPA_noNA_noMAFfilter_meta.txt EIRA_noNA_noMAFfilter_meta.txt RAMS_noNA_noMAFfilter_meta.txt Madrid_noNA_noMAFfilter_meta.txt Leeds_noNA_noMAFfilter_meta.txt Tacera_noNA_noMAFfilter_meta.txt Manchester_noNA_noMAFfilter_meta.txt
+  --out ./stabilityTest/PlinkMeta_withPC_noEARTHB
+
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+--meta-analysis: 3605960 problematic lines; see
+./stabilityTest/PlinkMeta_withPC_noEARTHB.prob .
+--meta-analysis: 8711860 variants processed; results written to
+./stabilityTest/PlinkMeta_withPC_noEARTHB.meta .
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ./stabilityTest/PlinkMeta_withPC_noRAMS.log.
+Options in effect:
+  --meta-analysis EAC_noNA_noMAFfilter_meta.txt Vienna_noNA_noMAFfilter_meta.txt PEAC_noNA_noMAFfilter_meta.txt EARTH_A_noNA_noMAFfilter_meta.txt SERA_noNA_noMAFfilter_meta.txt ACPA_noNA_noMAFfilter_meta.txt EIRA_noNA_noMAFfilter_meta.txt EARTH_B_noNA_noMAFfilter_meta.txt Madrid_noNA_noMAFfilter_meta.txt Leeds_noNA_noMAFfilter_meta.txt Tacera_noNA_noMAFfilter_meta.txt Manchester_noNA_noMAFfilter_meta.txt
+  --out ./stabilityTest/PlinkMeta_withPC_noRAMS
+
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+--meta-analysis: 3605961 problematic lines; see
+./stabilityTest/PlinkMeta_withPC_noRAMS.prob .
+--meta-analysis: 8748749 variants processed; results written to
+./stabilityTest/PlinkMeta_withPC_noRAMS.meta .
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ./stabilityTest/PlinkMeta_withPC_noMadrid.log.
+Options in effect:
+  --meta-analysis EAC_noNA_noMAFfilter_meta.txt Vienna_noNA_noMAFfilter_meta.txt PEAC_noNA_noMAFfilter_meta.txt EARTH_A_noNA_noMAFfilter_meta.txt SERA_noNA_noMAFfilter_meta.txt ACPA_noNA_noMAFfilter_meta.txt EIRA_noNA_noMAFfilter_meta.txt EARTH_B_noNA_noMAFfilter_meta.txt RAMS_noNA_noMAFfilter_meta.txt Leeds_noNA_noMAFfilter_meta.txt Tacera_noNA_noMAFfilter_meta.txt Manchester_noNA_noMAFfilter_meta.txt
+  --out ./stabilityTest/PlinkMeta_withPC_noMadrid
+
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+--meta-analysis: 3605963 problematic lines; see
+./stabilityTest/PlinkMeta_withPC_noMadrid.prob .
+--meta-analysis: 8716591 variants processed; results written to
+./stabilityTest/PlinkMeta_withPC_noMadrid.meta .
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ./stabilityTest/PlinkMeta_withPC_noLeeds.log.
+Options in effect:
+  --meta-analysis EAC_noNA_noMAFfilter_meta.txt Vienna_noNA_noMAFfilter_meta.txt PEAC_noNA_noMAFfilter_meta.txt EARTH_A_noNA_noMAFfilter_meta.txt SERA_noNA_noMAFfilter_meta.txt ACPA_noNA_noMAFfilter_meta.txt EIRA_noNA_noMAFfilter_meta.txt EARTH_B_noNA_noMAFfilter_meta.txt RAMS_noNA_noMAFfilter_meta.txt Madrid_noNA_noMAFfilter_meta.txt Tacera_noNA_noMAFfilter_meta.txt Manchester_noNA_noMAFfilter_meta.txt
+  --out ./stabilityTest/PlinkMeta_withPC_noLeeds
+
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+--meta-analysis: 8814626 variants processed; results written to
+./stabilityTest/PlinkMeta_withPC_noLeeds.meta .
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ./stabilityTest/PlinkMeta_withPC_noTacera.log.
+Options in effect:
+  --meta-analysis EAC_noNA_noMAFfilter_meta.txt Vienna_noNA_noMAFfilter_meta.txt PEAC_noNA_noMAFfilter_meta.txt EARTH_A_noNA_noMAFfilter_meta.txt SERA_noNA_noMAFfilter_meta.txt ACPA_noNA_noMAFfilter_meta.txt EIRA_noNA_noMAFfilter_meta.txt EARTH_B_noNA_noMAFfilter_meta.txt RAMS_noNA_noMAFfilter_meta.txt Madrid_noNA_noMAFfilter_meta.txt Leeds_noNA_noMAFfilter_meta.txt Manchester_noNA_noMAFfilter_meta.txt
+  --out ./stabilityTest/PlinkMeta_withPC_noTacera
+
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+--meta-analysis: 3605963 problematic lines; see
+./stabilityTest/PlinkMeta_withPC_noTacera.prob .
+--meta-analysis: 8459589 variants processed; results written to
+./stabilityTest/PlinkMeta_withPC_noTacera.meta .
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ./stabilityTest/PlinkMeta_withPC_noManchester.log.
+Options in effect:
+  --meta-analysis EAC_noNA_noMAFfilter_meta.txt Vienna_noNA_noMAFfilter_meta.txt PEAC_noNA_noMAFfilter_meta.txt EARTH_A_noNA_noMAFfilter_meta.txt SERA_noNA_noMAFfilter_meta.txt ACPA_noNA_noMAFfilter_meta.txt EIRA_noNA_noMAFfilter_meta.txt EARTH_B_noNA_noMAFfilter_meta.txt RAMS_noNA_noMAFfilter_meta.txt Madrid_noNA_noMAFfilter_meta.txt Leeds_noNA_noMAFfilter_meta.txt Tacera_noNA_noMAFfilter_meta.txt
+  --out ./stabilityTest/PlinkMeta_withPC_noManchester
+
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+--meta-analysis: 3605963 problematic lines; see
+./stabilityTest/PlinkMeta_withPC_noManchester.prob .
+--meta-analysis: 8760020 variants processed; results written to
+./stabilityTest/PlinkMeta_withPC_noManchester.meta .

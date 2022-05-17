@@ -1,0 +1,43 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --a1-allele /exports/reum/CKe/Pipelinerun_withPC/EAC/mergedChr/EAC_merged_AllelesCorr.txt
+  --allow-no-sex
+  --bfile /exports/reum/CKe/Pipelinerun_withPC/EAC/mergedChr/EAC_merged_noDup
+  --biallelic-only strict list
+  --ci 0.95
+  --covar /exports/reum/CKe/Pipelinerun_withPC/EAC/mergedChr/EAC_re_pc.covar
+  --freq
+  --hide-covar
+  --logistic
+  --out /exports/reum/CKe/Pipelinerun_withPC/EAC/mergedChr/gwas_EAC_flipped_noMAFfilter
+
+Hostname: res-hpc-mem01.researchlumc.nl
+Working directory: /exports/reum/CKe/Pipelinerun_withPC
+Start time: Fri Nov 26 20:57:49 2021
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Random number seed: 1637956669
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+15622731 variants loaded from .bim file.
+1007 people (0 males, 0 females, 1007 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/Pipelinerun_withPC/EAC/mergedChr/gwas_EAC_flipped_noMAFfilter.nosex
+.
+709 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 12 covariates loaded.
+Before main variant filters, 1007 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.993204.
+--a1-allele: 15622731 assignments made.
+--freq: Allele frequencies (founders only) written to
+/exports/reum/CKe/Pipelinerun_withPC/EAC/mergedChr/gwas_EAC_flipped_noMAFfilter.frq
+.
+15622731 variants and 1007 people pass filters and QC.
+Among remaining phenotypes, 218 are cases and 491 are controls.  (298
+phenotypes are missing.)
+Writing logistic model association results to
+/exports/reum/CKe/Pipelinerun_withPC/EAC/mergedChr/gwas_EAC_flipped_noMAFfilter.assoc.logistic
+... done.
+
+End time: Fri Nov 26 21:33:52 2021

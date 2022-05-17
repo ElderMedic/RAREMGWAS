@@ -1,0 +1,48 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --a1-allele /exports/reum/CKe/Pipelinerun_withPC/RAMS/mergedChr/RAMS_merged_AllelesCorr.txt
+  --allow-no-sex
+  --bfile /exports/reum/CKe/Pipelinerun_withPC/RAMS/mergedChr/RAMS_merged
+  --biallelic-only strict list
+  --ci 0.95
+  --covar /exports/reum/CKe/Pipelinerun_withPC/RAMS/mergedChr/RAMS_re_pc.covar
+  --exclude /exports/reum/CKe/Pipelinerun_withPC/RAMS/mergedChr/RAMS_merged_dupsExclude.txt
+  --extract /exports/reum/CKe/Pipelinerun_withPC/RAMS/mergedChr/RAMS_top100_4ksup_chrbpa1.txt
+  --freq
+  --hide-covar
+  --keep /exports/reum/CKe/Pipelinerun_withPC/MTXsubset/RAMS_merged_MTX.fam
+  --logistic
+  --out /exports/reum/CKe/Pipelinerun_withPC/MTXsubset/gwas_RAMS_flipped_noMAFfilter_MTX
+
+Hostname: res-hpc-lo02.researchlumc.nl
+Working directory: /exports/reum/CKe/Pipelinerun_withPC/MTXsubset
+Start time: Wed Dec 15 14:49:34 2021
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Random number seed: 1639576174
+128524 MB RAM detected; reserving 64262 MB for main workspace.
+12293615 variants loaded from .bim file.
+245 people (0 males, 0 females, 245 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/Pipelinerun_withPC/MTXsubset/gwas_RAMS_flipped_noMAFfilter_MTX.nosex
+.
+245 phenotype values loaded from .fam.
+--extract: 100 variants remaining.
+--exclude: 100 variants remaining.
+--keep: 240 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 12 covariates loaded.
+Before main variant filters, 240 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.987583.
+--a1-allele: 100 assignments made.
+--freq: Allele frequencies (founders only) written to
+/exports/reum/CKe/Pipelinerun_withPC/MTXsubset/gwas_RAMS_flipped_noMAFfilter_MTX.frq
+.
+100 variants and 240 people pass filters and QC.
+Among remaining phenotypes, 75 are cases and 165 are controls.
+Writing logistic model association results to
+/exports/reum/CKe/Pipelinerun_withPC/MTXsubset/gwas_RAMS_flipped_noMAFfilter_MTX.assoc.logistic
+... done.
+
+End time: Wed Dec 15 14:49:40 2021

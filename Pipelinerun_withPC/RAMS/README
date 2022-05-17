@@ -1,0 +1,31 @@
+##########
+#  RAMS  #
+##########
+
+Files in directory as of 17 08 2020
+
+-Clinical
+  pheno.csv
+  []RAMS study Phenotype file in .csv format
+
+-Genetic
+  RAMS_sorted_GWAS
+    []RAMS study raw PLINK binaries
+  QC.sh
+    []Takes all the directories that end with _GWAS and applies quality control steps such as
+      *missing (indivuduals and SNP's)
+      *minor allele frequency
+      *hardy weinberg equilibrium
+      *pruning - relatedness
+      ----
+      Input: .fam, .bim and .bed
+      Output: cleaned .fam, .bim and .bed
+      
+    
+  correctStrand.sh
+    - Solution to the problem of strand flips making michigan imputation impossible. All directories ending in _GWAS will get run a perl
+      program which outputs multiple txt files and a bash script "Run-plink.sh" which will be run and gives the eventual output
+      given below.
+      ----
+      Input: binary files
+      Output: 22 vcf.gz files representing chromosomes all put into a newly made directory called SepCHR

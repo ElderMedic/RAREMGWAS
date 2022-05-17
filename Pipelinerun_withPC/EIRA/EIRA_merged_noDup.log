@@ -1,0 +1,35 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --bfile /exports/reum/CKe/Pipelinerun_withPC/EIRA/mergedChr/EIRA_merged
+  --exclude /exports/reum/CKe/Pipelinerun_withPC/EIRA/mergedChr/EIRA_merged_dupsExclude.txt
+  --make-bed
+  --out /exports/reum/CKe/Pipelinerun_withPC/EIRA/mergedChr/EIRA_merged_noDup
+
+Hostname: res-hpc-mem01.researchlumc.nl
+Working directory: /exports/reum/CKe/Pipelinerun_withPC
+Start time: Fri Nov 26 15:21:26 2021
+
+Random number seed: 1637936486
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+20510411 variants loaded from .bim file.
+2182 people (0 males, 0 females, 2182 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/Pipelinerun_withPC/EIRA/mergedChr/EIRA_merged_noDup.nosex .
+2075 phenotype values loaded from .fam.
+--exclude: 17319203 variants remaining.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 2182 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.995285.
+17319203 variants and 2182 people pass filters and QC.
+Among remaining phenotypes, 877 are cases and 1198 are controls.  (107
+phenotypes are missing.)
+--make-bed to
+/exports/reum/CKe/Pipelinerun_withPC/EIRA/mergedChr/EIRA_merged_noDup.bed +
+/exports/reum/CKe/Pipelinerun_withPC/EIRA/mergedChr/EIRA_merged_noDup.bim +
+/exports/reum/CKe/Pipelinerun_withPC/EIRA/mergedChr/EIRA_merged_noDup.fam ...
+done.
+
+End time: Fri Nov 26 15:26:17 2021

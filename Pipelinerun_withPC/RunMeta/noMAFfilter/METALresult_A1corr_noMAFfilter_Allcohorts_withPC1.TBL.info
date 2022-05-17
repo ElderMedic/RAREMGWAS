@@ -1,0 +1,27 @@
+# This file contains a short description of the columns in the
+# meta-analysis summary file, named 'METALresult_A1corr_noMAFfilter_Allcohorts_withPC1.TBL'
+
+# Marker    - this is the marker name
+# Allele1   - the first allele for this marker in the first file where it occurs
+# Allele2   - the second allele for this marker in the first file where it occurs
+# Effect    - overall estimated effect size for allele1
+# StdErr    - overall standard error for effect size estimate
+# P-value   - meta-analysis p-value
+# Direction - summary of effect direction for each study, with one '+' or '-' per study
+
+# Input for this meta-analysis was stored in the files:
+# --> Input File 1 : EIRA_noNA_noMAFfilter_meta.txt
+# --> Input File 2 : ACPA_noNA_noMAFfilter_meta.txt
+# --> Input File 3 : PEAC_noNA_noMAFfilter_meta.txt
+# --> Input File 4 : SERA_noNA_noMAFfilter_meta.txt
+# --> Input File 5 : EAC_noNA_noMAFfilter_meta.txt
+# --> Input File 6 : Vienna_noNA_noMAFfilter_meta.txt
+# --> Input File 7 : RAMS_noNA_noMAFfilter_meta.txt
+# --> Input File 8 : Madrid_noNA_noMAFfilter_meta.txt
+# --> Input File 9 : EARTH_A_noNA_noMAFfilter_meta.txt
+# --> Input File 10 : EARTH_B_noNA_noMAFfilter_meta.txt
+# --> Input File 11 : Leeds_noNA_noMAFfilter_meta.txt
+# --> Input File 12 : Manchester_noNA_noMAFfilter_meta.txt
+# --> Input File 13 : Tacera_noNA_noMAFfilter_meta.txt
+# --> Input File 14 : Glasgow_noNA_noMAFfilter_meta.txt
+

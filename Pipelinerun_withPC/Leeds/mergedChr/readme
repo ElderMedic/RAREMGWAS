@@ -1,0 +1,3 @@
+files for Leeds DAS28crp remission set
+Need to remove rows with col names, those are introduced after chr concate.
+6706687 snps

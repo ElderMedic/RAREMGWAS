@@ -1,0 +1,17 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --meta-analysis EAC_noNA_noMAFfilter_meta.txt Vienna_noNA_noMAFfilter_meta.txt PEAC_noNA_noMAFfilter_meta.txt EARTH_A_noNA_noMAFfilter_meta.txt SERA_noNA_noMAFfilter_meta.txt EIRA_noNA_noMAFfilter_meta.txt EARTH_B_noNA_noMAFfilter_meta.txt RAMS_noNA_noMAFfilter_meta.txt Madrid_noNA_noMAFfilter_meta.txt Leeds_noNA_noMAFfilter_meta.txt Tacera_noNA_noMAFfilter_meta.txt Manchester_noNA_noMAFfilter_meta.txt Glasgow_noNA_noMAFfilter_meta.txt
+  --out ./stabilityTest/PlinkMeta_withPC_noACPA
+
+Hostname: res-hpc-gpu01.researchlumc.nl
+Working directory: /exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter
+Start time: Wed Dec 15 11:37:27 2021
+
+Random number seed: 1639564647
+515602 MB RAM detected; reserving 257801 MB for main workspace.
+--meta-analysis: 3605950 problematic lines; see
+./stabilityTest/PlinkMeta_withPC_noACPA.prob .
+--meta-analysis: 8883883 variants processed; results written to
+./stabilityTest/PlinkMeta_withPC_noACPA.meta .
+
+End time: Wed Dec 15 11:42:21 2021

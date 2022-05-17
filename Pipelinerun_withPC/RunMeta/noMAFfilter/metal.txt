@@ -1,0 +1,37 @@
+# Meta-analysis for all cohorts
+
+# if not specified, METAL will run under P-val scheme
+SCHEME   STDERR
+
+# optional commands
+# AVERAGEFREQ ON
+# MINMAXFREQ ON
+# ADDFILTER MAF > 0.01
+
+# WEIGHTLABEL     DONTUSECOLUMN
+# DEFAULTWEIGHT   1000
+MARKER   SNP
+WEIGHT   NMISS
+ALLELE   A1 
+EFFECT   log(OR)
+STDERR   SE
+PVALUE   P
+
+PROCESS EIRA_noNA_noMAFfilter_meta.txt
+PROCESS ACPA_noNA_noMAFfilter_meta.txt
+PROCESS PEAC_noNA_noMAFfilter_meta.txt
+PROCESS SERA_noNA_noMAFfilter_meta.txt
+PROCESS EAC_noNA_noMAFfilter_meta.txt
+PROCESS Vienna_noNA_noMAFfilter_meta.txt
+PROCESS RAMS_noNA_noMAFfilter_meta.txt
+PROCESS Madrid_noNA_noMAFfilter_meta.txt
+PROCESS EARTH_A_noNA_noMAFfilter_meta.txt
+PROCESS EARTH_B_noNA_noMAFfilter_meta.txt
+PROCESS Leeds_noNA_noMAFfilter_meta.txt
+PROCESS Manchester_noNA_noMAFfilter_meta.txt
+PROCESS Tacera_noNA_noMAFfilter_meta.txt
+PROCESS Glasgow_noNA_noMAFfilter_meta.txt
+
+
+OUTFILE METALresult_A1corr_noMAFfilter_Allcohorts_withPC .TBL
+ANALYZE

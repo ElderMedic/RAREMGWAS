@@ -1,0 +1,17 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --meta-analysis EAC_noNA_noMAFfilter_meta.txt Vienna_noNA_noMAFfilter_meta.txt PEAC_noNA_noMAFfilter_meta.txt EARTH_A_noNA_noMAFfilter_meta.txt SERA_noNA_noMAFfilter_meta.txt ACPA_noNA_noMAFfilter_meta.txt EIRA_noNA_noMAFfilter_meta.txt EARTH_B_noNA_noMAFfilter_meta.txt RAMS_noNA_noMAFfilter_meta.txt Madrid_noNA_noMAFfilter_meta.txt Leeds_noNA_noMAFfilter_meta_AllelesCorr.txt Tacera_noNA_noMAFfilter_meta.txt Manchester_noNA_noMAFfilter_meta.txt Glasgow_noNA_noMAFfilter_meta.txt
+  --out ./PlinkMeta_A1corr_noMAFfilter_Allcohorts_withPC_Leedsfixed
+
+Hostname: res-hpc-lo02.researchlumc.nl
+Working directory: /exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter
+Start time: Wed Dec 15 16:57:00 2021
+
+Random number seed: 1639583820
+128524 MB RAM detected; reserving 64262 MB for main workspace.
+--meta-analysis: 12 problematic lines; see
+./PlinkMeta_A1corr_noMAFfilter_Allcohorts_withPC_Leedsfixed.prob .
+--meta-analysis: 8913176 variants processed; results written to
+./PlinkMeta_A1corr_noMAFfilter_Allcohorts_withPC_Leedsfixed.meta .
+
+End time: Wed Dec 15 17:03:43 2021

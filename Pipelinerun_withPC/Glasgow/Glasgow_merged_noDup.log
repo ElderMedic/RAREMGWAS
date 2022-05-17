@@ -1,0 +1,37 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --bfile /exports/reum/CKe/Pipelinerun_withPC/Glasgow/mergedChr/Glasgow_merged
+  --exclude /exports/reum/CKe/Pipelinerun_withPC/Glasgow/mergedChr/Glasgow_merged_dupsExclude.txt
+  --make-bed
+  --out /exports/reum/CKe/Pipelinerun_withPC/Glasgow/mergedChr/Glasgow_merged_noDup
+
+Hostname: res-hpc-exe041.researchlumc.nl
+Working directory: /home/cke
+Start time: Wed Dec 15 10:18:28 2021
+
+Random number seed: 1639559908
+386867 MB RAM detected; reserving 193433 MB for main workspace.
+12933249 variants loaded from .bim file.
+344 people (0 males, 0 females, 344 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/Pipelinerun_withPC/Glasgow/mergedChr/Glasgow_merged_noDup.nosex
+.
+324 phenotype values loaded from .fam.
+--exclude: 9788827 variants remaining.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 344 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.991004.
+9788827 variants and 344 people pass filters and QC.
+Phenotype data is quantitative.
+--make-bed to
+/exports/reum/CKe/Pipelinerun_withPC/Glasgow/mergedChr/Glasgow_merged_noDup.bed
++
+/exports/reum/CKe/Pipelinerun_withPC/Glasgow/mergedChr/Glasgow_merged_noDup.bim
++
+/exports/reum/CKe/Pipelinerun_withPC/Glasgow/mergedChr/Glasgow_merged_noDup.fam
+... done.
+
+End time: Wed Dec 15 10:18:51 2021

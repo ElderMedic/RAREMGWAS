@@ -1,0 +1,52 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --a1-allele /exports/reum/CKe/Pipelinerun_withPC/Tacera/Final_imputed/TACERA_HRCv1_1_FINAL_AllelesCorr.txt
+  --allow-no-sex
+  --bfile /exports/reum/CKe/Pipelinerun_withPC/Tacera/Final_imputed/TACERA_HRCv1_1_FINAL
+  --biallelic-only strict list
+  --ci 0.95
+  --covar /exports/reum/CKe/Pipelinerun_withPC/Tacera/Final_imputed/tacera_pc.covar
+  --exclude /exports/reum/CKe/Pipelinerun_withPC/Tacera/Final_imputed/TACERA_HRCv1_1_FINAL_dupsExclude.txt
+  --extract /exports/reum/CKe/Pipelinerun_withPC/MTXsubset/plinkmeta_top100_4ksup_chrbp.txt
+  --fam /exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS/Tacera_merged_sDAI.fam
+  --freq
+  --hide-covar
+  --keep /exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS/Tacera_merged_sDAI.fam
+  --logistic
+  --out /exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS/gwas_TACERA_noMAFfilter_sDAI
+
+Hostname: res-hpc-exe040.researchlumc.nl
+Working directory: /exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS
+Start time: Fri Jan  7 12:50:49 2022
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Random number seed: 1641556249
+386867 MB RAM detected; reserving 193433 MB for main workspace.
+21193891 variants loaded from .bim file.
+295 people (66 males, 175 females, 54 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS/gwas_TACERA_noMAFfilter_sDAI.nosex
+.
+220 phenotype values loaded from .fam.
+--extract: 48 variants remaining.
+--exclude: 48 variants remaining.
+Warning: At least 32288 duplicate IDs in --exclude file.
+--keep: 295 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 12 covariates loaded.
+54 people were not seen in the covariate file.
+Before main variant filters, 295 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.992444.
+--a1-allele: 48 assignments made.
+--freq: Allele frequencies (founders only) written to
+/exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS/gwas_TACERA_noMAFfilter_sDAI.frq
+.
+48 variants and 295 people pass filters and QC.
+Among remaining phenotypes, 53 are cases and 167 are controls.  (75 phenotypes
+are missing.)
+Writing logistic model association results to
+/exports/reum/CKe/Pipelinerun_withPC/TwoCompDAS/gwas_TACERA_noMAFfilter_sDAI.assoc.logistic
+... done.
+
+End time: Fri Jan  7 12:51:05 2022

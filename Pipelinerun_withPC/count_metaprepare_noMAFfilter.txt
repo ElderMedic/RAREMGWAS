@@ -1,0 +1,14 @@
+EIRA detected!
+EIRA:  10054043 saved to:  /exports/reum/CKe/Pipelinerun_withPC/EIRA/mergedChr/EIRA_noNA_noMAFfilter_meta.txt
+RAMS:  5402909 saved to:  /exports/reum/CKe/Pipelinerun_withPC/RAMS/mergedChr/RAMS_noNA_noMAFfilter_meta.txt
+Madrid:  4907656 saved to:  /exports/reum/CKe/Pipelinerun_withPC/Madrid/mergedChr/Madrid_noNA_noMAFfilter_meta.txt
+Manchester:  5059350 saved to:  /exports/reum/CKe/Pipelinerun_withPC/Manchester/mergedChr/Manchester_noNA_noMAFfilter_meta.txt
+Tacera:  3645658 saved to:  /exports/reum/CKe/Pipelinerun_withPC/Tacera/Final_imputed/Tacera_noNA_noMAFfilter_meta.txt
+EARTH_B:  4841871 saved to:  /exports/reum/CKe/Pipelinerun_withPC/EARTH_B/mergedChr/EARTH_B_noNA_noMAFfilter_meta.txt
+ACPA:  4772488 saved to:  /exports/reum/CKe/Pipelinerun_withPC/ACPA/mergedChr/ACPA_noNA_noMAFfilter_meta.txt
+SERA:  6389127 saved to:  /exports/reum/CKe/Pipelinerun_withPC/SERA/mergedChr/SERA_noNA_noMAFfilter_meta.txt
+EARTH_A:  5203763 saved to:  /exports/reum/CKe/Pipelinerun_withPC/EARTH_A/mergedChr/EARTH_A_noNA_noMAFfilter_meta.txt
+PEAC:  5388586 saved to:  /exports/reum/CKe/Pipelinerun_withPC/PEAC/mergedChr/PEAC_noNA_noMAFfilter_meta.txt
+Vienna:  6053722 saved to:  /exports/reum/CKe/Pipelinerun_withPC/Vienna/mergedChr/Vienna_noNA_noMAFfilter_meta.txt
+EAC:  7533254 saved to:  /exports/reum/CKe/Pipelinerun_withPC/EAC/mergedChr/EAC_noNA_noMAFfilter_meta.txt
+Glasgow:  5864229 saved to:  /exports/reum/CKe/Pipelinerun_withPC/Glasgow/mergedChr/Glasgow_noNA_noMAFfilter_meta.txt

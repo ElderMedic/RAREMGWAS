@@ -1,0 +1,34 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --bfile /exports/reum/CKe/Pipelinerun_withPC/RAMS/mergedChr/RAMS_merged
+  --exclude /exports/reum/CKe/Pipelinerun_withPC/RAMS/mergedChr/RAMS_merged_dupsExclude.txt
+  --make-bed
+  --out /exports/reum/CKe/Pipelinerun_withPC/RAMS/mergedChr/RAMS_merged_noDup
+
+Hostname: res-hpc-mem01.researchlumc.nl
+Working directory: /exports/reum/CKe/Pipelinerun_withPC
+Start time: Fri Nov 26 17:58:11 2021
+
+Random number seed: 1637945891
+3096392 MB RAM detected; reserving 1548196 MB for main workspace.
+12293615 variants loaded from .bim file.
+245 people (0 males, 0 females, 245 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/Pipelinerun_withPC/RAMS/mergedChr/RAMS_merged_noDup.nosex .
+245 phenotype values loaded from .fam.
+--exclude: 9156358 variants remaining.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 245 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.989908.
+9156358 variants and 245 people pass filters and QC.
+Among remaining phenotypes, 77 are cases and 168 are controls.
+--make-bed to
+/exports/reum/CKe/Pipelinerun_withPC/RAMS/mergedChr/RAMS_merged_noDup.bed +
+/exports/reum/CKe/Pipelinerun_withPC/RAMS/mergedChr/RAMS_merged_noDup.bim +
+/exports/reum/CKe/Pipelinerun_withPC/RAMS/mergedChr/RAMS_merged_noDup.fam ...
+done.
+
+End time: Fri Nov 26 17:58:38 2021
