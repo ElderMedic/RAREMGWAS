@@ -1,0 +1,2 @@
+/var/spool/slurmd/job6334866/slurm_script: line 18: syntax error near unexpected token `('
+/var/spool/slurmd/job6334866/slurm_script: line 18: `/exports/reum/CKe/gene_analysis/magma --bfile /exports/reum/CKe/gene_analysis/g1000_eur/g1000_eur --pval "/exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/PlinkMeta_A1corr_noMAFfilter_Allcohorts_withPC_toFUMA.txt" ncol=NMISS use=SNP,P(R) --gene-annot Meta_plink_fixed.genes.annot --gene-model multi --out Meta_plink_fixed_gene_ref1000g'

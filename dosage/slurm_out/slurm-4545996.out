@@ -1,0 +1,94 @@
+working on 1
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr1.dose.vcf.gz
+	--out PostImpCleaned_CKe/EIRA_chr1_clean
+	--recode
+	--exclude PostImpCleaned_CKe/EIRA_chr1_ExcludePositions.txt
+
+Using zlib version: 1.2.11
+Warning: Expected at least 2 parts in FORMAT entry: ID=GP,Number=3,Type=Float,Description="Estimated Posterior Probabilities for Genotypes 0/0, 0/1 and 1/1 ">
+After filtering, kept 2183 out of 2183 Individuals
+Outputting VCF file...
+After filtering, kept 1591190 out of a possible 3069931 Sites
+Run Time = 3582.00 seconds
+working on 2
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr2.dose.vcf.gz
+	--out PostImpCleaned_CKe/EIRA_chr2_clean
+	--recode
+	--exclude PostImpCleaned_CKe/EIRA_chr2_ExcludePositions.txt
+
+Using zlib version: 1.2.11
+Warning: Expected at least 2 parts in FORMAT entry: ID=GP,Number=3,Type=Float,Description="Estimated Posterior Probabilities for Genotypes 0/0, 0/1 and 1/1 ">
+After filtering, kept 2183 out of 2183 Individuals
+Outputting VCF file...
+After filtering, kept 1761498 out of a possible 3392237 Sites
+Run Time = 3860.00 seconds
+working on 3
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr3.dose.vcf.gz
+	--out PostImpCleaned_CKe/EIRA_chr3_clean
+	--recode
+	--exclude PostImpCleaned_CKe/EIRA_chr3_ExcludePositions.txt
+
+Using zlib version: 1.2.11
+Warning: Expected at least 2 parts in FORMAT entry: ID=GP,Number=3,Type=Float,Description="Estimated Posterior Probabilities for Genotypes 0/0, 0/1 and 1/1 ">
+After filtering, kept 2183 out of 2183 Individuals
+Outputting VCF file...
+After filtering, kept 1498955 out of a possible 2821894 Sites
+Run Time = 2728.00 seconds
+working on 4
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr4.dose.vcf.gz
+	--out PostImpCleaned_CKe/EIRA_chr4_clean
+	--recode
+	--exclude PostImpCleaned_CKe/EIRA_chr4_ExcludePositions.txt
+
+Using zlib version: 1.2.11
+Warning: Expected at least 2 parts in FORMAT entry: ID=GP,Number=3,Type=Float,Description="Estimated Posterior Probabilities for Genotypes 0/0, 0/1 and 1/1 ">
+After filtering, kept 2183 out of 2183 Individuals
+Outputting VCF file...
+After filtering, kept 1465583 out of a possible 2787581 Sites
+Run Time = 2684.00 seconds
+working on 5
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr5.dose.vcf.gz
+	--out PostImpCleaned_CKe/EIRA_chr5_clean
+	--recode
+	--exclude PostImpCleaned_CKe/EIRA_chr5_ExcludePositions.txt
+
+Using zlib version: 1.2.11
+Warning: Expected at least 2 parts in FORMAT entry: ID=GP,Number=3,Type=Float,Description="Estimated Posterior Probabilities for Genotypes 0/0, 0/1 and 1/1 ">
+After filtering, kept 2183 out of 2183 Individuals
+Outputting VCF file...
+After filtering, kept 1347637 out of a possible 2588168 Sites
+Run Time = 2591.00 seconds
+working on 6
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr6.dose.vcf.gz
+	--out PostImpCleaned_CKe/EIRA_chr6_clean
+	--recode
+	--exclude PostImpCleaned_CKe/EIRA_chr6_ExcludePositions.txt
+
+Using zlib version: 1.2.11
+Warning: Expected at least 2 parts in FORMAT entry: ID=GP,Number=3,Type=Float,Description="Estimated Posterior Probabilities for Genotypes 0/0, 0/1 and 1/1 ">
+After filtering, kept 2183 out of 2183 Individuals
+Outputting VCF file...

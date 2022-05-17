@@ -1,0 +1,90 @@
+Welcome to MAGMA v1.09b (linux)
+Using flags:
+	--gene-results Meta_gene.genes.raw
+	--set-annot /exports/reum/CKe/gene_analysis/msigdb.v7.4.entrez.gmt
+	--out Meta_allMsigdb
+
+Start time is 10:18:25, Friday 08 Oct 2021
+
+Reading file Meta_gene.genes.raw... 
+	18312 genes read from file
+Loading gene-set annotation...
+Reading file /exports/reum/CKe/gene_analysis/msigdb.v7.4.entrez.gmt... 
+	WARNING: gene set chr13q11 contains no genes defined in genotype data
+	WARNING: gene set chr21p11 contains no genes defined in genotype data
+	WARNING: gene set chr21p12 contains no genes defined in genotype data
+	WARNING: gene set chr9p11 contains no genes defined in genotype data
+	WARNING: gene set chr9q12 contains no genes defined in genotype data
+	WARNING: gene set chr9q13 contains no genes defined in genotype data
+	WARNING: gene set MT contains no genes defined in genotype data
+	WARNING: gene set chrXp11 contains no genes defined in genotype data
+	WARNING: gene set chrXp21 contains no genes defined in genotype data
+	WARNING: gene set chrXp22 contains no genes defined in genotype data
+	WARNING: gene set chrXq11 contains no genes defined in genotype data
+	WARNING: gene set chrXq12 contains no genes defined in genotype data
+	WARNING: gene set chrXq13 contains no genes defined in genotype data
+	WARNING: gene set chrXq21 contains no genes defined in genotype data
+	WARNING: gene set chrXq22 contains no genes defined in genotype data
+	WARNING: gene set chrXq23 contains no genes defined in genotype data
+	WARNING: gene set chrXq24 contains no genes defined in genotype data
+	WARNING: gene set chrXq25 contains no genes defined in genotype data
+	WARNING: gene set chrXq26 contains no genes defined in genotype data
+	WARNING: gene set chrXq27 contains no genes defined in genotype data
+	WARNING: gene set chrXq28 contains no genes defined in genotype data
+	WARNING: gene set chrYp11 contains no genes defined in genotype data
+	WARNING: gene set chrYq11 contains no genes defined in genotype data
+	WARNING: gene set RUNNE_GENDER_EFFECT_UP contains no genes defined in genotype data
+	WARNING: gene set MYLLYKANGAS_AMPLIFICATION_HOT_SPOT_1 contains no genes defined in genotype data
+	WARNING: gene set MYLLYKANGAS_AMPLIFICATION_HOT_SPOT_13 contains no genes defined in genotype data
+	WARNING: gene set DISTECHE_ESCAPED_FROM_X_INACTIVATION contains no genes defined in genotype data
+	WARNING: gene set SALVADOR_MARTIN_PEDIATRIC_TBD_ANTI_TNF_THERAPY_NONRESPONDER_POST_TREATMENT_DN contains no genes defined in genotype data
+	WARNING: gene set LAMTOR5_TARGET_GENES contains no genes defined in genotype data
+	WARNING: gene set RARB_TARGET_GENES contains no genes defined in genotype data
+	WARNING: gene set CASP3_TARGET_GENES contains no genes defined in genotype data
+	WARNING: gene set F2RL1_TARGET_GENES contains no genes defined in genotype data
+	WARNING: gene set HP_LEBER_OPTIC_ATROPHY contains no genes defined in genotype data
+	WARNING: gene set HP_Y_LINKED_INHERITANCE contains no genes defined in genotype data
+	WARNING: gene set FISCHER_BLOOD_PLASMA_RVSV_EBOV_AGE_18_55YO_HIGH_DOSE_3DY_DN contains no genes defined in genotype data
+	WARNING: gene set QI_CD4_POSITIVE_ALPHA_BETA_MEMORY_T_CELL_ZOSTAVAX_AGE_52_75YO_CD4_T_CELL_VS_NAIVE_CD4_T_CELL_7_TO_9DY_DN contains no genes defined in genotype data
+	WARNING: gene set QI_NAIVE_T_CELL_ZOSTAVAX_AGE_52_75YO_CD4_T_CELL_VS_NAIVE_CD4_T_CELL_7_TO_9DY_DN contains no genes defined in genotype data
+	WARNING: gene set QI_NAIVE_T_CELL_ZOSTAVAX_AGE_52_75YO_CD4_T_CELL_VS_NAIVE_CD4_T_CELL_7_TO_9DY_UP contains no genes defined in genotype data
+	WARNING: gene set GOBP_FORMATION_OF_QUADRUPLE_SL_U4_U5_U6_SNRNP contains no genes defined in genotype data
+	WARNING: gene set GOBP_REGULATION_OF_INTERLEUKIN_21_PRODUCTION contains no genes defined in genotype data
+	WARNING: gene set GOMF_TRIPLET_CODON_AMINO_ACID_ADAPTOR_ACTIVITY contains no genes defined in genotype data
+	32284 gene-set definitions read from file
+	found 32243 gene sets containing genes defined in genotype data (containing a total of 18118 unique genes)
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	WARNING: discarding gene set 'chr6p11' from file /exports/reum/CKe/gene_analysis/msigdb.v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'chr9p12' from file /exports/reum/CKe/gene_analysis/msigdb.v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'RBMX_TARGET_GENES' from file /exports/reum/CKe/gene_analysis/msigdb.v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'HP_X_LINKED_DOMINANT_INHERITANCE' from file /exports/reum/CKe/gene_analysis/msigdb.v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'HP_DYSGAMMAGLOBULINEMIA' from file /exports/reum/CKe/gene_analysis/msigdb.v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'HP_BIRTH_LENGTH_GREATER_THAN_97TH_PERCENTILE' from file /exports/reum/CKe/gene_analysis/msigdb.v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'HP_MODERATE_SENSORINEURAL_HEARING_IMPAIRMENT' from file /exports/reum/CKe/gene_analysis/msigdb.v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'HP_WIDENED_CEREBRAL_SUBARACHNOID_SPACE' from file /exports/reum/CKe/gene_analysis/msigdb.v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'DESCARTES_FETAL_ADRENAL_ADRENOCORTICAL_CELLS' from file /exports/reum/CKe/gene_analysis/msigdb.v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'GOBP_ENERGY_COUPLED_PROTON_TRANSMEMBRANE_TRANSPORT_AGAINST_ELECTROCHEMICAL_GRADIENT' from file /exports/reum/CKe/gene_analysis/msigdb.v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'GOBP_NEGATIVE_REGULATION_OF_INTERLEUKIN_6_MEDIATED_SIGNALING_PATHWAY' from file /exports/reum/CKe/gene_analysis/msigdb.v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'GOBP_NEGATIVE_REGULATION_OF_CELL_CHEMOTAXIS_TO_FIBROBLAST_GROWTH_FACTOR' from file /exports/reum/CKe/gene_analysis/msigdb.v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'GOMF_PRE_MRNA_5_SPLICE_SITE_BINDING' from file /exports/reum/CKe/gene_analysis/msigdb.v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 32230 gene sets
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+	processing block 1 of 29	processing block 2 of 29	processing block 3 of 29	processing block 4 of 29	processing block 5 of 29	processing block 6 of 29	processing block 7 of 29	processing block 8 of 29	processing block 9 of 29	processing block 10 of 29	processing block 11 of 29	processing block 12 of 29	processing block 13 of 29	processing block 14 of 29	processing block 15 of 29	processing block 16 of 29	processing block 17 of 29	processing block 18 of 29	processing block 19 of 29	processing block 20 of 29	processing block 21 of 29	processing block 22 of 29	processing block 23 of 29	processing block 24 of 29	processing block 25 of 29	processing block 26 of 29	processing block 27 of 29	processing block 28 of 29	processing block 29 of 29                                                                                                                   Performing regression analysis...
+	testing direction: one-sided, positive (sets), two-sided (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		sample size, log(sample size)
+		inverse mac, log(inverse mac)
+	analysing individual variables
+
+	analysing single-variable models (number of models: 32230)
+	models analysed: 18205                                                                                                                              	writing results to file Meta_allMsigdb.gsa.out
+	writing gene information to file Meta_allMsigdb.gsa.genes.out
+	writing gene analysis results per significant result (after multiple testing correction, at alpha = 0.05) to file Meta_allMsigdb.gsa.sets.genes.out
+
+End time is 10:18:43, Friday 08 Oct 2021 (elapsed: 00:00:18)

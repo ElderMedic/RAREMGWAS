@@ -1,0 +1,4 @@
+Error: Failed to open /exports/reum/CKe/PEAC/Merge/gwas_PEAC_flipped.log.  Try changing the --out parameter.
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+/var/spool/slurmd/job4735576/slurm_script: line 27: /exports/reum/CKe/PEAC/Merge/noNA.assoc.logistic: No such file or directory

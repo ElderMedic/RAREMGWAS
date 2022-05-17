@@ -1,0 +1,14 @@
+Welcome to MAGMA v1.09b (linux)
+Using flags:
+	--bfile /exports/reum/CKe/gene_analysis/ref_Samantha_merged synonyms=/exports/reum/CKe/gene_analysis/dbsnp151.synonyms
+	--pval /exports/reum/CKe/generic-metal/RunMeta/METALresult_filtered.TBL use=MarkerName,P-value
+	--gene-annot /exports/reum/CKe/gene_analysis/Meta.genes.annot
+	--gene-model multi
+	--out Meta_gene
+
+Start time is 13:53:28, Wednesday 06 Oct 2021
+
+
+ERROR - parsing arguments: for flag --pval, either modifier 'N' or modifier 'ncol' must be set
+
+Terminating program.

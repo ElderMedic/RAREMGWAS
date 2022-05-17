@@ -1,0 +1,45 @@
+Welcome to MAGMA v1.09 (linux)
+Using flags:
+	--gene-results all_merged_v8.genes.raw
+	--set-annot c2cp_c3all_c5go_c7immu_v7.4.entrez.gmt
+	--out all_merged_v8
+
+Start time is 05:06:38, Wednesday 21 Apr 2021
+
+Reading file all_merged_v8.genes.raw... 
+	18300 genes read from file
+Loading gene-set annotation...
+Reading file c2cp_c3all_c5go_c7immu_v7.4.entrez.gmt... 
+	WARNING: gene set LAMTOR5_TARGET_GENES contains no genes defined in genotype data
+	WARNING: gene set RARB_TARGET_GENES contains no genes defined in genotype data
+	WARNING: gene set CASP3_TARGET_GENES contains no genes defined in genotype data
+	WARNING: gene set F2RL1_TARGET_GENES contains no genes defined in genotype data
+	WARNING: gene set GOBP_FORMATION_OF_QUADRUPLE_SL_U4_U5_U6_SNRNP contains no genes defined in genotype data
+	WARNING: gene set GOBP_REGULATION_OF_INTERLEUKIN_21_PRODUCTION contains no genes defined in genotype data
+	WARNING: gene set GOMF_TRIPLET_CODON_AMINO_ACID_ADAPTOR_ACTIVITY contains no genes defined in genotype data
+	21710 gene-set definitions read from file
+	found 21703 gene sets containing genes defined in genotype data (containing a total of 18064 unique genes)
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	WARNING: discarding gene set 'RBMX_TARGET_GENES' from file c2cp_c3all_c5go_c7immu_v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'GOBP_ENERGY_COUPLED_PROTON_TRANSMEMBRANE_TRANSPORT_AGAINST_ELECTROCHEMICAL_GRADIENT' from file c2cp_c3all_c5go_c7immu_v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'GOBP_NEGATIVE_REGULATION_OF_INTERLEUKIN_6_MEDIATED_SIGNALING_PATHWAY' from file c2cp_c3all_c5go_c7immu_v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'GOBP_NEGATIVE_REGULATION_OF_CELL_CHEMOTAXIS_TO_FIBROBLAST_GROWTH_FACTOR' from file c2cp_c3all_c5go_c7immu_v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	WARNING: discarding gene set 'GOMF_PRE_MRNA_5_SPLICE_SITE_BINDING' from file c2cp_c3all_c5go_c7immu_v7.4.entrez.gmt, variance is too low (set contains only one gene used in analysis)
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 21698 gene sets
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), two-sided (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		inverse mac, log(inverse mac)
+	analysing individual variables
+
+	analysing single-variable models (number of models: 21698)
+	writing results to file all_merged_v8.gsa.out
+
+End time is 05:06:58, Wednesday 21 Apr 2021 (elapsed: 00:00:20)

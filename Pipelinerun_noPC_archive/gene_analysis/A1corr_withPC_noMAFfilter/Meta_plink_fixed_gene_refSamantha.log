@@ -1,0 +1,52 @@
+Welcome to MAGMA v1.09b (linux)
+Using flags:
+	--bfile /exports/reum/CKe/gene_analysis/ref_Samantha_merged
+	--pval /exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/PlinkMeta_A1corr_noMAFfilter_Allcohorts_withPC_toFUMA.txt ncol=NMISS use=MarkerName,P
+	--gene-annot Meta_plink_fixed.genes.annot
+	--gene-model multi
+	--out Meta_plink_fixed_gene_refSamantha
+
+Start time is 11:31:15, Friday 10 Dec 2021
+
+Loading PLINK-format data...
+Reading file /exports/reum/CKe/gene_analysis/ref_Samantha_merged.fam... 5328 individuals read
+Reading file /exports/reum/CKe/gene_analysis/ref_Samantha_merged.bim... 7655652 SNPs read
+	WARNING: file contains 4779 duplicate SNP IDs; writing list of IDs to supplementary log file
+Preparing file /exports/reum/CKe/gene_analysis/ref_Samantha_merged.bed... 
+
+Reading SNP p-values from file /exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/PlinkMeta_A1corr_noMAFfilter_Allcohorts_withPC_toFUMA.txt... 
+	detected 14 variables in file
+	using variable: MarkerName (SNP id)
+	using variable: P (p-value)
+	using variable: NMISS (sample size; discarding SNPs with N < 50)
+	read 8916613 lines from file, containing valid SNP p-values for 4690507 SNPs in data (52.6% of lines, 61.23% of SNPs in data)
+Loading gene annotation from file Meta_plink_fixed.genes.annot... 
+	18490 gene definitions read from file
+	found 18331 genes containing valid SNPs in genotype data
+
+
+Starting gene analysis... 
+	using multi-model containing:
+		SNPwise-mean
+		SNPwise-top
+	WARNING: analysis failed for gene 441871; gene contains no valid SNPs after internal QC
+	WARNING: analysis failed for gene 343071; gene contains no valid SNPs after internal QC
+	WARNING: analysis failed for gene 440561; gene contains no valid SNPs after internal QC
+	WARNING: analysis failed for gene 729528; gene contains no valid SNPs after internal QC
+	WARNING: analysis failed for gene 391004; gene contains no valid SNPs after internal QC
+	WARNING: analysis failed for gene 101928422; gene contains no valid SNPs after internal QC
+	WARNING: analysis failed for gene 728957; gene contains no valid SNPs after internal QC
+	WARNING: analysis failed for gene 100133267; gene contains no valid SNPs after internal QC
+	WARNING: analysis failed for gene 101060569; gene contains no valid SNPs after internal QC
+	WARNING: analysis failed for gene 100996420; gene contains no valid SNPs after internal QC
+	WARNING: analysis failed for gene 728047; gene contains no valid SNPs after internal QC
+	WARNING: analysis failed for gene 101059938; gene contains no valid SNPs after internal QC
+	WARNING: analysis failed for gene 728689; gene contains no valid SNPs after internal QC
+	WARNING: analysis failed for gene 552900; gene contains no valid SNPs after internal QC
+	WARNING: analysis failed for gene 728441; gene contains no valid SNPs after internal QC
+	WARNING: analysis failed for gene 440804; gene contains no valid SNPs after internal QC
+	writing gene analysis results to file Meta_plink_fixed_gene_refSamantha.genes.out
+	writing intermediate output to file Meta_plink_fixed_gene_refSamantha.genes.raw
+
+
+End time is 16:53:34, Friday 10 Dec 2021 (elapsed: 05:22:19)

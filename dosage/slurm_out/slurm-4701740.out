@@ -1,0 +1,418 @@
+
+Working on 1
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr1.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr1_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr1
+  --vcf PostImpCleaned/Madrid_chr1_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:03 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr1_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:03 2021
+
+Working on 2
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr2.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr2_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr2
+  --vcf PostImpCleaned/Madrid_chr2_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:03 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr2_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:03 2021
+
+Working on 3
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr3.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr3_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr3
+  --vcf PostImpCleaned/Madrid_chr3_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:03 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr3_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:03 2021
+
+Working on 4
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr4.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr4_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr4
+  --vcf PostImpCleaned/Madrid_chr4_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:03 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr4_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:03 2021
+
+Working on 5
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr5.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr5_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr5
+  --vcf PostImpCleaned/Madrid_chr5_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:03 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr5_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:03 2021
+
+Working on 6
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr6.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr6_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr6
+  --vcf PostImpCleaned/Madrid_chr6_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:03 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr6_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:03 2021
+
+Working on 7
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr7.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr7_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr7
+  --vcf PostImpCleaned/Madrid_chr7_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:03 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr7_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:03 2021
+
+Working on 8
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr8.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr8_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr8
+  --vcf PostImpCleaned/Madrid_chr8_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:03 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr8_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:03 2021
+
+Working on 9
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr9.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr9_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr9
+  --vcf PostImpCleaned/Madrid_chr9_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:03 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr9_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:03 2021
+
+Working on 10
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr10.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr10_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr10
+  --vcf PostImpCleaned/Madrid_chr10_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:03 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr10_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:03 2021
+
+Working on 11
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr11.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr11_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr11
+  --vcf PostImpCleaned/Madrid_chr11_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:04 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr11_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:04 2021
+
+Working on 12
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr12.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr12_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr12
+  --vcf PostImpCleaned/Madrid_chr12_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:04 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr12_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:04 2021
+
+Working on 13
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr13.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr13_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr13
+  --vcf PostImpCleaned/Madrid_chr13_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:04 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr13_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:04 2021
+
+Working on 14
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr14.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr14_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr14
+  --vcf PostImpCleaned/Madrid_chr14_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:04 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr14_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:04 2021
+
+Working on 15
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr15.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr15_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr15
+  --vcf PostImpCleaned/Madrid_chr15_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:04 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr15_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:04 2021
+
+Working on 16
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr16.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr16_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr16
+  --vcf PostImpCleaned/Madrid_chr16_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:04 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr16_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:04 2021
+
+Working on 17
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr17.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr17_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr17
+  --vcf PostImpCleaned/Madrid_chr17_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:04 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr17_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:04 2021
+
+Working on 18
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr18.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr18_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr18
+  --vcf PostImpCleaned/Madrid_chr18_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:04 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr18_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:04 2021
+
+Working on 19
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr19.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr19_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr19
+  --vcf PostImpCleaned/Madrid_chr19_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:04 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr19_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:04 2021
+
+Working on 20
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr20.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr20_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr20
+  --vcf PostImpCleaned/Madrid_chr20_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:04 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr20_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:04 2021
+
+Working on 21
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr21.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr21_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr21
+  --vcf PostImpCleaned/Madrid_chr21_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:04 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr21_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:04 2021
+
+Working on 22
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/Madrid_chr22.log.
+Options in effect:
+  --double-id
+  --exclude PostImpCleaned/Madrid_chr22_ExcludePositions.txt
+  --make-pgen
+  --max-alleles 2
+  --out PostImpCleaned/Madrid_chr22
+  --vcf PostImpCleaned/Madrid_chr22_clean.recode.vcf dosage=HDS
+
+Start time: Mon Sep 20 14:09:04 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+Error: Failed to open PostImpCleaned/Madrid_chr22_clean.recode.vcf : No such
+file or directory.
+End time: Mon Sep 20 14:09:04 2021

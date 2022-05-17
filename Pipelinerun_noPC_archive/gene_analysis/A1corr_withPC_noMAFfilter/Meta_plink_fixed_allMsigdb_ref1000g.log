@@ -1,0 +1,12 @@
+Welcome to MAGMA v1.09b (linux)
+Using flags:
+	--gene-results Meta_plink_fixed_gene_ref1000g.genes.raw
+	--set-annot /exports/reum/CKe/gene_analysis/msigdb.v7.4.entrez.gmt
+	--out Meta_plink_fixed_allMsigdb_ref1000g
+
+Start time is 11:21:05, Friday 10 Dec 2021
+
+
+ERROR - parsing arguments: file 'Meta_plink_fixed_gene_ref1000g.genes.raw' specified in --gene-results does not exist or is not a file.
+
+Terminating program.

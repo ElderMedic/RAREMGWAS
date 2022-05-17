@@ -1,0 +1,20 @@
+Running SNP2HLA:
+
+cp: cannot create regular file '/exports/reum/knevel_lab/Scripts_Samantha/snp2hla/SNP2HLA/SNP2HLA/': No such file or directory
+snp2hla_special.sh: line 14: cd: /exports/reum/knevel_lab/Scripts_Samantha/snp2hla/SNP2HLA/SNP2HLA/: No such file or directory
+[bgzip] Could not open PEAC_SOW43_GSA_Plink_QC_done-updated-chr6.vcf.gz: No such file or directory
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PEAC_chr6.log.
+Options in effect:
+  --const-fid 0
+  --out PEAC_chr6
+  --vcf PEAC_SOW43_GSA_Plink_QC_done-updated-chr6.vcf.gz
+
+386870 MB RAM detected; reserving 193435 MB for main workspace.
+Error: Failed to open PEAC_SOW43_GSA_Plink_QC_done-updated-chr6.vcf.gz. (--vcf
+expects a complete filename; did you forget '.vcf' at the end?)
+snp2hla_special.sh: line 19: ./SNP2HLA.csh: No such file or directory
+
+
+ Workflow pre-imputation finished for 

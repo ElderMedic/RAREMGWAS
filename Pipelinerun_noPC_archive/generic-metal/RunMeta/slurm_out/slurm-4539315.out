@@ -1,0 +1,352 @@
+MetaAnalysis Helper - (c) 2007 - 2009 Goncalo Abecasis
+This version released on 2011-03-25
+
+# This program faciliates meta-analysis of genome-wide association studies.
+# Commonly used commands are listed below:
+#
+# Options for describing input files ...
+#   SEPARATOR        [WHITESPACE|COMMA|BOTH|TAB] (default = WHITESPACE)
+#   COLUMNCOUNTING   [STRICT|LENIENT]            (default = 'STRICT')
+#   MARKERLABEL      [LABEL]                     (default = 'MARKER')
+#   ALLELELABELS     [LABEL1 LABEL2]             (default = 'ALLELE1','ALLELE2')
+#   EFFECTLABEL      [LABEL|log(LABEL)]          (default = 'EFFECT')
+#   FLIP
+#
+# Options for filtering input files ...
+#   ADDFILTER        [LABEL CONDITION VALUE]     (example = ADDFILTER N > 10)
+#                    (available conditions are <, >, <=, >=, =, !=, IN)
+#   REMOVEFILTERS
+#
+# Options for sample size weighted meta-analysis ...
+#   WEIGHTLABEL      [LABEL]                     (default = 'N')
+#   PVALUELABEL      [LABEL]                     (default = 'PVALUE')
+#   DEFAULTWEIGHT    [NUMBER]                    (default = 1.0)
+#   MINWEIGHT        [NUMBER]                    (default = 1.0)
+#
+# Options for inverse variance weighted meta-analysis ...
+#   STDERRLABEL      [LABEL]                     (default = 'STDERR')
+#   SCHEME           [SAMPLESIZE|STDERR]         (default = SAMPLESIZE)
+#
+# Options to enable tracking of allele frequencies ...
+#   AVERAGEFREQ      [ON|OFF]                    (default = OFF)
+#   MINMAXFREQ       [ON|OFF]                    (default = OFF)
+#   FREQLABEL        [LABEL]                     (default = 'FREQ')
+#
+# Options to enable tracking of user defined variables ...
+#   CUSTOMVARIABLE   [VARNAME]
+#   LABEL            [VARNAME] AS [HEADER]
+#
+# Options to enable explicit strand information ...
+#   USESTRAND        [ON|OFF]                    (default = OFF)
+#   STRANDLABEL      [LABEL]                     (default = 'STRAND')
+#
+# Automatic genomic control correction of input statistics ...
+#   GENOMICCONTROL   [ON|OFF|VALUE|LIST snps.txt](default = OFF)
+#
+# Options for general analysis control ...
+#   PROCESSFILE      [FILENAME]
+#   OUTFILE          [PREFIX SUFFIX]             (default = 'METAANALYSIS','.TBL')
+#   MAXWARNINGS      [NUMBER]                    (default = 20)
+#   VERBOSE          [ON|OFF]                    (default = 'OFF')
+#   LOGPVALUE        [ON|OFF]                    (default = 'OFF')
+#   ANALYZE          [HETEROGENEITY]
+#   CLEAR
+
+# Options for general run control ...
+#   SOURCE           [SCRIPTFILE]
+#   RETURN
+#   QUIT
+
+# Processing commands in /exports/reum/CKe/generic-metal/RunMeta/metal.txt ...
+## Meta-analysis will be based on effect sizes and their standard errors ...
+## Set marker header to SNP ...
+## Set weight header to NMISS ...
+## Set allele headers to A1 and A2 ...
+## Set effect header to BETA ...
+## Set standard error header to SE ...
+## Set p-value header to P ...
+###########################################################################
+## Processing file 'ACPA_noNA_meta.txt'
+## Processed 7718282 markers ...
+
+###########################################################################
+## Processing file 'PEAC_noNA_meta.txt'
+## WARNING: Bad alleles for marker '1:830181:A:G', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:831489:C:T', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:831909:C:T', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:832066:G:C', expecting 'c/c' found 'c/g'
+## WARNING: Bad alleles for marker '1:832318:C:A', expecting 'g/g' found 'a/c'
+## WARNING: Bad alleles for marker '1:858801:A:G', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:860416:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:860688:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:861630:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:862866:C:T', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:864938:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:866893:T:C', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:871334:G:T', expecting 'c/c' found 'a/c'
+## WARNING: Bad alleles for marker '1:873558:G:T', expecting 'c/c' found 'a/c'
+## WARNING: Bad alleles for marker '1:875770:A:G', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:881627:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:891059:C:T', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:891945:A:G', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:909238:G:C', expecting 'c/c' found 'c/g'
+## WARNING: Bad alleles for marker '1:912049:T:C', expecting 'a/a' found 'a/g'
+## WARNING: Allele names don't match previous occurences at 240430 additional markers
+## Processed 8050695 markers ...
+
+###########################################################################
+## Processing file 'EIRA_noNA_meta.txt'
+## WARNING: Bad alleles for marker '1:850218:T:A', expecting 'a/t' found 'a/a'
+## WARNING: Bad alleles for marker '1:850371:G:T', expecting 'a/c' found 'c/c'
+## WARNING: Bad alleles for marker '1:850780:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:852037:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852063:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852875:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:853954:C:A', expecting 'a/c' found 'g/g'
+## WARNING: Bad alleles for marker '1:854777:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:854978:A:C', expecting 'a/c' found 'a/a'
+## WARNING: Bad alleles for marker '1:855075:C:G', expecting 'c/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:903245:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:959155:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1053385:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1612111:C:T', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:1663831:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1665613:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1671782:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1680036:C:G', expecting 'g/g' found 'c/g'
+## WARNING: Bad alleles for marker '1:1680219:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1683900:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Allele names don't match previous occurences at 113961 additional markers
+## Processed 13084571 markers ...
+
+###########################################################################
+## Processing file 'SERA_noNA_meta.txt'
+## WARNING: Bad alleles for marker '1:850218:T:A', expecting 'a/t' found 'a/a'
+## WARNING: Bad alleles for marker '1:850371:G:T', expecting 'a/c' found 'c/c'
+## WARNING: Bad alleles for marker '1:850780:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:852037:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852063:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852875:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:853954:C:A', expecting 'a/c' found 'g/g'
+## WARNING: Bad alleles for marker '1:854777:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:854978:A:C', expecting 'a/c' found 'a/a'
+## WARNING: Bad alleles for marker '1:855075:C:G', expecting 'c/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:903245:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1663831:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1665613:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1671782:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1680036:C:G', expecting 'g/g' found 'c/g'
+## WARNING: Bad alleles for marker '1:1680219:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1683900:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1684169:C:G', expecting 'g/g' found 'c/g'
+## WARNING: Bad alleles for marker '1:1684472:C:T', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:1684758:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Allele names don't match previous occurences at 117094 additional markers
+## Processed 9375806 markers ...
+
+###########################################################################
+## Processing file 'EAC_noNA_meta.txt'
+## WARNING: Bad alleles for marker '1:850218:T:A', expecting 'a/t' found 'a/a'
+## WARNING: Bad alleles for marker '1:850371:G:T', expecting 'a/c' found 'c/c'
+## WARNING: Bad alleles for marker '1:850780:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:852037:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852063:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852875:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:853954:C:A', expecting 'a/c' found 'g/g'
+## WARNING: Bad alleles for marker '1:854777:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:854978:A:C', expecting 'a/c' found 'a/a'
+## WARNING: Bad alleles for marker '1:855075:C:G', expecting 'c/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:903245:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1053385:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1680036:C:G', expecting 'g/g' found 'c/g'
+## WARNING: Bad alleles for marker '1:1683900:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1684169:C:G', expecting 'g/g' found 'c/g'
+## WARNING: Bad alleles for marker '1:1684758:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1684800:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1687482:G:T', expecting 'c/c' found 'a/c'
+## WARNING: Bad alleles for marker '1:1690793:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1691050:C:T', expecting 'g/g' found 'a/g'
+## WARNING: Allele names don't match previous occurences at 90297 additional markers
+## Processed 10564763 markers ...
+
+###########################################################################
+## Processing file 'Vienna_noNA_meta.txt'
+## WARNING: Bad alleles for marker '1:850218:T:A', expecting 'a/t' found 'a/a'
+## WARNING: Bad alleles for marker '1:850371:G:T', expecting 'a/c' found 'c/c'
+## WARNING: Bad alleles for marker '1:850780:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:852037:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852063:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852875:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:853954:C:A', expecting 'a/c' found 'g/g'
+## WARNING: Bad alleles for marker '1:854777:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:854978:A:C', expecting 'a/c' found 'a/a'
+## WARNING: Bad alleles for marker '1:855075:C:G', expecting 'c/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:903245:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1663831:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1665613:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1671782:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1683900:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1684169:C:G', expecting 'g/g' found 'c/g'
+## WARNING: Bad alleles for marker '1:1684758:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1684800:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1686962:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1844046:C:T', expecting 'g/g' found 'a/g'
+## WARNING: Allele names don't match previous occurences at 131916 additional markers
+## Processed 9005161 markers ...
+
+###########################################################################
+## Processing file 'RAMS_noNA_meta.txt'
+## WARNING: Bad alleles for marker '1:850218:T:A', expecting 'a/t' found 'a/a'
+## WARNING: Bad alleles for marker '1:850371:G:T', expecting 'a/c' found 'c/c'
+## WARNING: Bad alleles for marker '1:850780:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:852037:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852063:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852875:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:853954:C:A', expecting 'a/c' found 'g/g'
+## WARNING: Bad alleles for marker '1:854777:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:854978:A:C', expecting 'a/c' found 'a/a'
+## WARNING: Bad alleles for marker '1:855075:C:G', expecting 'c/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:903245:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1663831:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1665613:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1671782:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1680036:C:G', expecting 'g/g' found 'c/g'
+## WARNING: Bad alleles for marker '1:1680219:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1683900:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1684169:C:G', expecting 'g/g' found 'c/g'
+## WARNING: Bad alleles for marker '1:1684472:C:T', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:1684758:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Allele names don't match previous occurences at 125828 additional markers
+## Processed 8310266 markers ...
+
+###########################################################################
+## Processing file 'Madrid_noNA_meta.txt'
+## WARNING: Bad alleles for marker '1:850218:T:A', expecting 'a/t' found 'a/a'
+## WARNING: Bad alleles for marker '1:850371:G:T', expecting 'a/c' found 'c/c'
+## WARNING: Bad alleles for marker '1:850780:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:852037:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852063:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852875:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:853954:C:A', expecting 'a/c' found 'g/g'
+## WARNING: Bad alleles for marker '1:854777:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:854978:A:C', expecting 'a/c' found 'a/a'
+## WARNING: Bad alleles for marker '1:855075:C:G', expecting 'c/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:903245:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:959231:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1002434:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1003053:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1468178:T:C', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1486834:C:A', expecting 'a/c' found 'g/g'
+## WARNING: Bad alleles for marker '1:1562895:C:T', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:1655928:G:C', expecting 'c/c' found 'c/g'
+## WARNING: Bad alleles for marker '1:1666251:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1687152:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Allele names don't match previous occurences at 191103 additional markers
+## Processed 7625536 markers ...
+
+###########################################################################
+## Processing file 'EARTH_A_noNA_meta.txt'
+## WARNING: Bad alleles for marker '1:850218:T:A', expecting 'a/t' found 'a/a'
+## WARNING: Bad alleles for marker '1:850371:G:T', expecting 'a/c' found 'c/c'
+## WARNING: Bad alleles for marker '1:850780:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:852037:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852063:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852875:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:853954:C:A', expecting 'a/c' found 'g/g'
+## WARNING: Bad alleles for marker '1:854777:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:854978:A:C', expecting 'a/c' found 'a/a'
+## WARNING: Bad alleles for marker '1:855075:C:G', expecting 'c/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:903245:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:959231:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1003053:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1610524:T:C', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1663831:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1665613:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1671782:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1680036:C:G', expecting 'g/g' found 'c/g'
+## WARNING: Bad alleles for marker '1:1683900:G:A', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1684169:C:G', expecting 'g/g' found 'c/g'
+## WARNING: Allele names don't match previous occurences at 148210 additional markers
+## Processed 6596308 markers ...
+
+###########################################################################
+## Processing file 'EARTH_B_noNA_meta.txt'
+## WARNING: Bad alleles for marker '1:850218:T:A', expecting 'a/t' found 'a/a'
+## WARNING: Bad alleles for marker '1:850371:G:T', expecting 'a/c' found 'c/c'
+## WARNING: Bad alleles for marker '1:850780:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:852037:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852063:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852875:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:853954:C:A', expecting 'a/c' found 'g/g'
+## WARNING: Bad alleles for marker '1:854777:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:854978:A:C', expecting 'a/c' found 'a/a'
+## WARNING: Bad alleles for marker '1:855075:C:G', expecting 'c/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:903245:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:959231:G:A', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1002434:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1003053:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1468178:T:C', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1610524:T:C', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1612111:C:T', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:1663831:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1665613:A:G', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1671782:C:T', expecting 'a/g' found 'g/g'
+## WARNING: Allele names don't match previous occurences at 178428 additional markers
+## Processed 6668651 markers ...
+
+###########################################################################
+## Processing file 'TACERA_noNA_meta.txt'
+## WARNING: Bad alleles for marker '1:10167228', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:10366692', expecting 'a/c' found 'c/c'
+## WARNING: Bad alleles for marker '1:15860563', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:45885594', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:46966207', expecting 'a/g' found 'a/t'
+## WARNING: Marker '1:53517283' duplicated in input, first instance used, others skipped
+## WARNING: Bad alleles for marker '1:56690354', expecting 'a/g' found 'a/t'
+## WARNING: Bad alleles for marker '1:66506983', expecting 'a/g' found 'a/c'
+## WARNING: Marker '1:72268884' duplicated in input, first instance used, others skipped
+## WARNING: Marker '1:72897673' duplicated in input, first instance used, others skipped
+## WARNING: Bad alleles for marker '1:72980047', expecting 'a/a' found 'c/g'
+## WARNING: Bad alleles for marker '1:73872885', expecting 'a/g' found 'a/t'
+## WARNING: Bad alleles for marker '1:81391273', expecting 'a/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:82651575', expecting 'g/g' found 'c/g'
+## WARNING: Bad alleles for marker '1:85752056', expecting 'a/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:85792056', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:91253906', expecting 'a/g' found 'c/c'
+## WARNING: Marker '1:96738176' duplicated in input, first instance used, others skipped
+## WARNING: Bad alleles for marker '1:99439926', expecting 'a/t' found 'a/c'
+## WARNING: Bad alleles for marker '1:99894413', expecting 'c/g' found 'a/t'
+## WARNING: Bad alleles for marker '1:99966075', expecting 'a/t' found 'a/c'
+## WARNING: Bad alleles for marker '1:100271049', expecting 'a/g' found 'a/c'
+## WARNING: Bad alleles for marker '1:101606862', expecting 'a/g' found 'a/c'
+## WARNING: Marker '1:103326613' duplicated in input, first instance used, others skipped
+## WARNING: Bad alleles for marker '1:103617970', expecting 'a/g' found 'c/g'
+## WARNING: Marker '1:105858545' duplicated in input, first instance used, others skipped
+## WARNING: Marker '1:180420271' duplicated in input, first instance used, others skipped
+## WARNING: Marker '1:216043930' duplicated in input, first instance used, others skipped
+## WARNING: Marker '1:217992704' duplicated in input, first instance used, others skipped
+## WARNING: Marker '1:222744681' duplicated in input, first instance used, others skipped
+## WARNING: Marker '1:225087256' duplicated in input, first instance used, others skipped
+## WARNING: Marker '2:35516481' duplicated in input, first instance used, others skipped
+## WARNING: Marker '2:52435831' duplicated in input, first instance used, others skipped
+## WARNING: Marker '2:52673699' duplicated in input, first instance used, others skipped
+## WARNING: Marker '2:54977142' duplicated in input, first instance used, others skipped
+## WARNING: Marker '2:81931415' duplicated in input, first instance used, others skipped
+## WARNING: Marker '2:120079580' duplicated in input, first instance used, others skipped
+## WARNING: Marker '2:134078570' duplicated in input, first instance used, others skipped
+## WARNING: Marker '2:141677920' duplicated in input, first instance used, others skipped
+## WARNING: Marker '2:153679790' duplicated in input, first instance used, others skipped
+## WARNING: An additional 260 rows with duplicate marker names were ignored
+## WARNING: Allele names don't match previous occurences at 1239 additional markers
+## Processed 5308838 markers ...
+
+## Set output file prefix and suffix to METALresult_withTACERA and .TBL ...
+###########################################################################
+## Executing meta-analysis ...
+## Complete results will be stored in file 'METALresult_withTACERA1.TBL'
+## Column descriptions will be stored in file 'METALresult_withTACERA1.TBL.info'
+## Completed meta-analysis for 20430368 markers!
+## Smallest p-value is 5.95e-07 at marker '15:97063357:C:T'
+
+## Clearing all stored statistics ...
+# Clearing user defined filters ...

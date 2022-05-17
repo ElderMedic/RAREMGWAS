@@ -1,0 +1,9 @@
+/exports/reum/CKe/generic-metal/RunMeta/compareEffectSizes.py:70: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+run  0  success!
+run  1  success!
+run  2  success!
+run  3  success!
+run  4  success!
+Got figure!
+

@@ -1,0 +1,29 @@
+Welcome to MAGMA v1.09b (linux)
+Using flags:
+	--bfile /exports/reum/CKe/gene_analysis/g1000_eur/g1000_eur
+	--pval /exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/PlinkMeta_A1corr_noMAFfilter_Allcohorts_withPC_toFUMA.txt ncol=NMISS use=MarkerName,P
+	--gene-annot Meta_plink_fixed.genes.annot
+	--gene-model multi
+	--out Meta_plink_fixed_gene_ref1000g
+
+Start time is 11:20:03, Friday 10 Dec 2021
+
+Loading PLINK-format data...
+Reading file /exports/reum/CKe/gene_analysis/g1000_eur/g1000_eur.fam... 503 individuals read
+Reading file /exports/reum/CKe/gene_analysis/g1000_eur/g1000_eur.bim... 22665064 SNPs read
+Preparing file /exports/reum/CKe/gene_analysis/g1000_eur/g1000_eur.bed... 
+
+Reading SNP synonyms from file /exports/reum/CKe/gene_analysis/g1000_eur/g1000_eur.synonyms (auto-detected)
+	read 6016767 mapped synonyms from file, mapping to 3921040 SNPs in the data
+	WARNING: detected 133 synonymous SNP pairs in the data
+	         skipped all synonym entries involved, synonymous SNPs are kept in analysis
+	         writing list of detected synonyms in data to supplementary log file
+Reading SNP p-values from file /exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/PlinkMeta_A1corr_noMAFfilter_Allcohorts_withPC_toFUMA.txt... 
+	detected 14 variables in file
+	using variable: MarkerName (SNP id)
+	using variable: P (p-value)
+	using variable: NMISS (sample size; discarding SNPs with N < 50)
+
+ERROR - reading p-value file: no valid p-values found for any SNPs in the data
+
+Terminating program.

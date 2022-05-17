@@ -1,0 +1,23 @@
+
+The following have been reloaded with a version change:
+  1) gwas/plink/2.00a3LM => gwas/plink/1.90p
+
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to gwas_TACERA_plink2.log.
+Options in effect:
+  --allow-no-sex
+  --bfile /exports/reum/CKe/Tacera/Final_imputed/TACERA_HRCv1_1_FINAL
+  --ci 0.95
+  --covar /exports/reum/CKe/Tacera/Final_imputed/tacera.covar
+  --freq
+  --glm
+  --hide-covar
+  --out gwas_TACERA_plink2
+
+Start time: Mon Sep 20 15:58:16 2021
+Note: --allow-no-sex no longer has any effect.  (Missing-sex samples are
+automatically excluded from association analysis when sex is a covariate, and
+treated normally otherwise.)
+Error: Unrecognized flag ('--hide-covar').
+For more info, try "plink2 --help <flag name>" or "plink2 --help | more".

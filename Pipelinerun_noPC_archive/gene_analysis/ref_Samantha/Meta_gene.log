@@ -1,0 +1,36 @@
+Welcome to MAGMA v1.09b (linux)
+Using flags:
+	--bfile /exports/reum/CKe/gene_analysis/ref_Samantha_merged
+	--pval /exports/reum/CKe/gene_analysis/METALresult_filtered_withSamplesize.TBL ncol=NMISS use=MarkerName,8
+	--gene-annot /exports/reum/CKe/gene_analysis/Meta.genes.annot
+	--gene-model multi
+	--out Meta_gene
+
+Start time is 20:32:55, Tuesday 12 Oct 2021
+
+Loading PLINK-format data...
+Reading file /exports/reum/CKe/gene_analysis/ref_Samantha_merged.fam... 5328 individuals read
+Reading file /exports/reum/CKe/gene_analysis/ref_Samantha_merged.bim... 7655652 SNPs read
+	WARNING: file contains 4779 duplicate SNP IDs; writing list of IDs to supplementary log file
+Preparing file /exports/reum/CKe/gene_analysis/ref_Samantha_merged.bed... 
+
+Reading SNP p-values from file /exports/reum/CKe/gene_analysis/METALresult_filtered_withSamplesize.TBL... 
+	detected 10 variables in file
+	using variable: MarkerName (SNP id)
+	using variable: P-value (p-value)
+	using variable: NMISS (sample size; discarding SNPs with N < 50)
+	read 6830703 lines from file, containing valid SNP p-values for 6683058 SNPs in data (97.84% of lines, 87.24% of SNPs in data)
+Loading gene annotation from file /exports/reum/CKe/gene_analysis/Meta.genes.annot... 
+	18322 gene definitions read from file
+	found 18215 genes containing valid SNPs in genotype data
+
+
+Starting gene analysis... 
+	using multi-model containing:
+		SNPwise-mean
+		SNPwise-top
+	writing gene analysis results to file Meta_gene.genes.out
+	writing intermediate output to file Meta_gene.genes.raw
+
+
+End time is 02:26:14, Wednesday 13 Oct 2021 (elapsed: 05:53:19)

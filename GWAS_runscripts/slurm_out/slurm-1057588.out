@@ -1,0 +1,258 @@
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ACPAneg_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out ACPAneg_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Warning: Variants '1:1097335:T:G' and '1:1097335:T:A' have the same position.
+Warning: Variants '1:1186665:G:T' and '1:1186665:G:A' have the same position.
+Warning: Variants '1:1288583:C:G' and '1:1288583:C:A' have the same position.
+14447 more same-position warnings: see log file.
+Performing single-pass merge (273 people, 12952347 variants).
+Pass 1: fileset #1 complete.Pass 1: fileset #2 complete.Pass 1: fileset #3 complete.Pass 1: fileset #4 complete.Pass 1: fileset #5 complete.Pass 1: fileset #6 complete.Pass 1: fileset #7 complete.Pass 1: fileset #8 complete.Pass 1: fileset #9 complete.Pass 1: fileset #10 complete.Pass 1: fileset #11 complete.Pass 1: fileset #12 complete.Pass 1: fileset #13 complete.Pass 1: fileset #14 complete.Pass 1: fileset #15 complete.Pass 1: fileset #16 complete.Pass 1: fileset #17 complete.Pass 1: fileset #18 complete.Pass 1: fileset #19 complete.Pass 1: fileset #20 complete.Pass 1: fileset #21 complete.Pass 1: fileset #22 complete.Pass 1: fileset #23 complete.Pass 1: fileset #24 complete.Pass 1: fileset #25 complete.Pass 1: fileset #26 complete.Pass 1: fileset #27 complete.Pass 1: fileset #28 complete.Pass 1: fileset #29 complete.Pass 1: fileset #30 complete.Pass 1: fileset #31 complete.Pass 1: fileset #32 complete.Pass 1: fileset #33 complete.Pass 1: fileset #34 complete.Pass 1: fileset #35 complete.Pass 1: fileset #36 complete.Pass 1: fileset #37 complete.Pass 1: fileset #38 complete.Pass 1: fileset #39 complete.Pass 1: fileset #40 complete.Pass 1: fileset #41 complete.Pass 1: fileset #42 complete.Pass 1: fileset #43 complete.                                              Merged fileset written to ACPAneg_merged-merge.bed + ACPAneg_merged-merge.bim +
+ACPAneg_merged-merge.fam .
+12952347 variants loaded from .bim file.
+273 people (0 males, 0 females, 273 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ACPAneg_merged.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 273 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.983306.
+12952347 variants and 273 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to ACPAneg_merged.bed + ACPAneg_merged.bim + ACPAneg_merged.fam ...
+0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to EA127genotypes_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out EA127genotypes_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Warning: Variants '1:1186665:G:T' and '1:1186665:G:A' have the same position.
+Warning: Variants '1:1288583:C:G' and '1:1288583:C:A' have the same position.
+Warning: Variants '1:1310668:A:T' and '1:1310668:A:C' have the same position.
+9306 more same-position warnings: see log file.
+Performing single-pass merge (127 people, 10235902 variants).
+Pass 1: fileset #1 complete.Pass 1: fileset #2 complete.Pass 1: fileset #3 complete.Pass 1: fileset #4 complete.Pass 1: fileset #5 complete.Pass 1: fileset #6 complete.Pass 1: fileset #7 complete.Pass 1: fileset #8 complete.Pass 1: fileset #9 complete.Pass 1: fileset #10 complete.Pass 1: fileset #11 complete.Pass 1: fileset #12 complete.Pass 1: fileset #13 complete.Pass 1: fileset #14 complete.Pass 1: fileset #15 complete.Pass 1: fileset #16 complete.Pass 1: fileset #17 complete.Pass 1: fileset #18 complete.Pass 1: fileset #19 complete.Pass 1: fileset #20 complete.Pass 1: fileset #21 complete.Pass 1: fileset #22 complete.Pass 1: fileset #23 complete.Pass 1: fileset #24 complete.Pass 1: fileset #25 complete.Pass 1: fileset #26 complete.Pass 1: fileset #27 complete.Pass 1: fileset #28 complete.Pass 1: fileset #29 complete.Pass 1: fileset #30 complete.Pass 1: fileset #31 complete.Pass 1: fileset #32 complete.Pass 1: fileset #33 complete.Pass 1: fileset #34 complete.Pass 1: fileset #35 complete.Pass 1: fileset #36 complete.Pass 1: fileset #37 complete.Pass 1: fileset #38 complete.Pass 1: fileset #39 complete.Pass 1: fileset #40 complete.Pass 1: fileset #41 complete.Pass 1: fileset #42 complete.Pass 1: fileset #43 complete.                                              Merged fileset written to EA127genotypes_merged-merge.bed +
+EA127genotypes_merged-merge.bim + EA127genotypes_merged-merge.fam .
+10235902 variants loaded from .bim file.
+127 people (0 males, 0 females, 127 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to EA127genotypes_merged.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 127 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.985211.
+10235902 variants and 127 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to EA127genotypes_merged.bed + EA127genotypes_merged.bim +
+EA127genotypes_merged.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to EARTH_setB_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out EARTH_setB_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Warning: Variants '1:1097335:T:G' and '1:1097335:T:A' have the same position.
+Warning: Variants '1:1120431:G:C' and '1:1120431:G:A' have the same position.
+Warning: Variants '1:1164538:G:T' and '1:1164538:G:A' have the same position.
+8520 more same-position warnings: see log file.
+Performing single-pass merge (66 people, 9629990 variants).
+Pass 1: fileset #1 complete.Pass 1: fileset #2 complete.Pass 1: fileset #3 complete.Pass 1: fileset #4 complete.Pass 1: fileset #5 complete.Pass 1: fileset #6 complete.Pass 1: fileset #7 complete.Pass 1: fileset #8 complete.Pass 1: fileset #9 complete.Pass 1: fileset #10 complete.Pass 1: fileset #11 complete.Pass 1: fileset #12 complete.Pass 1: fileset #13 complete.Pass 1: fileset #14 complete.Pass 1: fileset #15 complete.Pass 1: fileset #16 complete.Pass 1: fileset #17 complete.Pass 1: fileset #18 complete.Pass 1: fileset #19 complete.Pass 1: fileset #20 complete.Pass 1: fileset #21 complete.Pass 1: fileset #22 complete.Pass 1: fileset #23 complete.Pass 1: fileset #24 complete.Pass 1: fileset #25 complete.Pass 1: fileset #26 complete.Pass 1: fileset #27 complete.Pass 1: fileset #28 complete.Pass 1: fileset #29 complete.Pass 1: fileset #30 complete.Pass 1: fileset #31 complete.Pass 1: fileset #32 complete.Pass 1: fileset #33 complete.Pass 1: fileset #34 complete.Pass 1: fileset #35 complete.Pass 1: fileset #36 complete.Pass 1: fileset #37 complete.Pass 1: fileset #38 complete.Pass 1: fileset #39 complete.Pass 1: fileset #40 complete.Pass 1: fileset #41 complete.Pass 1: fileset #42 complete.Pass 1: fileset #43 complete.                                              Merged fileset written to EARTH_setB_merged-merge.bed +
+EARTH_setB_merged-merge.bim + EARTH_setB_merged-merge.fam .
+9629990 variants loaded from .bim file.
+66 people (0 males, 0 females, 66 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to EARTH_setB_merged.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 66 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.984886.
+9629990 variants and 66 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to EARTH_setB_merged.bed + EARTH_setB_merged.bim +
+EARTH_setB_merged.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to madrid_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out madrid_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Warning: Variants '1:1186665:G:T' and '1:1186665:G:A' have the same position.
+Warning: Variants '1:1222051:A:T' and '1:1222051:A:G' have the same position.
+Warning: Variants '1:1285434:C:T' and '1:1285434:C:G' have the same position.
+14649 more same-position warnings: see log file.
+Performing single-pass merge (141 people, 13039847 variants).
+Pass 1: fileset #1 complete.Pass 1: fileset #2 complete.Pass 1: fileset #3 complete.Pass 1: fileset #4 complete.Pass 1: fileset #5 complete.Pass 1: fileset #6 complete.Pass 1: fileset #7 complete.Pass 1: fileset #8 complete.Pass 1: fileset #9 complete.Pass 1: fileset #10 complete.Pass 1: fileset #11 complete.Pass 1: fileset #12 complete.Pass 1: fileset #13 complete.Pass 1: fileset #14 complete.Pass 1: fileset #15 complete.Pass 1: fileset #16 complete.Pass 1: fileset #17 complete.Pass 1: fileset #18 complete.Pass 1: fileset #19 complete.Pass 1: fileset #20 complete.Pass 1: fileset #21 complete.Pass 1: fileset #22 complete.Pass 1: fileset #23 complete.Pass 1: fileset #24 complete.Pass 1: fileset #25 complete.Pass 1: fileset #26 complete.Pass 1: fileset #27 complete.Pass 1: fileset #28 complete.Pass 1: fileset #29 complete.Pass 1: fileset #30 complete.Pass 1: fileset #31 complete.Pass 1: fileset #32 complete.Pass 1: fileset #33 complete.Pass 1: fileset #34 complete.Pass 1: fileset #35 complete.Pass 1: fileset #36 complete.Pass 1: fileset #37 complete.Pass 1: fileset #38 complete.Pass 1: fileset #39 complete.Pass 1: fileset #40 complete.Pass 1: fileset #41 complete.Pass 1: fileset #42 complete.Pass 1: fileset #43 complete.                                              Merged fileset written to madrid_merged-merge.bed + madrid_merged-merge.bim +
+madrid_merged-merge.fam .
+13039847 variants loaded from .bim file.
+141 people (0 males, 0 females, 141 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to madrid_merged.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 141 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.981518.
+13039847 variants and 141 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to madrid_merged.bed + madrid_merged.bim + madrid_merged.fam ...
+0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to princesa_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out princesa_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Warning: Variants '1:1186665:G:T' and '1:1186665:G:A' have the same position.
+Warning: Variants '1:2276371:C:T' and '1:2276371:C:A' have the same position.
+Warning: Variants '1:2475833:G:C' and '1:2475833:G:A' have the same position.
+1313 more same-position warnings: see log file.
+Performing single-pass merge (157 people, 2849689 variants).
+Pass 1: fileset #1 complete.Pass 1: fileset #2 complete.Pass 1: fileset #3 complete.Pass 1: fileset #4 complete.Pass 1: fileset #5 complete.Pass 1: fileset #6 complete.Pass 1: fileset #7 complete.Pass 1: fileset #8 complete.Pass 1: fileset #9 complete.Pass 1: fileset #10 complete.Pass 1: fileset #11 complete.Pass 1: fileset #12 complete.Pass 1: fileset #13 complete.Pass 1: fileset #14 complete.Pass 1: fileset #15 complete.Pass 1: fileset #16 complete.Pass 1: fileset #17 complete.Pass 1: fileset #18 complete.Pass 1: fileset #19 complete.Pass 1: fileset #20 complete.Pass 1: fileset #21 complete.Pass 1: fileset #22 complete.Pass 1: fileset #23 complete.Pass 1: fileset #24 complete.Pass 1: fileset #25 complete.Pass 1: fileset #26 complete.Pass 1: fileset #27 complete.Pass 1: fileset #28 complete.Pass 1: fileset #29 complete.Pass 1: fileset #30 complete.Pass 1: fileset #31 complete.Pass 1: fileset #32 complete.Pass 1: fileset #33 complete.Pass 1: fileset #34 complete.Pass 1: fileset #35 complete.Pass 1: fileset #36 complete.Pass 1: fileset #37 complete.Pass 1: fileset #38 complete.Pass 1: fileset #39 complete.Pass 1: fileset #40 complete.Pass 1: fileset #41 complete.Pass 1: fileset #42 complete.Pass 1: fileset #43 complete.                                              Merged fileset written to princesa_merged-merge.bed + princesa_merged-merge.bim
++ princesa_merged-merge.fam .
+2849689 variants loaded from .bim file.
+157 people (0 males, 0 females, 157 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to princesa_merged.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 157 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.785607.
+2849689 variants and 157 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to princesa_merged.bed + princesa_merged.bim + princesa_merged.fam
+... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to RAMS_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out RAMS_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Warning: Variants '1:1097335:T:G' and '1:1097335:T:A' have the same position.
+Warning: Variants '1:1186665:G:T' and '1:1186665:G:A' have the same position.
+Warning: Variants '1:1288583:C:G' and '1:1288583:C:A' have the same position.
+13647 more same-position warnings: see log file.
+Performing single-pass merge (245 people, 12293615 variants).
+Pass 1: fileset #1 complete.Pass 1: fileset #2 complete.Pass 1: fileset #3 complete.Pass 1: fileset #4 complete.Pass 1: fileset #5 complete.Pass 1: fileset #6 complete.Pass 1: fileset #7 complete.Pass 1: fileset #8 complete.Pass 1: fileset #9 complete.Pass 1: fileset #10 complete.Pass 1: fileset #11 complete.Pass 1: fileset #12 complete.Pass 1: fileset #13 complete.Pass 1: fileset #14 complete.Pass 1: fileset #15 complete.Pass 1: fileset #16 complete.Pass 1: fileset #17 complete.Pass 1: fileset #18 complete.Pass 1: fileset #19 complete.Pass 1: fileset #20 complete.Pass 1: fileset #21 complete.Pass 1: fileset #22 complete.Pass 1: fileset #23 complete.Pass 1: fileset #24 complete.Pass 1: fileset #25 complete.Pass 1: fileset #26 complete.Pass 1: fileset #27 complete.Pass 1: fileset #28 complete.Pass 1: fileset #29 complete.Pass 1: fileset #30 complete.Pass 1: fileset #31 complete.Pass 1: fileset #32 complete.Pass 1: fileset #33 complete.Pass 1: fileset #34 complete.Pass 1: fileset #35 complete.Pass 1: fileset #36 complete.Pass 1: fileset #37 complete.Pass 1: fileset #38 complete.Pass 1: fileset #39 complete.Pass 1: fileset #40 complete.Pass 1: fileset #41 complete.Pass 1: fileset #42 complete.Pass 1: fileset #43 complete.                                              Merged fileset written to RAMS_merged-merge.bed + RAMS_merged-merge.bim +
+RAMS_merged-merge.fam .
+12293615 variants loaded from .bim file.
+245 people (0 males, 0 females, 245 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to RAMS_merged.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 245 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.989483.
+12293615 variants and 245 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to RAMS_merged.bed + RAMS_merged.bim + RAMS_merged.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to sera_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out sera_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Warning: Variants '1:1097335:T:G' and '1:1097335:T:A' have the same position.
+Warning: Variants '1:1186665:G:T' and '1:1186665:G:A' have the same position.
+Warning: Variants '1:1288583:C:G' and '1:1288583:C:A' have the same position.
+21266 more same-position warnings: see log file.
+Performing single-pass merge (668 people, 15510242 variants).
+Pass 1: fileset #1 complete.Pass 1: fileset #2 complete.Pass 1: fileset #3 complete.Pass 1: fileset #4 complete.Pass 1: fileset #5 complete.Pass 1: fileset #6 complete.Pass 1: fileset #7 complete.Pass 1: fileset #8 complete.Pass 1: fileset #9 complete.Pass 1: fileset #10 complete.Pass 1: fileset #11 complete.Pass 1: fileset #12 complete.Pass 1: fileset #13 complete.Pass 1: fileset #14 complete.Pass 1: fileset #15 complete.Pass 1: fileset #16 complete.Pass 1: fileset #17 complete.Pass 1: fileset #18 complete.Pass 1: fileset #19 complete.Pass 1: fileset #20 complete.Pass 1: fileset #21 complete.Pass 1: fileset #22 complete.Pass 1: fileset #23 complete.Pass 1: fileset #24 complete.Pass 1: fileset #25 complete.Pass 1: fileset #26 complete.Pass 1: fileset #27 complete.Pass 1: fileset #28 complete.Pass 1: fileset #29 complete.Pass 1: fileset #30 complete.Pass 1: fileset #31 complete.Pass 1: fileset #32 complete.Pass 1: fileset #33 complete.Pass 1: fileset #34 complete.Pass 1: fileset #35 complete.Pass 1: fileset #36 complete.Pass 1: fileset #37 complete.Pass 1: fileset #38 complete.Pass 1: fileset #39 complete.Pass 1: fileset #40 complete.Pass 1: fileset #41 complete.Pass 1: fileset #42 complete.Pass 1: fileset #43 complete.                                              Merged fileset written to sera_merged-merge.bed + sera_merged-merge.bim +
+sera_merged-merge.fam .
+15510242 variants loaded from .bim file.
+668 people (0 males, 0 females, 668 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to sera_merged.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 668 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.991838.
+15510242 variants and 668 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to sera_merged.bed + sera_merged.bim + sera_merged.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to vienna_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out vienna_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Warning: Variants '1:901922:G:C' and '1:901922:G:A' have the same position.
+Warning: Variants '1:1097335:T:G' and '1:1097335:T:A' have the same position.
+Warning: Variants '1:1120431:G:C' and '1:1120431:G:A' have the same position.
+17694 more same-position warnings: see log file.
+Performing single-pass merge (406 people, 14572254 variants).
+Pass 1: fileset #1 complete.Pass 1: fileset #2 complete.Pass 1: fileset #3 complete.Pass 1: fileset #4 complete.Pass 1: fileset #5 complete.Pass 1: fileset #6 complete.Pass 1: fileset #7 complete.Pass 1: fileset #8 complete.Pass 1: fileset #9 complete.Pass 1: fileset #10 complete.Pass 1: fileset #11 complete.Pass 1: fileset #12 complete.Pass 1: fileset #13 complete.Pass 1: fileset #14 complete.Pass 1: fileset #15 complete.Pass 1: fileset #16 complete.Pass 1: fileset #17 complete.Pass 1: fileset #18 complete.Pass 1: fileset #19 complete.Pass 1: fileset #20 complete.Pass 1: fileset #21 complete.Pass 1: fileset #22 complete.Pass 1: fileset #23 complete.Pass 1: fileset #24 complete.Pass 1: fileset #25 complete.Pass 1: fileset #26 complete.Pass 1: fileset #27 complete.Pass 1: fileset #28 complete.Pass 1: fileset #29 complete.Pass 1: fileset #30 complete.Pass 1: fileset #31 complete.Pass 1: fileset #32 complete.Pass 1: fileset #33 complete.Pass 1: fileset #34 complete.Pass 1: fileset #35 complete.Pass 1: fileset #36 complete.Pass 1: fileset #37 complete.Pass 1: fileset #38 complete.Pass 1: fileset #39 complete.Pass 1: fileset #40 complete.Pass 1: fileset #41 complete.Pass 1: fileset #42 complete.Pass 1: fileset #43 complete.                                              Merged fileset written to vienna_merged-merge.bed + vienna_merged-merge.bim +
+vienna_merged-merge.fam .
+14572254 variants loaded from .bim file.
+406 people (0 males, 0 females, 406 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to vienna_merged.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 406 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.986485.
+14572254 variants and 406 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to vienna_merged.bed + vienna_merged.bim + vienna_merged.fam ...
+0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to EAC_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out EAC_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Warning: Variants '1:901922:G:C' and '1:901922:G:A' have the same position.
+Warning: Variants '1:1097335:T:G' and '1:1097335:T:A' have the same position.
+Warning: Variants '1:1164538:G:T' and '1:1164538:G:A' have the same position.
+28066 more same-position warnings: see log file.
+Performing single-pass merge (1007 people, 18801643 variants).
+Pass 1: fileset #1 complete.Pass 1: fileset #2 complete.Pass 1: fileset #3 complete.Pass 1: fileset #4 complete.Pass 1: fileset #5 complete.Pass 1: fileset #6 complete.Pass 1: fileset #7 complete.Pass 1: fileset #8 complete.Pass 1: fileset #9 complete.Pass 1: fileset #10 complete.Pass 1: fileset #11 complete.Pass 1: fileset #12 complete.Pass 1: fileset #13 complete.Pass 1: fileset #14 complete.Pass 1: fileset #15 complete.Pass 1: fileset #16 complete.Pass 1: fileset #17 complete.Pass 1: fileset #18 complete.Pass 1: fileset #19 complete.Pass 1: fileset #20 complete.Pass 1: fileset #21 complete.Pass 1: fileset #22 complete.Pass 1: fileset #23 complete.Pass 1: fileset #24 complete.Pass 1: fileset #25 complete.Pass 1: fileset #26 complete.Pass 1: fileset #27 complete.Pass 1: fileset #28 complete.Pass 1: fileset #29 complete.Pass 1: fileset #30 complete.Pass 1: fileset #31 complete.Pass 1: fileset #32 complete.Pass 1: fileset #33 complete.Pass 1: fileset #34 complete.Pass 1: fileset #35 complete.Pass 1: fileset #36 complete.Pass 1: fileset #37 complete.Pass 1: fileset #38 complete.Pass 1: fileset #39 complete.Pass 1: fileset #40 complete.Pass 1: fileset #41 complete.Pass 1: fileset #42 complete.Pass 1: fileset #43 complete.                                              Merged fileset written to EAC_merged-merge.bed + EAC_merged-merge.bim +
+EAC_merged-merge.fam .
+18801643 variants loaded from .bim file.
+1007 people (0 males, 0 females, 1007 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to EAC_merged.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1007 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.991998.
+18801643 variants and 1007 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to EAC_merged.bed + EAC_merged.bim + EAC_merged.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.

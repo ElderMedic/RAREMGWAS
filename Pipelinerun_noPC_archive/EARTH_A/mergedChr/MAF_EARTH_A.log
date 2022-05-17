@@ -1,0 +1,27 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --bfile /exports/reum/CKe/EARTH_A/mergedChr/EA127genotypes_merged
+  --freq
+  --out /exports/reum/CKe/EARTH_A/mergedChr/MAF_EARTH_A
+
+Hostname: res-hpc-exe007.researchlumc.nl
+Working directory: /exports/reum/CKe/dosage
+Start time: Mon Sep 20 17:35:45 2021
+
+Random number seed: 1632152145
+386895 MB RAM detected; reserving 193447 MB for main workspace.
+10235902 variants loaded from .bim file.
+127 people (0 males, 0 females, 127 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/EARTH_A/mergedChr/MAF_EARTH_A.nosex .
+80 phenotype values loaded from .fam.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 127 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.985211.
+--freq: Allele frequencies (founders only) written to
+/exports/reum/CKe/EARTH_A/mergedChr/MAF_EARTH_A.frq .
+
+End time: Mon Sep 20 17:36:01 2021

@@ -1,0 +1,3 @@
+# special directory made because EIRA had 2100+ samples which have to be split to run the post imputation more efficiently
+
+# splitting by chromosome. Total = 22 chromosomes so we will run it: 6 x 3 chromosomes and 1 x 4 chromosomes

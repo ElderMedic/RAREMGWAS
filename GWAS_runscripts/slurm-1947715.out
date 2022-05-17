@@ -1,0 +1,171 @@
+Running SNP2HLA:
+
+cp: cannot stat '/exports/reum/knevel_lab/ACPA-/genetic/strandCORR/ACPAneg_sorted_noQC_cleaned-updated-chr6.vcf.gz': No such file or directory
+[bgzip] Could not open ACPAneg_sorted_noQC_cleaned-updated-chr6.vcf.gz: No such file or directory
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ACPAneg_sorted_noQC_chr6.log.
+Options in effect:
+  --const-fid 0
+  --out ACPAneg_sorted_noQC_chr6
+  --vcf ACPAneg_sorted_noQC_cleaned-updated-chr6.vcf
+
+386913 MB RAM detected; reserving 193456 MB for main workspace.
+Error: Failed to open ACPAneg_sorted_noQC_cleaned-updated-chr6.vcf.
+
+SNP2HLA: Performing HLA imputation for dataset ACPAneg_sorted_noQC_chr6
+- Java memory = 7000Mb
+- Beagle window size = 1000 markers
+[1] Extracting SNPs from the MHC.
+
+ERROR: No file [ ACPAneg_sorted_noQC_chr6.fam ] exists.
+[2] Performing SNP quality control.
+cut: ACPAneg_sorted_noQC_IMPUTED.MHC.bim: No such file or directory
+
+ERROR: No file [ ACPAneg_sorted_noQC_IMPUTED.MHC.fam ] exists.
+
+ERROR: No file [ ACPAneg_sorted_noQC_IMPUTED.MHC.FLP.fam ] exists.
+sed: can't read ACPAneg_sorted_noQC_IMPUTED.MHC.FLP.FRQ.frq: No such file or directory
+
+ERROR: No file [ ACPAneg_sorted_noQC_IMPUTED.MHC.FLP.fam ] exists.
+
+ERROR: No file [ ACPAneg_sorted_noQC_IMPUTED.MHC.QC.fam ] exists.
+sed: can't read ACPAneg_sorted_noQC_IMPUTED.MHC.QC.FRQ.frq: No such file or directory
+cut: ACPAneg_sorted_noQC_IMPUTED.MHC.QC.bim: No such file or directory
+
+ERROR: No file [ ACPAneg_sorted_noQC_IMPUTED.MHC.QC.fam ] exists.
+
+ERROR: No file [ ACPAneg_sorted_noQC_IMPUTED.MHC.QC.reorder.fam ] exists.
+awk: fatal: cannot open file `ACPAneg_sorted_noQC_IMPUTED.MHC.QC.map' for reading (No such file or directory)
+cut: ACPAneg_sorted_noQC_IMPUTED.MHC.QC.map: No such file or directory
+cut: ACPAneg_sorted_noQC_IMPUTED.MHC.QC.ped: No such file or directory
+rm: cannot remove 'ACPAneg_sorted_noQC_IMPUTED.MHC.QC.ped': No such file or directory
+rm: cannot remove 'ACPAneg_sorted_noQC_IMPUTED.MHC.QC.map': No such file or directory
+[3] Convering data to beagle format.
+[4] Performing HLA imputation (see ACPAneg_sorted_noQC_IMPUTED.bgl.log for progress).
+Exception in thread "main" java.lang.IllegalArgumentException: missing data on line: P pedigree
+	at phaser.w.a(Unknown Source)
+	at phaser.w.<init>(Unknown Source)
+	at phaser.ag.<init>(Unknown Source)
+	at phaser.ag.<init>(Unknown Source)
+	at phaser.K.a(Unknown Source)
+	at phaser.q.<init>(Unknown Source)
+	at phaser.PhaseMain.<init>(Unknown Source)
+	at phaser.PhaseMain.main(Unknown Source)
+[5] Converting posterior probabilities to PLINK dosage format.
+mv: cannot stat 'ACPAneg_sorted_noQC_IMPUTED.IMPUTED.ACPAneg_sorted_noQC_IMPUTED.MHC.QC.bgl.phased': No such file or directory
+mv: cannot stat 'ACPAneg_sorted_noQC_IMPUTED.IMPUTED.ACPAneg_sorted_noQC_IMPUTED.MHC.QC.bgl.gprobs': No such file or directory
+mv: cannot stat 'ACPAneg_sorted_noQC_IMPUTED.IMPUTED.ACPAneg_sorted_noQC_IMPUTED.MHC.QC.bgl.r2': No such file or directory
+awk: fatal: cannot open file `ACPAneg_sorted_noQC_IMPUTED.bgl.gprobs' for reading (No such file or directory)
+[6] Converting imputation genotypes to PLINK .ped format.
+cat: ACPAneg_sorted_noQC_IMPUTED.bgl.phased: No such file or directory
+paste: ACPAneg_sorted_noQC_IMPUTED.MHC.fam: No such file or directory
+cp: cannot stat 'ACPAneg_sorted_noQC_IMPUTED.MHC.fam': No such file or directory
+
+ERROR: Stopping as there are no individuals left for analysis
+
+rm: No match.
+DONE!
+
+
+
+ Workflow pre-imputation finished for ACPAneg_sorted_noQCRunning SNP2HLA:
+
+cp: cannot stat '/exports/reum/knevel_lab/EIRA/genetic/strandCORR/SEkiMTX_cleaned-updated-chr6.vcf.gz': No such file or directory
+[bgzip] Could not open SEkiMTX_cleaned-updated-chr6.vcf.gz: No such file or directory
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to SEkiMTX_chr6.log.
+Options in effect:
+  --const-fid 0
+  --out SEkiMTX_chr6
+  --vcf SEkiMTX_cleaned-updated-chr6.vcf
+
+386913 MB RAM detected; reserving 193456 MB for main workspace.
+Error: Failed to open SEkiMTX_cleaned-updated-chr6.vcf.
+
+SNP2HLA: Performing HLA imputation for dataset SEkiMTX_chr6
+- Java memory = 7000Mb
+- Beagle window size = 1000 markers
+[1] Extracting SNPs from the MHC.
+
+ERROR: No file [ SEkiMTX_chr6.fam ] exists.
+[2] Performing SNP quality control.
+cut: SEkiMTX_IMPUTED.MHC.bim: No such file or directory
+
+ERROR: No file [ SEkiMTX_IMPUTED.MHC.fam ] exists.
+
+ERROR: No file [ SEkiMTX_IMPUTED.MHC.FLP.fam ] exists.
+sed: can't read SEkiMTX_IMPUTED.MHC.FLP.FRQ.frq: No such file or directory
+
+ERROR: No file [ SEkiMTX_IMPUTED.MHC.FLP.fam ] exists.
+
+ERROR: No file [ SEkiMTX_IMPUTED.MHC.QC.fam ] exists.
+sed: can't read SEkiMTX_IMPUTED.MHC.QC.FRQ.frq: No such file or directory
+cut: SEkiMTX_IMPUTED.MHC.QC.bim: No such file or directory
+
+ERROR: No file [ SEkiMTX_IMPUTED.MHC.QC.fam ] exists.
+
+ERROR: No file [ SEkiMTX_IMPUTED.MHC.QC.reorder.fam ] exists.
+awk: fatal: cannot open file `SEkiMTX_IMPUTED.MHC.QC.map' for reading (No such file or directory)
+cut: SEkiMTX_IMPUTED.MHC.QC.map: No such file or directory
+cut: SEkiMTX_IMPUTED.MHC.QC.ped: No such file or directory
+rm: cannot remove 'SEkiMTX_IMPUTED.MHC.QC.ped': No such file or directory
+rm: cannot remove 'SEkiMTX_IMPUTED.MHC.QC.map': No such file or directory
+[3] Convering data to beagle format.
+[4] Performing HLA imputation (see SEkiMTX_IMPUTED.bgl.log for progress).
+Exception in thread "main" java.lang.IllegalArgumentException: missing data on line: P pedigree
+	at phaser.w.a(Unknown Source)
+	at phaser.w.<init>(Unknown Source)
+	at phaser.ag.<init>(Unknown Source)
+	at phaser.ag.<init>(Unknown Source)
+	at phaser.K.a(Unknown Source)
+	at phaser.q.<init>(Unknown Source)
+	at phaser.PhaseMain.<init>(Unknown Source)
+	at phaser.PhaseMain.main(Unknown Source)
+[5] Converting posterior probabilities to PLINK dosage format.
+mv: cannot stat 'SEkiMTX_IMPUTED.IMPUTED.SEkiMTX_IMPUTED.MHC.QC.bgl.phased': No such file or directory
+mv: cannot stat 'SEkiMTX_IMPUTED.IMPUTED.SEkiMTX_IMPUTED.MHC.QC.bgl.gprobs': No such file or directory
+mv: cannot stat 'SEkiMTX_IMPUTED.IMPUTED.SEkiMTX_IMPUTED.MHC.QC.bgl.r2': No such file or directory
+awk: fatal: cannot open file `SEkiMTX_IMPUTED.bgl.gprobs' for reading (No such file or directory)
+[6] Converting imputation genotypes to PLINK .ped format.
+cat: SEkiMTX_IMPUTED.bgl.phased: No such file or directory
+paste: SEkiMTX_IMPUTED.MHC.fam: No such file or directory
+cp: cannot stat 'SEkiMTX_IMPUTED.MHC.fam': No such file or directory
+
+ERROR: Stopping as there are no individuals left for analysis
+
+rm: No match.
+DONE!
+
+
+
+ Workflow pre-imputation finished for SEkiMTXRunning SNP2HLA:
+
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PEAC_SOW43_GSA_Plink_QC_done_chr6.log.
+Options in effect:
+  --const-fid 0
+  --out PEAC_SOW43_GSA_Plink_QC_done_chr6
+  --vcf PEAC_SOW43_GSA_Plink_QC_done_cleaned-updated-chr6.vcf
+
+386913 MB RAM detected; reserving 193456 MB for main workspace.
+--vcf: 1k variants complete.--vcf: 2k variants complete.--vcf: 3k variants complete.--vcf: 4k variants complete.--vcf: 5k variants complete.--vcf: 6k variants complete.--vcf: 7k variants complete.--vcf: 8k variants complete.--vcf: 9k variants complete.--vcf: 10k variants complete.--vcf: 11k variants complete.--vcf: 12k variants complete.--vcf: 13k variants complete.--vcf: 14k variants complete.--vcf: 15k variants complete.--vcf: 16k variants complete.--vcf: 17k variants complete.--vcf: 18k variants complete.--vcf: 19k variants complete.--vcf: PEAC_SOW43_GSA_Plink_QC_done_chr6.bed +
+PEAC_SOW43_GSA_Plink_QC_done_chr6.bim + PEAC_SOW43_GSA_Plink_QC_done_chr6.fam
+written.
+
+SNP2HLA: Performing HLA imputation for dataset PEAC_SOW43_GSA_Plink_QC_done_chr6
+- Java memory = 7000Mb
+- Beagle window size = 1000 markers
+[1] Extracting SNPs from the MHC.
+[2] Performing SNP quality control.
+[3] Convering data to beagle format.
+[4] Performing HLA imputation (see PEAC_SOW43_GSA_Plink_QC_done_IMPUTED.bgl.log for progress).
+[5] Converting posterior probabilities to PLINK dosage format.
+[6] Converting imputation genotypes to PLINK .ped format.
+DONE!
+
+
+
+ Workflow pre-imputation finished for PEAC_SOW43_GSA_Plink_QC_done

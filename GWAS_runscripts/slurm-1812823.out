@@ -1,0 +1,71 @@
+Running SNP2HLA:
+
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to SEkiMTX_chr6.log.
+Options in effect:
+  --const-fid 0
+  --out SEkiMTX_chr6
+  --vcf SEkiMTX_cleaned-updated-chr6.vcf
+
+386913 MB RAM detected; reserving 193456 MB for main workspace.
+--vcf: 1k variants complete.--vcf: 2k variants complete.--vcf: 3k variants complete.--vcf: 4k variants complete.--vcf: 5k variants complete.--vcf: 6k variants complete.--vcf: 7k variants complete.--vcf: 8k variants complete.--vcf: 9k variants complete.--vcf: 10k variants complete.--vcf: 11k variants complete.--vcf: 12k variants complete.--vcf: 13k variants complete.--vcf: 14k variants complete.--vcf: 15k variants complete.--vcf: 16k variants complete.--vcf: 17k variants complete.--vcf: 18k variants complete.--vcf: 19k variants complete.--vcf: 20k variants complete.--vcf: 21k variants complete.--vcf: SEkiMTX_chr6.bed + SEkiMTX_chr6.bim + SEkiMTX_chr6.fam written.
+
+SNP2HLA: Performing HLA imputation for dataset SEkiMTX_chr6
+- Java memory = 2000Mb
+- Beagle window size = 1000 markers
+[1] Extracting SNPs from the MHC.
+[2] Performing SNP quality control.
+[3] Convering data to beagle format.
+[4] Performing HLA imputation (see SEkiMTX_IMPUTED.bgl.log for progress).
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+	at a.g.<init>(Unknown Source)
+	at a.g.a(Unknown Source)
+	at a.d.a(Unknown Source)
+	at a.d.c(Unknown Source)
+	at a.g.b(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+	at a.a.a(Unknown Source)
+[5] Converting posterior probabilities to PLINK dosage format.
+mv: cannot stat 'SEkiMTX_IMPUTED.IMPUTED.SEkiMTX_IMPUTED.MHC.QC.bgl.phased': No such file or directory
+mv: cannot stat 'SEkiMTX_IMPUTED.IMPUTED.SEkiMTX_IMPUTED.MHC.QC.bgl.gprobs': No such file or directory
+mv: cannot stat 'SEkiMTX_IMPUTED.IMPUTED.SEkiMTX_IMPUTED.MHC.QC.bgl.r2': No such file or directory
+awk: fatal: cannot open file `SEkiMTX_IMPUTED.bgl.gprobs' for reading (No such file or directory)
+[6] Converting imputation genotypes to PLINK .ped format.
+cat: SEkiMTX_IMPUTED.bgl.phased: No such file or directory
+
+ERROR: 
+A problem with line 1 in [ SEkiMTX_IMPUTED.ped ]
+Expecting 6 + 2 * 8961 = 17928 columns, but found 6
+
+rm: No match.
+DONE!
+
+
+
+ Workflow pre-imputation finished for SEkiMTX

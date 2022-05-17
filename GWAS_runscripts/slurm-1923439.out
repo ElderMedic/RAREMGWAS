@@ -1,0 +1,116 @@
+working on 19gzip: chr19.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr19.dose.vcf.gz
+	--out PostImpCleaned/PEAC_chr19_clean
+	--recode
+	--exclude PostImpCleaned/PEAC_chr19_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr19.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/PEAC_chr19.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/PEAC_chr19_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/PEAC_chr19
+  --vcf PostImpCleaned/PEAC_chr19_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+96609 MB RAM detected; reserving 48304 MB for main workspace.
+Error: Failed to open PostImpCleaned/PEAC_chr19_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/PEAC_chr19.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/PEAC_chr19_clean.recode.vcf': No such file or directory
+working on 20gzip: chr20.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr20.dose.vcf.gz
+	--out PostImpCleaned/PEAC_chr20_clean
+	--recode
+	--exclude PostImpCleaned/PEAC_chr20_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr20.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/PEAC_chr20.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/PEAC_chr20_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/PEAC_chr20
+  --vcf PostImpCleaned/PEAC_chr20_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+96609 MB RAM detected; reserving 48304 MB for main workspace.
+Error: Failed to open PostImpCleaned/PEAC_chr20_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/PEAC_chr20.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/PEAC_chr20_clean.recode.vcf': No such file or directory
+working on 21gzip: chr21.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr21.dose.vcf.gz
+	--out PostImpCleaned/PEAC_chr21_clean
+	--recode
+	--exclude PostImpCleaned/PEAC_chr21_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr21.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/PEAC_chr21.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/PEAC_chr21_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/PEAC_chr21
+  --vcf PostImpCleaned/PEAC_chr21_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+96609 MB RAM detected; reserving 48304 MB for main workspace.
+Error: Failed to open PostImpCleaned/PEAC_chr21_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/PEAC_chr21.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/PEAC_chr21_clean.recode.vcf': No such file or directory
+working on 22gzip: chr22.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr22.dose.vcf.gz
+	--out PostImpCleaned/PEAC_chr22_clean
+	--recode
+	--exclude PostImpCleaned/PEAC_chr22_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr22.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/PEAC_chr22.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/PEAC_chr22_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/PEAC_chr22
+  --vcf PostImpCleaned/PEAC_chr22_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+96609 MB RAM detected; reserving 48304 MB for main workspace.
+Error: Failed to open PostImpCleaned/PEAC_chr22_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/PEAC_chr22.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/PEAC_chr22_clean.recode.vcf': No such file or directory

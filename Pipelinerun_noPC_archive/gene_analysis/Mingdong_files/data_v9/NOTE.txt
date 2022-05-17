@@ -1,0 +1,7 @@
+on Samantha's GWAS
+with window 35kb up 10kb down
+no snp synomynous file
+with PCA
+multi= snp-wise
+on c2_c3_c5_c7 combined 
+

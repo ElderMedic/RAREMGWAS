@@ -1,0 +1,25 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --bfile /exports/reum/CKe/Tacera/Final_imputed/TACERA_HRCv1_1_FINAL
+  --freq
+  --out /exports/reum/CKe/Tacera/Final_imputed/MAF_Tacera
+
+Hostname: res-hpc-exe024.researchlumc.nl
+Working directory: /exports/reum/CKe/generic-metal/RunMeta
+Start time: Mon Sep 20 16:54:25 2021
+
+Random number seed: 1632149665
+128820 MB RAM detected; reserving 64410 MB for main workspace.
+21193891 variants loaded from .bim file.
+295 people (66 males, 175 females, 54 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/Tacera/Final_imputed/MAF_Tacera.nosex .
+222 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 295 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.998133.
+--freq: Allele frequencies (founders only) written to
+/exports/reum/CKe/Tacera/Final_imputed/MAF_Tacera.frq .
+
+End time: Mon Sep 20 16:56:08 2021

@@ -1,0 +1,354 @@
+MetaAnalysis Helper - (c) 2007 - 2009 Goncalo Abecasis
+This version released on 2011-03-25
+
+# This program faciliates meta-analysis of genome-wide association studies.
+# Commonly used commands are listed below:
+#
+# Options for describing input files ...
+#   SEPARATOR        [WHITESPACE|COMMA|BOTH|TAB] (default = WHITESPACE)
+#   COLUMNCOUNTING   [STRICT|LENIENT]            (default = 'STRICT')
+#   MARKERLABEL      [LABEL]                     (default = 'MARKER')
+#   ALLELELABELS     [LABEL1 LABEL2]             (default = 'ALLELE1','ALLELE2')
+#   EFFECTLABEL      [LABEL|log(LABEL)]          (default = 'EFFECT')
+#   FLIP
+#
+# Options for filtering input files ...
+#   ADDFILTER        [LABEL CONDITION VALUE]     (example = ADDFILTER N > 10)
+#                    (available conditions are <, >, <=, >=, =, !=, IN)
+#   REMOVEFILTERS
+#
+# Options for sample size weighted meta-analysis ...
+#   WEIGHTLABEL      [LABEL]                     (default = 'N')
+#   PVALUELABEL      [LABEL]                     (default = 'PVALUE')
+#   DEFAULTWEIGHT    [NUMBER]                    (default = 1.0)
+#   MINWEIGHT        [NUMBER]                    (default = 1.0)
+#
+# Options for inverse variance weighted meta-analysis ...
+#   STDERRLABEL      [LABEL]                     (default = 'STDERR')
+#   SCHEME           [SAMPLESIZE|STDERR]         (default = SAMPLESIZE)
+#
+# Options to enable tracking of allele frequencies ...
+#   AVERAGEFREQ      [ON|OFF]                    (default = OFF)
+#   MINMAXFREQ       [ON|OFF]                    (default = OFF)
+#   FREQLABEL        [LABEL]                     (default = 'FREQ')
+#
+# Options to enable tracking of user defined variables ...
+#   CUSTOMVARIABLE   [VARNAME]
+#   LABEL            [VARNAME] AS [HEADER]
+#
+# Options to enable explicit strand information ...
+#   USESTRAND        [ON|OFF]                    (default = OFF)
+#   STRANDLABEL      [LABEL]                     (default = 'STRAND')
+#
+# Automatic genomic control correction of input statistics ...
+#   GENOMICCONTROL   [ON|OFF|VALUE|LIST snps.txt](default = OFF)
+#
+# Options for general analysis control ...
+#   PROCESSFILE      [FILENAME]
+#   OUTFILE          [PREFIX SUFFIX]             (default = 'METAANALYSIS','.TBL')
+#   MAXWARNINGS      [NUMBER]                    (default = 20)
+#   VERBOSE          [ON|OFF]                    (default = 'OFF')
+#   LOGPVALUE        [ON|OFF]                    (default = 'OFF')
+#   ANALYZE          [HETEROGENEITY]
+#   CLEAR
+
+# Options for general run control ...
+#   SOURCE           [SCRIPTFILE]
+#   RETURN
+#   QUIT
+
+# Processing commands in /exports/reum/CKe/generic-metal/RunMeta/metal.txt ...
+## Meta-analysis will be based on effect sizes and their standard errors ...
+# Added filter based on 'MAF' column
+## Set marker header to SNP ...
+## Set weight header to NMISS ...
+## Set allele headers to A1 and A2 ...
+## Set effect header to BETA ...
+## Set standard error header to SE ...
+## Set p-value header to P ...
+###########################################################################
+## Processing file 'EIRA_noNA_A1corr_meta.txt'
+## WARNING: No 'MAF' column found -- filter based on this column will be ignored
+## Although a filter is defined, no lines were excluded because of it
+## Processed 13168462 markers ...
+
+###########################################################################
+## Processing file 'ACPA_noNA_A1corr_meta.txt'
+## WARNING: No 'MAF' column found -- filter based on this column will be ignored
+## WARNING: Bad alleles for marker '1:850218', expecting 'a/t' found 'a/a'
+## WARNING: Bad alleles for marker '1:850371', expecting 'a/c' found 'c/c'
+## WARNING: Bad alleles for marker '1:850780', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:852037', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852063', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852875', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:853954', expecting 'a/c' found 'g/g'
+## WARNING: Bad alleles for marker '1:854777', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:854978', expecting 'a/c' found 'a/a'
+## WARNING: Bad alleles for marker '1:855075', expecting 'c/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:903245', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:959155', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1053385', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:1612111', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:1663831', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1665613', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1671782', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1680036', expecting 'c/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1680219', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1683900', expecting 'a/g' found 'a/a'
+## WARNING: Allele names don't match previous occurences at 113571 additional markers
+## Although a filter is defined, no lines were excluded because of it
+## Processed 7594746 markers ...
+
+###########################################################################
+## Processing file 'PEAC_noNA_A1corr_meta.txt'
+## WARNING: No 'MAF' column found -- filter based on this column will be ignored
+## WARNING: Bad alleles for marker '1:830181', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:831489', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:831909', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:832066', expecting 'c/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:832318', expecting 'a/c' found 'g/g'
+## WARNING: Bad alleles for marker '1:850218', expecting 'a/t' found 'a/a'
+## WARNING: Bad alleles for marker '1:850371', expecting 'a/c' found 'c/c'
+## WARNING: Bad alleles for marker '1:850780', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:852037', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852063', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:852875', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:853954', expecting 'a/c' found 'g/g'
+## WARNING: Bad alleles for marker '1:854777', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:854978', expecting 'a/c' found 'a/a'
+## WARNING: Bad alleles for marker '1:855075', expecting 'c/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:858801', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:860416', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:860688', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:861630', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:862866', expecting 'a/g' found 'g/g'
+## WARNING: Allele names don't match previous occurences at 240685 additional markers
+## Although a filter is defined, no lines were excluded because of it
+## Processed 8037620 markers ...
+
+###########################################################################
+## Processing file 'SERA_noNA_A1corr_meta.txt'
+## WARNING: No 'MAF' column found -- filter based on this column will be ignored
+## WARNING: Bad alleles for marker '1:959155', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1053385', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:1612111', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:1686943', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1867516', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1873699', expecting 'g/g' found 'c/g'
+## WARNING: Bad alleles for marker '1:1879954', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:1879958', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:1882545', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:1883503', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:1900454', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:2028719', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:2029207', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:2031342', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:2038824', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:2164935', expecting 'a/a' found 'a/c'
+## WARNING: Bad alleles for marker '1:2172988', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:2184401', expecting 'c/c' found 'a/c'
+## WARNING: Bad alleles for marker '1:2270098', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:2278240', expecting 'a/g' found 'g/g'
+## WARNING: Allele names don't match previous occurences at 100782 additional markers
+## Although a filter is defined, no lines were excluded because of it
+## Processed 9375308 markers ...
+
+###########################################################################
+## Processing file 'EAC_noNA_A1corr_meta.txt'
+## WARNING: No 'MAF' column found -- filter based on this column will be ignored
+## WARNING: Bad alleles for marker '1:959155', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1612111', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:1663831', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1665613', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1671782', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1680219', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1684472', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1686962', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1693726', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1696326', expecting 'a/c' found 'a/a'
+## WARNING: Bad alleles for marker '1:1698092', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1702436', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1703303', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1703849', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1703865', expecting 'a/t' found 'a/a'
+## WARNING: Bad alleles for marker '1:1704899', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1704915', expecting 'c/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1705287', expecting 'a/c' found 'g/g'
+## WARNING: Bad alleles for marker '1:1708801', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1721479', expecting 'a/g' found 'a/a'
+## WARNING: Allele names don't match previous occurences at 87230 additional markers
+## Although a filter is defined, no lines were excluded because of it
+## Processed 10547226 markers ...
+
+###########################################################################
+## Processing file 'Vienna_noNA_A1corr_meta.txt'
+## WARNING: No 'MAF' column found -- filter based on this column will be ignored
+## WARNING: Bad alleles for marker '1:959155', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1053385', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:1612111', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:1680036', expecting 'c/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1680219', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1684472', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1687482', expecting 'a/c' found 'a/a'
+## WARNING: Bad alleles for marker '1:1690793', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1691050', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1693726', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1696326', expecting 'a/c' found 'a/a'
+## WARNING: Bad alleles for marker '1:1698092', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1702436', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1703303', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1703849', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1703865', expecting 'a/t' found 'a/a'
+## WARNING: Bad alleles for marker '1:1704899', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1704915', expecting 'c/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1705287', expecting 'a/c' found 'g/g'
+## WARNING: Bad alleles for marker '1:1708801', expecting 'a/g' found 'c/c'
+## WARNING: Allele names don't match previous occurences at 114122 additional markers
+## Although a filter is defined, no lines were excluded because of it
+## Processed 9008199 markers ...
+
+###########################################################################
+## Processing file 'RAMS_noNA_A1corr_meta.txt'
+## WARNING: No 'MAF' column found -- filter based on this column will be ignored
+## WARNING: Bad alleles for marker '1:959155', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:1053385', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:1612111', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:1873699', expecting 'g/g' found 'c/g'
+## WARNING: Bad alleles for marker '1:1879954', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:1879958', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:1882545', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:1883503', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:1924406', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:2028719', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:2029207', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:2031342', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:2038824', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:2164935', expecting 'a/a' found 'a/c'
+## WARNING: Bad alleles for marker '1:2172988', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:2182470', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:2184401', expecting 'c/c' found 'a/c'
+## WARNING: Bad alleles for marker '1:2185159', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:2186985', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:2192639', expecting 'g/g' found 'c/g'
+## WARNING: Allele names don't match previous occurences at 113109 additional markers
+## Although a filter is defined, no lines were excluded because of it
+## Processed 8310455 markers ...
+
+###########################################################################
+## Processing file 'Madrid_noNA_A1corr_meta.txt'
+## WARNING: No 'MAF' column found -- filter based on this column will be ignored
+## WARNING: Bad alleles for marker '1:959155', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:959231', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1002434', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1003053', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1053385', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:1468178', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1486834', expecting 'a/c' found 'a/a'
+## WARNING: Bad alleles for marker '1:1562895', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1612111', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:1655928', expecting 'c/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1663831', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1665613', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1666251', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1671782', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1680036', expecting 'c/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1680219', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1683900', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1684169', expecting 'c/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1684472', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1684758', expecting 'a/g' found 'a/a'
+## WARNING: Allele names don't match previous occurences at 191250 additional markers
+## Although a filter is defined, no lines were excluded because of it
+## Processed 7615027 markers ...
+
+###########################################################################
+## Processing file 'EARTHA_noNA_A1corr_meta.txt'
+## WARNING: No 'MAF' column found -- filter based on this column will be ignored
+## WARNING: Bad alleles for marker '1:959155', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:959231', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1003053', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1053385', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:1610524', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1612111', expecting 'g/g' found 'a/g'
+## WARNING: Bad alleles for marker '1:1680219', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1684472', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1693726', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1728969', expecting 'a/c' found 'a/a'
+## WARNING: Bad alleles for marker '1:1918191', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1918488', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1920962', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1922303', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1922652', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:2112461', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:2112676', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:2170231', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:2176038', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:2176161', expecting 'a/g' found 'a/a'
+## WARNING: Allele names don't match previous occurences at 139178 additional markers
+## Although a filter is defined, no lines were excluded because of it
+## Processed 6598932 markers ...
+
+###########################################################################
+## Processing file 'EARTHB_noNA_A1corr_meta.txt'
+## WARNING: No 'MAF' column found -- filter based on this column will be ignored
+## WARNING: Bad alleles for marker '1:959155', expecting 'c/c' found 'a/g'
+## WARNING: Bad alleles for marker '1:959231', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1002434', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1003053', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1053385', expecting 'a/a' found 'a/g'
+## WARNING: Bad alleles for marker '1:1468178', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1610524', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1686943', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1751776', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1776269', expecting 'a/c' found 'a/a'
+## WARNING: Bad alleles for marker '1:1846073', expecting 'a/c' found 'c/c'
+## WARNING: Bad alleles for marker '1:1847856', expecting 'a/c' found 'c/c'
+## WARNING: Bad alleles for marker '1:1848109', expecting 'c/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1850428', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1853184', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1854109', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1858309', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1860087', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1864526', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1865298', expecting 'a/g' found 'a/a'
+## WARNING: Allele names don't match previous occurences at 173766 additional markers
+## Although a filter is defined, no lines were excluded because of it
+## Processed 6666047 markers ...
+
+###########################################################################
+## Processing file 'TACERA_noNA_A1corr_meta.txt'
+## WARNING: No 'MAF' column found -- filter based on this column will be ignored
+## WARNING: Bad alleles for marker '1:1183586', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1187448', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1191870', expecting 'a/g' found 'a/c'
+## WARNING: Bad alleles for marker '1:1194545', expecting 'a/t' found 'a/g'
+## WARNING: Bad alleles for marker '1:1198618', expecting 'a/t' found 'a/a'
+## WARNING: Bad alleles for marker '1:1200202', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1202471', expecting 'a/g' found 'a/c'
+## WARNING: Bad alleles for marker '1:1203938', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1204354', expecting 'a/g' found 'a/t'
+## WARNING: Bad alleles for marker '1:1206861', expecting 'a/g' found 'c/g'
+## WARNING: Bad alleles for marker '1:1209482', expecting 'a/g' found 'a/t'
+## WARNING: Bad alleles for marker '1:1210435', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1210848', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1216195', expecting 'a/c' found 'a/t'
+## WARNING: Bad alleles for marker '1:1220136', expecting 'a/g' found 'c/c'
+## WARNING: Bad alleles for marker '1:1220504', expecting 'a/g' found 'a/a'
+## WARNING: Bad alleles for marker '1:1221717', expecting 'a/g' found 'a/c'
+## WARNING: Bad alleles for marker '1:1221912', expecting 'a/g' found 'g/g'
+## WARNING: Bad alleles for marker '1:1222051', expecting 'a/g' found 'a/c'
+## WARNING: Bad alleles for marker '1:1222267', expecting 'c/g' found 'a/c'
+## WARNING: Allele names don't match previous occurences at 3505744 additional markers
+## Although a filter is defined, no lines were excluded because of it
+## Processed 1801537 markers ...
+
+## Set output file prefix and suffix to METALresult_refEIRA_flipped_A1corr and .TBL ...
+###########################################################################
+## Executing meta-analysis ...
+## Complete results will be stored in file 'METALresult_refEIRA_flipped_A1corr1.TBL'
+## Column descriptions will be stored in file 'METALresult_refEIRA_flipped_A1corr1.TBL.info'
+## Completed meta-analysis for 15709515 markers!
+## Smallest p-value is 7.552e-07 at marker '10:72711119'
+
+## Clearing all stored statistics ...
+# Clearing user defined filters ...

@@ -1,0 +1,35 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --allow-no-sex
+  --bfile /exports/reum/CKe/EARTH_B/mergedChr/EARTH_setB_merged
+  --biallelic-only strict list
+  --ci 0.95
+  --covar /exports/reum/CKe/EARTH_B/mergedChr/EARTH_B_re.covar
+  --hide-covar
+  --logistic
+  --out /exports/reum/CKe/EARTH_B/mergedChr/gwas_EARTHB_flipped
+
+Hostname: res-hpc-exe001.researchlumc.nl
+Working directory: /exports/reum/CKe/EARTH_B/mergedChr
+Start time: Fri Sep 24 03:06:40 2021
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Random number seed: 1632445600
+386867 MB RAM detected; reserving 193433 MB for main workspace.
+9629990 variants loaded from .bim file.
+66 people (0 males, 0 females, 66 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/EARTH_B/mergedChr/gwas_EARTHB_flipped.nosex .
+66 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 2 covariates loaded.
+Before main variant filters, 66 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.984886.
+9629990 variants and 66 people pass filters and QC.
+Among remaining phenotypes, 32 are cases and 34 are controls.
+Writing logistic model association results to
+/exports/reum/CKe/EARTH_B/mergedChr/gwas_EARTHB_flipped.assoc.logistic ...
+done.
+
+End time: Fri Sep 24 03:07:22 2021

@@ -1,0 +1,262 @@
+Running SNP2HLA:
+
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ACPAneg_sorted_noQC_chr6.log.
+Options in effect:
+  --const-fid 0
+  --out ACPAneg_sorted_noQC_chr6
+  --vcf ACPAneg_sorted_noQC_cleaned-updated-chr6.vcf
+
+386879 MB RAM detected; reserving 193439 MB for main workspace.
+--vcf: 1k variants complete.--vcf: 2k variants complete.--vcf: 3k variants complete.--vcf: 4k variants complete.--vcf: 5k variants complete.--vcf: 6k variants complete.--vcf: 7k variants complete.--vcf: 8k variants complete.--vcf: 9k variants complete.--vcf: 10k variants complete.--vcf: 11k variants complete.--vcf: 12k variants complete.--vcf: 13k variants complete.--vcf: 14k variants complete.--vcf: ACPAneg_sorted_noQC_chr6.bed + ACPAneg_sorted_noQC_chr6.bim +
+ACPAneg_sorted_noQC_chr6.fam written.
+
+SNP2HLA: Performing HLA imputation for dataset ACPAneg_sorted_noQC_chr6
+- Java memory = 2000Mb
+- Beagle window size = 1000 markers
+[1] Extracting SNPs from the MHC.
+[2] Performing SNP quality control.
+[3] Convering data to beagle format.
+[4] Performing HLA imputation (see ACPAneg_sorted_noQC_IMPUTED.bgl.log for progress).
+[5] Converting posterior probabilities to PLINK dosage format.
+[6] Converting imputation genotypes to PLINK .ped format.
+DONE!
+
+
+
+ Workflow pre-imputation finished for ACPAneg_sorted_noQCRunning SNP2HLA:
+
+cp: cannot stat '/exports/reum/knevel_lab/EARTH/SetA/genetic/strandCORR/EA127genotypes_cleaned-updated-chr6.vcf.gz': No such file or directory
+[bgzip] Could not open EA127genotypes_cleaned-updated-chr6.vcf.gz: No such file or directory
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to EA127genotypes_chr6.log.
+Options in effect:
+  --const-fid 0
+  --out EA127genotypes_chr6
+  --vcf EA127genotypes_cleaned-updated-chr6.vcf
+
+386879 MB RAM detected; reserving 193439 MB for main workspace.
+Error: Failed to open EA127genotypes_cleaned-updated-chr6.vcf.
+
+SNP2HLA: Performing HLA imputation for dataset EA127genotypes_chr6
+- Java memory = 2000Mb
+- Beagle window size = 1000 markers
+[1] Extracting SNPs from the MHC.
+
+ERROR: No file [ EA127genotypes_chr6.fam ] exists.
+[2] Performing SNP quality control.
+cut: EA127genotypes_IMPUTED.MHC.bim: No such file or directory
+
+ERROR: No file [ EA127genotypes_IMPUTED.MHC.fam ] exists.
+
+ERROR: No file [ EA127genotypes_IMPUTED.MHC.FLP.fam ] exists.
+sed: can't read EA127genotypes_IMPUTED.MHC.FLP.FRQ.frq: No such file or directory
+
+ERROR: No file [ EA127genotypes_IMPUTED.MHC.FLP.fam ] exists.
+
+ERROR: No file [ EA127genotypes_IMPUTED.MHC.QC.fam ] exists.
+sed: can't read EA127genotypes_IMPUTED.MHC.QC.FRQ.frq: No such file or directory
+cut: EA127genotypes_IMPUTED.MHC.QC.bim: No such file or directory
+
+ERROR: No file [ EA127genotypes_IMPUTED.MHC.QC.fam ] exists.
+
+ERROR: No file [ EA127genotypes_IMPUTED.MHC.QC.reorder.fam ] exists.
+awk: fatal: cannot open file `EA127genotypes_IMPUTED.MHC.QC.map' for reading (No such file or directory)
+cut: EA127genotypes_IMPUTED.MHC.QC.map: No such file or directory
+cut: EA127genotypes_IMPUTED.MHC.QC.ped: No such file or directory
+rm: cannot remove 'EA127genotypes_IMPUTED.MHC.QC.ped': No such file or directory
+rm: cannot remove 'EA127genotypes_IMPUTED.MHC.QC.map': No such file or directory
+[3] Convering data to beagle format.
+[4] Performing HLA imputation (see EA127genotypes_IMPUTED.bgl.log for progress).
+Exception in thread "main" java.lang.IllegalArgumentException: missing data on line: P pedigree
+	at phaser.w.a(Unknown Source)
+	at phaser.w.<init>(Unknown Source)
+	at phaser.ag.<init>(Unknown Source)
+	at phaser.ag.<init>(Unknown Source)
+	at phaser.K.a(Unknown Source)
+	at phaser.q.<init>(Unknown Source)
+	at phaser.PhaseMain.<init>(Unknown Source)
+	at phaser.PhaseMain.main(Unknown Source)
+[5] Converting posterior probabilities to PLINK dosage format.
+mv: cannot stat 'EA127genotypes_IMPUTED.IMPUTED.EA127genotypes_IMPUTED.MHC.QC.bgl.phased': No such file or directory
+mv: cannot stat 'EA127genotypes_IMPUTED.IMPUTED.EA127genotypes_IMPUTED.MHC.QC.bgl.gprobs': No such file or directory
+mv: cannot stat 'EA127genotypes_IMPUTED.IMPUTED.EA127genotypes_IMPUTED.MHC.QC.bgl.r2': No such file or directory
+awk: fatal: cannot open file `EA127genotypes_IMPUTED.bgl.gprobs' for reading (No such file or directory)
+[6] Converting imputation genotypes to PLINK .ped format.
+cat: EA127genotypes_IMPUTED.bgl.phased: No such file or directory
+paste: EA127genotypes_IMPUTED.MHC.fam: No such file or directory
+cp: cannot stat 'EA127genotypes_IMPUTED.MHC.fam': No such file or directory
+
+ERROR: Stopping as there are no individuals left for analysis
+
+rm: No match.
+DONE!
+
+
+
+ Workflow pre-imputation finished for EA127genotypesRunning SNP2HLA:
+
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to EARTH_sorted_noQC_chr6.log.
+Options in effect:
+  --const-fid 0
+  --out EARTH_sorted_noQC_chr6
+  --vcf EARTH_sorted_noQC_cleaned-updated-chr6.vcf
+
+386879 MB RAM detected; reserving 193439 MB for main workspace.
+--vcf: 1k variants complete.--vcf: 2k variants complete.--vcf: 3k variants complete.--vcf: 4k variants complete.--vcf: 5k variants complete.--vcf: 6k variants complete.--vcf: 7k variants complete.--vcf: 8k variants complete.--vcf: 9k variants complete.--vcf: 10k variants complete.--vcf: 11k variants complete.--vcf: 12k variants complete.--vcf: 13k variants complete.--vcf: 14k variants complete.--vcf: 15k variants complete.--vcf: 16k variants complete.--vcf: 17k variants complete.--vcf: 18k variants complete.--vcf: 19k variants complete.--vcf: 20k variants complete.--vcf: 21k variants complete.--vcf: 22k variants complete.--vcf: 23k variants complete.--vcf: 24k variants complete.--vcf: 25k variants complete.--vcf: 26k variants complete.--vcf: 27k variants complete.--vcf: 28k variants complete.--vcf: 29k variants complete.--vcf: 30k variants complete.--vcf: 31k variants complete.--vcf: 32k variants complete.--vcf: EARTH_sorted_noQC_chr6.bed + EARTH_sorted_noQC_chr6.bim +
+EARTH_sorted_noQC_chr6.fam written.
+
+SNP2HLA: Performing HLA imputation for dataset EARTH_sorted_noQC_chr6
+- Java memory = 2000Mb
+- Beagle window size = 1000 markers
+[1] Extracting SNPs from the MHC.
+[2] Performing SNP quality control.
+[3] Convering data to beagle format.
+[4] Performing HLA imputation (see EARTH_sorted_noQC_IMPUTED.bgl.log for progress).
+[5] Converting posterior probabilities to PLINK dosage format.
+[6] Converting imputation genotypes to PLINK .ped format.
+DONE!
+
+
+
+ Workflow pre-imputation finished for EARTH_sorted_noQCRunning SNP2HLA:
+
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to madrid_sorted_noQC_chr6.log.
+Options in effect:
+  --const-fid 0
+  --out madrid_sorted_noQC_chr6
+  --vcf madrid_sorted_noQC_cleaned-updated-chr6.vcf
+
+386879 MB RAM detected; reserving 193439 MB for main workspace.
+--vcf: 1k variants complete.--vcf: 2k variants complete.--vcf: 3k variants complete.--vcf: 4k variants complete.--vcf: 5k variants complete.--vcf: 6k variants complete.--vcf: 7k variants complete.--vcf: 8k variants complete.--vcf: 9k variants complete.--vcf: 10k variants complete.--vcf: 11k variants complete.--vcf: 12k variants complete.--vcf: 13k variants complete.--vcf: 14k variants complete.--vcf: 15k variants complete.--vcf: 16k variants complete.--vcf: 17k variants complete.--vcf: 18k variants complete.--vcf: 19k variants complete.--vcf: 20k variants complete.--vcf: 21k variants complete.--vcf: 22k variants complete.--vcf: 23k variants complete.--vcf: 24k variants complete.--vcf: 25k variants complete.--vcf: 26k variants complete.--vcf: 27k variants complete.--vcf: 28k variants complete.--vcf: 29k variants complete.--vcf: 30k variants complete.--vcf: 31k variants complete.--vcf: 32k variants complete.--vcf: 33k variants complete.--vcf: madrid_sorted_noQC_chr6.bed + madrid_sorted_noQC_chr6.bim +
+madrid_sorted_noQC_chr6.fam written.
+
+SNP2HLA: Performing HLA imputation for dataset madrid_sorted_noQC_chr6
+- Java memory = 2000Mb
+- Beagle window size = 1000 markers
+[1] Extracting SNPs from the MHC.
+[2] Performing SNP quality control.
+[3] Convering data to beagle format.
+[4] Performing HLA imputation (see madrid_sorted_noQC_IMPUTED.bgl.log for progress).
+[5] Converting posterior probabilities to PLINK dosage format.
+[6] Converting imputation genotypes to PLINK .ped format.
+DONE!
+
+
+
+ Workflow pre-imputation finished for madrid_sorted_noQCRunning SNP2HLA:
+
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to princesa_sorted_noQC_chr6.log.
+Options in effect:
+  --const-fid 0
+  --out princesa_sorted_noQC_chr6
+  --vcf princesa_sorted_noQC_cleaned-updated-chr6.vcf
+
+386879 MB RAM detected; reserving 193439 MB for main workspace.
+--vcf: 1k variants complete.--vcf: 2k variants complete.--vcf: 3k variants complete.--vcf: 4k variants complete.--vcf: 5k variants complete.--vcf: 6k variants complete.--vcf: 7k variants complete.--vcf: 8k variants complete.--vcf: 9k variants complete.--vcf: 10k variants complete.--vcf: 11k variants complete.--vcf: 12k variants complete.--vcf: princesa_sorted_noQC_chr6.bed + princesa_sorted_noQC_chr6.bim +
+princesa_sorted_noQC_chr6.fam written.
+
+SNP2HLA: Performing HLA imputation for dataset princesa_sorted_noQC_chr6
+- Java memory = 2000Mb
+- Beagle window size = 1000 markers
+[1] Extracting SNPs from the MHC.
+[2] Performing SNP quality control.
+[3] Convering data to beagle format.
+[4] Performing HLA imputation (see princesa_sorted_noQC_IMPUTED.bgl.log for progress).
+[5] Converting posterior probabilities to PLINK dosage format.
+[6] Converting imputation genotypes to PLINK .ped format.
+DONE!
+
+
+
+ Workflow pre-imputation finished for princesa_sorted_noQCRunning SNP2HLA:
+
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to RAMS_GSA2018_chr6.log.
+Options in effect:
+  --const-fid 0
+  --out RAMS_GSA2018_chr6
+  --vcf RAMS_GSA2018_cleaned-updated-chr6.vcf
+
+386879 MB RAM detected; reserving 193439 MB for main workspace.
+--vcf: 1k variants complete.--vcf: 2k variants complete.--vcf: 3k variants complete.--vcf: 4k variants complete.--vcf: 5k variants complete.--vcf: 6k variants complete.--vcf: 7k variants complete.--vcf: 8k variants complete.--vcf: 9k variants complete.--vcf: 10k variants complete.--vcf: 11k variants complete.--vcf: 12k variants complete.--vcf: 13k variants complete.--vcf: 14k variants complete.--vcf: 15k variants complete.--vcf: 16k variants complete.--vcf: 17k variants complete.--vcf: 18k variants complete.--vcf: 19k variants complete.--vcf: 20k variants complete.--vcf: 21k variants complete.--vcf: 22k variants complete.--vcf: 23k variants complete.--vcf: 24k variants complete.--vcf: 25k variants complete.--vcf: 26k variants complete.--vcf: 27k variants complete.--vcf: 28k variants complete.--vcf: 29k variants complete.--vcf: 30k variants complete.--vcf: 31k variants complete.--vcf: 32k variants complete.--vcf: 33k variants complete.--vcf: 34k variants complete.--vcf: RAMS_GSA2018_chr6.bed + RAMS_GSA2018_chr6.bim + RAMS_GSA2018_chr6.fam
+written.
+
+SNP2HLA: Performing HLA imputation for dataset RAMS_GSA2018_chr6
+- Java memory = 2000Mb
+- Beagle window size = 1000 markers
+[1] Extracting SNPs from the MHC.
+[2] Performing SNP quality control.
+[3] Convering data to beagle format.
+[4] Performing HLA imputation (see RAMS_GSA2018_IMPUTED.bgl.log for progress).
+[5] Converting posterior probabilities to PLINK dosage format.
+[6] Converting imputation genotypes to PLINK .ped format.
+DONE!
+
+
+
+ Workflow pre-imputation finished for RAMS_GSA2018Running SNP2HLA:
+
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to sera_sorted_noQC_chr6.log.
+Options in effect:
+  --const-fid 0
+  --out sera_sorted_noQC_chr6
+  --vcf sera_sorted_noQC_cleaned-updated-chr6.vcf
+
+386879 MB RAM detected; reserving 193439 MB for main workspace.
+--vcf: 1k variants complete.--vcf: 2k variants complete.--vcf: 3k variants complete.--vcf: 4k variants complete.--vcf: 5k variants complete.--vcf: 6k variants complete.--vcf: 7k variants complete.--vcf: 8k variants complete.--vcf: 9k variants complete.--vcf: 10k variants complete.--vcf: 11k variants complete.--vcf: 12k variants complete.--vcf: 13k variants complete.--vcf: 14k variants complete.--vcf: 15k variants complete.--vcf: 16k variants complete.--vcf: 17k variants complete.--vcf: 18k variants complete.--vcf: 19k variants complete.--vcf: 20k variants complete.--vcf: 21k variants complete.--vcf: 22k variants complete.--vcf: 23k variants complete.--vcf: 24k variants complete.--vcf: 25k variants complete.--vcf: 26k variants complete.--vcf: 27k variants complete.--vcf: 28k variants complete.--vcf: 29k variants complete.--vcf: 30k variants complete.--vcf: 31k variants complete.--vcf: 32k variants complete.--vcf: 33k variants complete.--vcf: sera_sorted_noQC_chr6.bed + sera_sorted_noQC_chr6.bim +
+sera_sorted_noQC_chr6.fam written.
+
+SNP2HLA: Performing HLA imputation for dataset sera_sorted_noQC_chr6
+- Java memory = 2000Mb
+- Beagle window size = 1000 markers
+[1] Extracting SNPs from the MHC.
+[2] Performing SNP quality control.
+[3] Convering data to beagle format.
+[4] Performing HLA imputation (see sera_sorted_noQC_IMPUTED.bgl.log for progress).
+[5] Converting posterior probabilities to PLINK dosage format.
+[6] Converting imputation genotypes to PLINK .ped format.
+DONE!
+
+
+
+ Workflow pre-imputation finished for sera_sorted_noQCRunning SNP2HLA:
+
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to EAC_sorted_noQC_chr6.log.
+Options in effect:
+  --const-fid 0
+  --out EAC_sorted_noQC_chr6
+  --vcf EAC_sorted_noQC_cleaned-updated-chr6.vcf
+
+386879 MB RAM detected; reserving 193439 MB for main workspace.
+--vcf: 1k variants complete.--vcf: 2k variants complete.--vcf: 3k variants complete.--vcf: 4k variants complete.--vcf: 5k variants complete.--vcf: 6k variants complete.--vcf: 7k variants complete.--vcf: 8k variants complete.--vcf: 9k variants complete.--vcf: 10k variants complete.--vcf: 11k variants complete.--vcf: 12k variants complete.--vcf: 13k variants complete.--vcf: 14k variants complete.--vcf: 15k variants complete.--vcf: 16k variants complete.--vcf: 17k variants complete.--vcf: 18k variants complete.--vcf: 19k variants complete.--vcf: 20k variants complete.--vcf: 21k variants complete.--vcf: 22k variants complete.--vcf: 23k variants complete.--vcf: 24k variants complete.--vcf: 25k variants complete.--vcf: 26k variants complete.--vcf: 27k variants complete.--vcf: 28k variants complete.--vcf: 29k variants complete.--vcf: 30k variants complete.--vcf: 31k variants complete.--vcf: 32k variants complete.--vcf: 33k variants complete.--vcf: EAC_sorted_noQC_chr6.bed + EAC_sorted_noQC_chr6.bim +
+EAC_sorted_noQC_chr6.fam written.
+
+SNP2HLA: Performing HLA imputation for dataset EAC_sorted_noQC_chr6
+- Java memory = 2000Mb
+- Beagle window size = 1000 markers
+[1] Extracting SNPs from the MHC.
+[2] Performing SNP quality control.
+[3] Convering data to beagle format.
+[4] Performing HLA imputation (see EAC_sorted_noQC_IMPUTED.bgl.log for progress).
+[5] Converting posterior probabilities to PLINK dosage format.
+[6] Converting imputation genotypes to PLINK .ped format.
+DONE!
+
+
+
+ Workflow pre-imputation finished for EAC_sorted_noQCslurmstepd: error: Unable to resolve "res-hpc-ma01": Unknown host
+slurmstepd: error: Unable to establish control machine address

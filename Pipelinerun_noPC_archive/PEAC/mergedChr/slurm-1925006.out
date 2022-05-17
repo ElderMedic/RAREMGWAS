@@ -1,0 +1,15 @@
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to Merge/PEAC_merged.log.
+Options in effect:
+  --merge-list mergelist.txt
+  --out Merge/PEAC_merged
+
+128865 MB RAM detected; reserving 64432 MB for main workspace.
+Warning: Variants '1:1097335:T:G' and '1:1097335:T:A' have the same position.
+Warning: Variants '1:1186665:G:T' and '1:1186665:G:A' have the same position.
+Warning: Variants '1:1222051:A:T' and '1:1222051:A:G' have the same position.
+22720 more same-position warnings: see log file.
+Performing single-pass merge (213 people, 18036602 variants).
+Pass 1: fileset #1 complete.Pass 1: fileset #2 complete.Pass 1: fileset #3 complete.Pass 1: fileset #4 complete.Pass 1: fileset #5 complete.Pass 1: fileset #6 complete.Pass 1: fileset #7 complete.Pass 1: fileset #8 complete.Pass 1: fileset #9 complete.Pass 1: fileset #10 complete.Pass 1: fileset #11 complete.Pass 1: fileset #12 complete.Pass 1: fileset #13 complete.Pass 1: fileset #14 complete.Pass 1: fileset #15 complete.Pass 1: fileset #16 complete.Pass 1: fileset #17 complete.Pass 1: fileset #18 complete.Pass 1: fileset #19 complete.Pass 1: fileset #20 complete.Pass 1: fileset #21 complete.                                              Merged fileset written to Merge/PEAC_merged.bed + Merge/PEAC_merged.bim +
+Merge/PEAC_merged.fam .

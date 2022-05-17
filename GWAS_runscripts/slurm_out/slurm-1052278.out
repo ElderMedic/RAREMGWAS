@@ -1,0 +1,21 @@
+
+Finished strand correction. Running SNP2HLA:
+cp: cannot create regular file '/exports/reum/knevel_lab/SNP2HLA/SNP2HLA/ACPAneg_sorted_noQC_cleaned-updated-chr6.vcf.gz': Permission denied
+[bgzip] Could not open ACPAneg_sorted_noQC_cleaned-updated-chr6.vcf.gz: No such file or directory
+Error: Failed to open ACPAneg_sorted_noQC_chr6.log.  Try changing the --out parameter.
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+mkdir: cannot create directory ‘ACPAneg_sorted_noQC_IMPUTED.javatmpdir’: Permission denied
+
+SNP2HLA: Performing HLA imputation for dataset ACPAneg_sorted_noQC_chr6
+- Java memory = 2000Mb
+- Beagle window size = 1000 markers
+[1] Extracting SNPs from the MHC.
+
+ERROR: No file [ ACPAneg_sorted_noQC_chr6.fam ] exists.
+[2] Performing SNP quality control.
+ACPAneg_sorted_noQC_IMPUTED.tmp1: Permission denied.
+mv: cannot stat 'ACPAneg_sorted_noQC_*': No such file or directory
+
+
+ Workflow pre-imputation finished for ACPAneg_sorted_noQC

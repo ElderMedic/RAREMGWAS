@@ -1,0 +1,2 @@
+/exports/reum/CKe/generic-metal/RunMeta/compareResultsPlot.py:33: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig("/exports/reum/CKe/generic-metal/RunMeta/comparePlots.jpg",dpi=500)

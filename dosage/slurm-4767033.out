@@ -1,0 +1,179 @@
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to EARTH/SetB/gwas_dosage_EARTHB.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar EARTH_setB_merged.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out EARTH/SetB/gwas_dosage_EARTHB
+  --pfile EARTH/SetB/EARTH_setB_merged
+
+Start time: Mon Sep 27 12:10:17 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Allocated 145085 MiB successfully, after larger attempt(s) failed.
+Using up to 24 threads (change this with --threads).
+66 samples (0 females, 0 males, 66 ambiguous; 66 founders) loaded from
+EARTH/SetB/EARTH_setB_merged.psam.
+9629990 variants loaded from EARTH/SetB/EARTH_setB_merged.pvar.
+1 binary phenotype loaded (32 cases, 34 controls).
+Error: Failed to open EARTH_setB_merged.covar : No such file or directory.
+End time: Mon Sep 27 12:10:24 2021
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to RAMS/gwas_dosage_RAMS.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar RAMS.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out RAMS/gwas_dosage_RAMS
+  --pfile RAMS/RAMS_merged
+
+Start time: Mon Sep 27 12:10:24 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Allocated 145085 MiB successfully, after larger attempt(s) failed.
+Using up to 24 threads (change this with --threads).
+245 samples (0 females, 0 males, 245 ambiguous; 245 founders) loaded from
+RAMS/RAMS_merged.psam.
+12293615 variants loaded from RAMS/RAMS_merged.pvar.
+1 binary phenotype loaded (168 cases, 77 controls).
+Error: Failed to open RAMS.covar : No such file or directory.
+End time: Mon Sep 27 12:10:32 2021
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to MADRID/gwas_dosage_madird.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar madrid.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out MADRID/gwas_dosage_madird
+  --pfile MADRID/madrid_merged
+
+Start time: Mon Sep 27 12:10:32 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Allocated 145085 MiB successfully, after larger attempt(s) failed.
+Using up to 24 threads (change this with --threads).
+141 samples (0 females, 0 males, 141 ambiguous; 141 founders) loaded from
+MADRID/madrid_merged.psam.
+13039847 variants loaded from MADRID/madrid_merged.pvar.
+1 binary phenotype loaded (61 cases, 54 controls).
+Error: Failed to open madrid.covar : No such file or directory.
+End time: Mon Sep 27 12:10:41 2021
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to EIRA/gwas_dosage_EIRA.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar EIRA.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out EIRA/gwas_dosage_EIRA
+  --pfile EIRA/EIRA_merged
+
+Start time: Mon Sep 27 12:10:41 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Allocated 145085 MiB successfully, after larger attempt(s) failed.
+Using up to 24 threads (change this with --threads).
+2183 samples (0 females, 0 males, 2183 ambiguous; 2183 founders) loaded from
+EIRA/EIRA_merged.psam.
+20510411 variants loaded from EIRA/EIRA_merged.pvar.
+1 quantitative phenotype loaded (2076 values).
+Error: Failed to open EIRA.covar : No such file or directory.
+End time: Mon Sep 27 12:10:52 2021
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PEAC/gwas_dosage_PEAC.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar PEAC.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out PEAC/gwas_dosage_PEAC
+  --pfile PEAC/PEAC_merged
+
+Start time: Mon Sep 27 12:10:53 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Allocated 145085 MiB successfully, after larger attempt(s) failed.
+Using up to 24 threads (change this with --threads).
+213 samples (0 females, 0 males, 213 ambiguous; 213 founders) loaded from
+PEAC/PEAC_merged.psam.
+18036602 variants loaded from PEAC/PEAC_merged.pvar.
+1 binary phenotype loaded (65 cases, 38 controls).
+Error: Failed to open PEAC.covar : No such file or directory.
+End time: Mon Sep 27 12:11:03 2021
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ACPA-/gwas_dosage_ACPA.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar ACPA.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out ACPA-/gwas_dosage_ACPA
+  --pfile ACPA-/ACPAneg_merged
+
+Start time: Mon Sep 27 12:11:03 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Allocated 145085 MiB successfully, after larger attempt(s) failed.
+Using up to 24 threads (change this with --threads).
+273 samples (0 females, 0 males, 273 ambiguous; 273 founders) loaded from
+ACPA-/ACPAneg_merged.psam.
+12954732 variants loaded from ACPA-/ACPAneg_merged.pvar.
+1 binary phenotype loaded (128 cases, 47 controls).
+Error: Failed to open ACPA.covar : No such file or directory.
+End time: Mon Sep 27 12:11:11 2021
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to SERA/gwas_dosage_SERA.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar sera.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out SERA/gwas_dosage_SERA
+  --pfile SERA/sera_merged
+
+Start time: Mon Sep 27 12:11:12 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Allocated 145085 MiB successfully, after larger attempt(s) failed.
+Using up to 24 threads (change this with --threads).
+668 samples (0 females, 0 males, 668 ambiguous; 668 founders) loaded from
+SERA/sera_merged.psam.
+15510242 variants loaded from SERA/sera_merged.pvar.
+1 binary phenotype loaded (251 cases, 170 controls).
+Error: Failed to open sera.covar : No such file or directory.
+End time: Mon Sep 27 12:11:21 2021
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to EAC/gwas_dosage_EAC.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar EAC.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out EAC/gwas_dosage_EAC
+  --pfile EAC/EAC_merged
+
+Start time: Mon Sep 27 12:11:21 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Allocated 145085 MiB successfully, after larger attempt(s) failed.
+Using up to 24 threads (change this with --threads).
+1007 samples (0 females, 0 males, 1007 ambiguous; 1007 founders) loaded from
+EAC/EAC_merged.psam.
+18801643 variants loaded from EAC/EAC_merged.pvar.
+1 binary phenotype loaded (491 cases, 218 controls).
+Error: Failed to open EAC.covar : No such file or directory.
+End time: Mon Sep 27 12:11:32 2021
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Error: Failed to open vienna/gwas_dosage_vienna.log for logging: No such file or directory.

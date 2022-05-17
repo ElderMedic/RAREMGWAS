@@ -1,0 +1,16 @@
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /exports/reum/CKe/EIRA/mergedChr/gwas_EIRA_1.log.
+Options in effect:
+  --allow-no-sex
+  --bfile /exports/reum/CKe/EIRA/mergedChr/EIRA_merged
+  --ci 0.95
+  --covar /exports/reum/CKe/EIRA/mergedChr/EIRA_re.covar
+  --hide-covar
+  --logistic
+  --out /exports/reum/CKe/EIRA/mergedChr/gwas_EIRA_1
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+386868 MB RAM detected; reserving 193434 MB for main workspace.
+20510411 variants loaded from .bim file.
+Error: Failed to open /exports/reum/CKe/EIRA/mergedChr/EIRA_merged.fam.

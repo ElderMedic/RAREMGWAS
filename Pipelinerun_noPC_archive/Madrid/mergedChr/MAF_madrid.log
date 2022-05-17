@@ -1,0 +1,27 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --bfile /exports/reum/CKe/Madrid/mergedChr/madrid_merged
+  --freq
+  --out /exports/reum/CKe/Madrid/mergedChr/MAF_madrid
+
+Hostname: res-hpc-exe007.researchlumc.nl
+Working directory: /exports/reum/CKe/dosage
+Start time: Mon Sep 20 17:36:15 2021
+
+Random number seed: 1632152175
+386895 MB RAM detected; reserving 193447 MB for main workspace.
+13039847 variants loaded from .bim file.
+141 people (0 males, 0 females, 141 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/Madrid/mergedChr/MAF_madrid.nosex .
+115 phenotype values loaded from .fam.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 141 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.981518.
+--freq: Allele frequencies (founders only) written to
+/exports/reum/CKe/Madrid/mergedChr/MAF_madrid.frq .
+
+End time: Mon Sep 20 17:36:32 2021

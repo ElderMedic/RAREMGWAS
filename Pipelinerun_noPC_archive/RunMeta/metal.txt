@@ -1,0 +1,33 @@
+# Meta-analysis for all cohorts
+
+SCHEME   STDERR
+
+# optional commands
+# AVERAGEFREQ ON
+# MINMAXFREQ ON
+# ADDFILTER MAF > 0.01
+
+MARKER   SNP
+WEIGHT   NMISS
+ALLELE   A1 A2
+EFFECT   BETA
+STDERR   SE
+PVAL     P
+
+PROCESS EIRA_noNA_A1corr_maf_meta.txt
+PROCESS ACPA_noNA_A1corr_maf_meta.txt
+PROCESS PEAC_noNA_A1corr_maf_meta.txt
+PROCESS SERA_noNA_A1corr_maf_meta.txt
+PROCESS EAC_noNA_A1corr_maf_meta.txt
+PROCESS Vienna_noNA_A1corr_maf_meta.txt
+PROCESS RAMS_noNA_A1corr_maf_meta.txt
+PROCESS Madrid_noNA_A1corr_maf_meta.txt
+PROCESS EARTHA_noNA_A1corr_maf_meta.txt
+PROCESS EARTHB_noNA_A1corr_maf_meta.txt
+PROCESS TACERA_noNA_A1corr_maf_meta.txt
+PROCESS Leeds_noNA_A1corr_maf_meta.txt
+
+
+
+OUTFILE METALresult_refEIRA_A1corr_maf .TBL
+ANALYZE

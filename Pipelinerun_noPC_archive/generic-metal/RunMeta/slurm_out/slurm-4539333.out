@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/exports/reum/CKe/generic-metal/RunMeta/compareResultsPlot.py", line 4, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'

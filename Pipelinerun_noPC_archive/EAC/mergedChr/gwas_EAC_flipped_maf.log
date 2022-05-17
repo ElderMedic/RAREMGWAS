@@ -1,0 +1,28 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --allow-no-sex
+  --bfile /exports/reum/CKe/EAC/mergedChr/EAC_merged
+  --biallelic-only strict list
+  --ci 0.95
+  --covar EAC_re.covar
+  --hide-covar
+  --logistic
+  --maf 0.01
+  --out /exports/reum/CKe/EAC/mergedChr/gwas_EAC_flipped_maf
+
+Hostname: res-hpc-exe007.researchlumc.nl
+Working directory: /exports/reum/CKe/Pipeline_GO
+Start time: Fri Oct  1 15:37:05 2021
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Random number seed: 1633095425
+386895 MB RAM detected; reserving 193447 MB for main workspace.
+18801643 variants loaded from .bim file.
+1007 people (0 males, 0 females, 1007 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/EAC/mergedChr/gwas_EAC_flipped_maf.nosex .
+709 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Error: Failed to open EAC_re.covar.
+
+End time: Fri Oct  1 15:37:10 2021

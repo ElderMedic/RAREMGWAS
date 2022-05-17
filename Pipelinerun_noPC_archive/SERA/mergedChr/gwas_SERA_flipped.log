@@ -1,0 +1,36 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --allow-no-sex
+  --bfile /exports/reum/CKe/SERA/mergedChr/sera_merged
+  --biallelic-only strict list
+  --ci 0.95
+  --covar /exports/reum/CKe/SERA/mergedChr/SERA_re.covar
+  --hide-covar
+  --logistic
+  --out /exports/reum/CKe/SERA/mergedChr/gwas_SERA_flipped
+
+Hostname: res-hpc-exe001.researchlumc.nl
+Working directory: /exports/reum/CKe/EAC/mergedChr
+Start time: Fri Sep 24 02:54:47 2021
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Random number seed: 1632444887
+386867 MB RAM detected; reserving 193433 MB for main workspace.
+15510242 variants loaded from .bim file.
+668 people (0 males, 0 females, 668 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/SERA/mergedChr/gwas_SERA_flipped.nosex .
+421 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 2 covariates loaded.
+247 people were not seen in the covariate file.
+Before main variant filters, 668 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.991838.
+15510242 variants and 668 people pass filters and QC.
+Among remaining phenotypes, 251 are cases and 170 are controls.  (247
+phenotypes are missing.)
+Writing logistic model association results to
+/exports/reum/CKe/SERA/mergedChr/gwas_SERA_flipped.assoc.logistic ... done.
+
+End time: Fri Sep 24 02:58:41 2021

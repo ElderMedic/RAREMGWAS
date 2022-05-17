@@ -1,0 +1,15 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --bfile /exports/reum/CKe/Vienna/mergedChr/Vienna_merged
+  --freq
+  --out /exports/reum/CKe/Vienna/mergedChr/MAF_Vienna
+
+Hostname: res-hpc-exe009.researchlumc.nl
+Working directory: /exports/reum/CKe/dosage
+Start time: Mon Sep 20 17:13:10 2021
+
+Random number seed: 1632150790
+386867 MB RAM detected; reserving 193433 MB for main workspace.
+Error: Failed to open /exports/reum/CKe/Vienna/mergedChr/Vienna_merged.bed.
+
+End time: Mon Sep 20 17:13:10 2021

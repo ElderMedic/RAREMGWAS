@@ -1,0 +1,90 @@
+Welcome to MAGMA v1.09 (linux)
+Using flags:
+	--annotate window=35,10
+	--snp-loc /exports/reum/knevel_lab/Scripts_Samantha/GWAS_run/Version8/All_cohorts_merged/cohorts_merged.bim
+	--gene-loc /exports/reum/mliu/gene_analysis/NCBI37.3.gene.loc
+	--out all_merged_v8
+
+Start time is 14:20:00, Tuesday 20 Apr 2021
+
+Starting annotation...
+Reading gene locations from file /exports/reum/mliu/gene_analysis/NCBI37.3.gene.loc... 
+	adding window: 35000bp (before), 10000bp (after)
+	19427 gene locations read from file
+	chromosome  1: 2016 genes
+	chromosome  2: 1226 genes
+	chromosome  3: 1050 genes
+	chromosome  4: 745 genes
+	chromosome  5: 856 genes
+	chromosome  6: 1016 genes
+	chromosome  7: 906 genes
+	chromosome  8: 669 genes
+	chromosome  9: 775 genes
+	chromosome 10: 723 genes
+	chromosome 11: 1275 genes
+	chromosome 12: 1009 genes
+	chromosome 13: 320 genes
+	chromosome 14: 595 genes
+	chromosome 15: 586 genes
+	chromosome 16: 817 genes
+	chromosome 17: 1147 genes
+	chromosome 18: 271 genes
+	chromosome 19: 1389 genes
+	chromosome 20: 527 genes
+	chromosome 21: 215 genes
+	chromosome 22: 442 genes
+	chromosome  X: 805 genes
+	chromosome  Y: 47 genes
+Reading SNP locations from file /exports/reum/knevel_lab/Scripts_Samantha/GWAS_run/Version8/All_cohorts_merged/cohorts_merged.bim... 
+	SNPs mapped so far: 375247	SNPs mapped so far: 682093	SNPs mapped so far: 1024303	SNPs mapped so far: 1266755	SNPs mapped so far: 1568867	SNPs mapped so far: 1886443	SNPs mapped so far: 2205998	SNPs mapped so far: 2541706	SNPs mapped so far: 2896755	SNPs mapped so far: 3174212	SNPs mapped so far: 3540280	SNPs mapped so far: 3921931                                                                                                 	7660440 SNP locations read from file
+	of those, 4164998 (54.37%) mapped to at least one gene
+Writing annotation to file all_merged_v8.genes.annot
+	for chromosome  1, 33 genes are empty (out of 2016)
+	for chromosome  2, 7 genes are empty (out of 1226)
+	for chromosome  3, 1 gene is empty (out of 1050)
+	for chromosome  4, 18 genes are empty (out of 745)
+	for chromosome  5, 4 genes are empty (out of 856)
+	for chromosome  6, 28 genes are empty (out of 1016)
+	for chromosome  7, 3 genes are empty (out of 906)
+	for chromosome  8, 32 genes are empty (out of 669)
+	for chromosome  9, 29 genes are empty (out of 775)
+	for chromosome 10, 10 genes are empty (out of 723)
+	for chromosome 14, 7 genes are empty (out of 595)
+	for chromosome 15, 18 genes are empty (out of 586)
+	for chromosome 16, 12 genes are empty (out of 817)
+	for chromosome 17, 8 genes are empty (out of 1147)
+	for chromosome 19, 1 gene is empty (out of 1389)
+	for chromosome 21, 3 genes are empty (out of 215)
+	for chromosome 22, 12 genes are empty (out of 442)
+	for chromosome  X, 805 genes are empty (out of 805)
+	for chromosome  Y, 47 genes are empty (out of 47)
+	at least one SNP mapped to each of a total of 18349 genes (out of 19427)
+
+
+End time is 14:20:15, Tuesday 20 Apr 2021 (elapsed: 00:00:15)
+Welcome to MAGMA v1.09 (linux)
+Using flags:
+	--bfile /exports/reum/knevel_lab/Scripts_Samantha/GWAS_run/Version8/All_cohorts_merged/cohorts_merged.bim synonyms=/exports/reum/mliu/gene_analysis/dbsnp151.synonyms
+	--gene-annot all_merged_v8.genes.annot
+	--gene-model multi=all
+	--out all_merged_v8
+	--covar file=/exports/reum/mliu/gene_analysis/backup_data_v5/covar_magama.covar
+
+Start time is 14:20:15, Tuesday 20 Apr 2021
+
+
+ERROR - parsing arguments: file '/exports/reum/knevel_lab/Scripts_Samantha/GWAS_run/Version8/All_cohorts_merged/cohorts_merged.bim.bed' specified in --bfile does not exist or is not a file.
+
+Terminating program.
+Welcome to MAGMA v1.09 (linux)
+Using flags:
+	--gene-results all_merged_v8.genes.raw
+	--set-annot c2_c5_combine.entrez.gmt
+	--out all_merged_v8
+
+Start time is 14:20:15, Tuesday 20 Apr 2021
+
+
+ERROR - parsing arguments: file 'all_merged_v8.genes.raw' specified in --gene-results does not exist or is not a file.
+
+Terminating program.

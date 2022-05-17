@@ -1,0 +1,9 @@
+--noweb
+--ped \\STORE\department\im\arrays\illumina\active_projects\GSA2021_523b2_025_V3\PLINK_011121_0443\GSA2021_523b2_025_V3.ped
+--map \\STORE\department\im\arrays\illumina\active_projects\GSA2021_523b2_025_V3\PLINK_011121_0443\GSA2021_523b2_025_V3.map
+--out \\STORE\department\im\arrays\illumina\active_projects\GSA2021_523b2_025_V3\PLINK_011121_0443\GSA2021_523b2_025_V3.out
+--assoc
+--pfilter 1e-4
+--adjust
+--cm
+

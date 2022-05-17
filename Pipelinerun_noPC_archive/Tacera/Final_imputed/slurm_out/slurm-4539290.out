@@ -1,0 +1,30 @@
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to gwas_TACERA.log.
+Options in effect:
+  --allow-no-sex
+  --bfile /exports/reum/CKe/Tacera/Final_imputed/TACERA_HRCv1_1_FINAL
+  --ci 0.95
+  --covar /exports/reum/CKe/Tacera/Final_imputed/tacera.covar
+  --hide-covar
+  --logistic
+  --out gwas_TACERA
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+322354 MB RAM detected; reserving 161177 MB for main workspace.
+21193891 variants loaded from .bim file.
+295 people (66 males, 175 females, 54 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to gwas_TACERA.nosex .
+222 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 2 covariates loaded.
+295 people were not seen in the covariate file.
+Before main variant filters, 295 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.998133.
+21193891 variants and 295 people pass filters and QC.
+Among remaining phenotypes, 84 are cases and 138 are controls.  (73 phenotypes
+are missing.)
+Warning: Skipping --logistic since # variables >= # samples.
+(Check your covariates--all samples with at least one missing covariate are
+excluded from this analysis.)

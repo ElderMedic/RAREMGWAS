@@ -1,0 +1,30 @@
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /exports/reum/CKe/EARTH_B/mergedChr/gwas_EARTHB_flipped.log.
+Options in effect:
+  --allow-no-sex
+  --bfile /exports/reum/CKe/EARTH_B/mergedChr/EARTH_setB_merged
+  --biallelic-only strict list
+  --ci 0.95
+  --covar /exports/reum/CKe/EARTH_B/mergedChr/EARTH_B_re.covar
+  --hide-covar
+  --logistic
+  --out /exports/reum/CKe/EARTH_B/mergedChr/gwas_EARTHB_flipped
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+386867 MB RAM detected; reserving 193433 MB for main workspace.
+9629990 variants loaded from .bim file.
+66 people (0 males, 0 females, 66 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/EARTH_B/mergedChr/gwas_EARTHB_flipped.nosex .
+66 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 2 covariates loaded.
+Before main variant filters, 66 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.984886.
+9629990 variants and 66 people pass filters and QC.
+Among remaining phenotypes, 32 are cases and 34 are controls.
+Writing logistic model association results to
+/exports/reum/CKe/EARTH_B/mergedChr/gwas_EARTHB_flipped.assoc.logistic ...
+0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.

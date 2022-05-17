@@ -1,0 +1,39 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --allow-no-sex
+  --bfile /exports/reum/CKe/Tacera/Final_imputed/TACERA_HRCv1_1_FINAL
+  --biallelic-only strict list
+  --ci 0.95
+  --covar /exports/reum/CKe/Tacera/Final_imputed/tacera.covar
+  --hide-covar
+  --logistic
+  --maf 0.01
+  --out /exports/reum/CKe/Tacera/Final_imputed/gwas_TACERA_maf
+
+Hostname: res-hpc-exe030.researchlumc.nl
+Working directory: /exports/reum/CKe/Pipeline_GO
+Start time: Fri Oct  1 15:43:30 2021
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Random number seed: 1633095810
+386895 MB RAM detected; reserving 193447 MB for main workspace.
+21193891 variants loaded from .bim file.
+295 people (66 males, 175 females, 54 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/Tacera/Final_imputed/gwas_TACERA_maf.nosex .
+222 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 2 covariates loaded.
+54 people were not seen in the covariate file.
+Before main variant filters, 295 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.998133.
+17071618 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+4122273 variants and 295 people pass filters and QC.
+Among remaining phenotypes, 84 are cases and 138 are controls.  (73 phenotypes
+are missing.)
+Writing logistic model association results to
+/exports/reum/CKe/Tacera/Final_imputed/gwas_TACERA_maf.assoc.logistic ... done.
+
+End time: Fri Oct  1 15:44:28 2021

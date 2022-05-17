@@ -1,0 +1,60 @@
+Welcome to MAGMA v1.09b (linux)
+Using flags:
+	--annotate window=35,10
+	--snp-loc /exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/PlinkMeta_snploc_samplesize.txt
+	--gene-loc ../NCBI37.3.gene.loc
+	--out Meta_plink_fixed
+
+Start time is 11:15:54, Friday 10 Dec 2021
+
+Starting annotation...
+Reading gene locations from file ../NCBI37.3.gene.loc... 
+	adding window: 35000bp (before), 10000bp (after)
+	19427 gene locations read from file
+	chromosome  1: 2016 genes
+	chromosome  2: 1226 genes
+	chromosome  3: 1050 genes
+	chromosome  4: 745 genes
+	chromosome  5: 856 genes
+	chromosome  6: 1016 genes
+	chromosome  7: 906 genes
+	chromosome  8: 669 genes
+	chromosome  9: 775 genes
+	chromosome 10: 723 genes
+	chromosome 11: 1275 genes
+	chromosome 12: 1009 genes
+	chromosome 13: 320 genes
+	chromosome 14: 595 genes
+	chromosome 15: 586 genes
+	chromosome 16: 817 genes
+	chromosome 17: 1147 genes
+	chromosome 18: 271 genes
+	chromosome 19: 1389 genes
+	chromosome 20: 527 genes
+	chromosome 21: 215 genes
+	chromosome 22: 442 genes
+	chromosome  X: 805 genes
+	chromosome  Y: 47 genes
+Reading SNP locations from file /exports/reum/CKe/Pipelinerun_withPC/RunMeta/noMAFfilter/PlinkMeta_snploc_samplesize.txt... 
+	8916612 SNP locations read from file
+	of those, 4955048 (55.57%) mapped to at least one gene
+Writing annotation to file Meta_plink_fixed.genes.annot
+	for chromosome  1, 18 genes are empty (out of 2016)
+	for chromosome  2, 2 genes are empty (out of 1226)
+	for chromosome  4, 12 genes are empty (out of 745)
+	for chromosome  5, 2 genes are empty (out of 856)
+	for chromosome  7, 2 genes are empty (out of 906)
+	for chromosome  8, 2 genes are empty (out of 669)
+	for chromosome  9, 26 genes are empty (out of 775)
+	for chromosome 10, 3 genes are empty (out of 723)
+	for chromosome 14, 3 genes are empty (out of 595)
+	for chromosome 15, 6 genes are empty (out of 586)
+	for chromosome 16, 5 genes are empty (out of 817)
+	for chromosome 21, 2 genes are empty (out of 215)
+	for chromosome 22, 2 genes are empty (out of 442)
+	for chromosome  X, 805 genes are empty (out of 805)
+	for chromosome  Y, 47 genes are empty (out of 47)
+	at least one SNP mapped to each of a total of 18490 genes (out of 19427)
+
+
+End time is 11:16:14, Friday 10 Dec 2021 (elapsed: 00:00:20)

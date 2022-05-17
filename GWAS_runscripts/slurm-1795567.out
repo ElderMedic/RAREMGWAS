@@ -1,0 +1,638 @@
+working on 1gzip: chr1.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr1.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr1_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr1_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr1.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr1.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr1_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr1
+  --vcf PostImpCleaned/EIRA_chr1_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr1_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr1.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr1_clean.recode.vcf': No such file or directory
+working on 2gzip: chr2.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr2.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr2_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr2_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr2.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr2.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr2_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr2
+  --vcf PostImpCleaned/EIRA_chr2_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr2_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr2.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr2_clean.recode.vcf': No such file or directory
+working on 3gzip: chr3.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr3.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr3_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr3_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr3.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr3.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr3_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr3
+  --vcf PostImpCleaned/EIRA_chr3_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr3_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr3.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr3_clean.recode.vcf': No such file or directory
+working on 4gzip: chr4.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr4.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr4_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr4_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr4.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr4.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr4_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr4
+  --vcf PostImpCleaned/EIRA_chr4_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr4_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr4.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr4_clean.recode.vcf': No such file or directory
+working on 5gzip: chr5.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr5.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr5_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr5_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr5.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr5.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr5_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr5
+  --vcf PostImpCleaned/EIRA_chr5_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr5_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr5.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr5_clean.recode.vcf': No such file or directory
+working on 6gzip: chr6.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr6.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr6_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr6_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr6.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr6.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr6_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr6
+  --vcf PostImpCleaned/EIRA_chr6_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr6_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr6.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr6_clean.recode.vcf': No such file or directory
+working on 7gzip: chr7.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr7.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr7_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr7_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr7.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr7.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr7_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr7
+  --vcf PostImpCleaned/EIRA_chr7_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr7_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr7.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr7_clean.recode.vcf': No such file or directory
+working on 8gzip: chr8.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr8.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr8_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr8_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr8.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr8.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr8_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr8
+  --vcf PostImpCleaned/EIRA_chr8_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr8_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr8.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr8_clean.recode.vcf': No such file or directory
+working on 9gzip: chr9.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr9.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr9_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr9_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr9.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr9.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr9_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr9
+  --vcf PostImpCleaned/EIRA_chr9_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr9_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr9.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr9_clean.recode.vcf': No such file or directory
+working on 10gzip: chr10.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr10.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr10_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr10_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr10.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr10.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr10_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr10
+  --vcf PostImpCleaned/EIRA_chr10_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr10_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr10.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr10_clean.recode.vcf': No such file or directory
+working on 11gzip: chr11.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr11.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr11_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr11_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr11.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr11.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr11_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr11
+  --vcf PostImpCleaned/EIRA_chr11_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr11_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr11.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr11_clean.recode.vcf': No such file or directory
+working on 12gzip: chr12.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr12.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr12_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr12_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr12.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr12.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr12_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr12
+  --vcf PostImpCleaned/EIRA_chr12_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr12_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr12.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr12_clean.recode.vcf': No such file or directory
+working on 13gzip: chr13.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr13.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr13_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr13_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr13.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr13.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr13_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr13
+  --vcf PostImpCleaned/EIRA_chr13_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr13_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr13.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr13_clean.recode.vcf': No such file or directory
+working on 14gzip: chr14.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr14.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr14_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr14_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr14.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr14.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr14_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr14
+  --vcf PostImpCleaned/EIRA_chr14_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr14_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr14.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr14_clean.recode.vcf': No such file or directory
+working on 15gzip: chr15.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr15.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr15_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr15_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr15.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr15.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr15_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr15
+  --vcf PostImpCleaned/EIRA_chr15_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr15_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr15.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr15_clean.recode.vcf': No such file or directory
+working on 16gzip: chr16.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr16.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr16_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr16_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr16.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr16.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr16_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr16
+  --vcf PostImpCleaned/EIRA_chr16_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr16_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr16.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr16_clean.recode.vcf': No such file or directory
+working on 17gzip: chr17.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr17.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr17_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr17_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr17.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr17.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr17_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr17
+  --vcf PostImpCleaned/EIRA_chr17_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr17_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr17.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr17_clean.recode.vcf': No such file or directory
+working on 18gzip: chr18.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr18.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr18_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr18_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr18.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr18.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr18_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr18
+  --vcf PostImpCleaned/EIRA_chr18_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr18_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr18.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr18_clean.recode.vcf': No such file or directory
+working on 19gzip: chr19.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr19.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr19_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr19_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr19.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr19.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr19_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr19
+  --vcf PostImpCleaned/EIRA_chr19_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr19_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr19.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr19_clean.recode.vcf': No such file or directory
+working on 20gzip: chr20.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr20.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr20_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr20_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr20.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr20.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr20_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr20
+  --vcf PostImpCleaned/EIRA_chr20_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr20_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr20.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr20_clean.recode.vcf': No such file or directory
+working on 21gzip: chr21.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr21.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr21_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr21_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr21.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr21.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr21_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr21
+  --vcf PostImpCleaned/EIRA_chr21_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr21_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr21.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr21_clean.recode.vcf': No such file or directory
+working on 22gzip: chr22.info.gz: No such file or directory
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf chr22.dose.vcf.gz
+	--out PostImpCleaned/EIRA_chr22_clean
+	--recode
+	--exclude PostImpCleaned/EIRA_chr22_ExcludePositions.txt
+
+stat error: No such file or directory
+Error: Can't determine file type of chr22.dose.vcf.gz
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PostImpCleaned/EIRA_chr22.log.
+Options in effect:
+  --biallelic-only strict list
+  --double-id
+  --exclude PostImpCleaned/EIRA_chr22_ExcludePositions.txt
+  --make-bed
+  --out PostImpCleaned/EIRA_chr22
+  --vcf PostImpCleaned/EIRA_chr22_clean.recode.vcf
+  --vcf-min-gp 0.8
+
+386869 MB RAM detected; reserving 193434 MB for main workspace.
+Error: Failed to open PostImpCleaned/EIRA_chr22_clean.recode.vcf.
+rm: cannot remove 'PostImpCleaned/EIRA_chr22.INFO': No such file or directory
+rm: cannot remove 'PostImpCleaned/EIRA_chr22_clean.recode.vcf': No such file or directory

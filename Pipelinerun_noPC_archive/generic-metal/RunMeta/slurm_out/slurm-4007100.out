@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/exports/reum/CKe/generic-metal/RunMeta/compareResultsPlot.py", line 39, in <module>
+    z = gaussian_kde(xy)(xy)
+NameError: name 'gaussian_kde' is not defined

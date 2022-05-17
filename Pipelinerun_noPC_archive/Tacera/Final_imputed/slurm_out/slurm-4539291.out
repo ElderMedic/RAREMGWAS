@@ -1,0 +1,20 @@
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to gwas_TACERA.log.
+Options in effect:
+  --allow-no-sex
+  --bfile /exports/reum/CKe/Tacera/Final_imputed/TACERA_HRCv1_1_FINAL
+  --ci 0.95
+  --covar /exports/reum/CKe/Tacera/Final_imputed/tacera.covar
+  --hide-covar
+  --logistic
+  --out gwas_TACERA
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+322354 MB RAM detected; reserving 161177 MB for main workspace.
+21193891 variants loaded from .bim file.
+295 people (66 males, 175 females, 54 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to gwas_TACERA.nosex .
+222 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Error: Fewer tokens than expected on line 119 of --covar file.

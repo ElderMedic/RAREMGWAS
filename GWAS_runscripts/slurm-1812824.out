@@ -1,0 +1,27 @@
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to EIRA_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out EIRA_merged
+
+515937 MB RAM detected; reserving 257968 MB for main workspace.
+Warning: Variants '1:788595:C:T' and '1:788595:C:G' have the same position.
+Warning: Variants '1:1097335:T:G' and '1:1097335:T:A' have the same position.
+Warning: Variants '1:1164538:G:T' and '1:1164538:G:A' have the same position.
+30583 more same-position warnings: see log file.
+Performing single-pass merge (2182 people, 19613155 variants).
+Pass 1: fileset #1 complete.Pass 1: fileset #2 complete.Pass 1: fileset #3 complete.Pass 1: fileset #4 complete.Pass 1: fileset #5 complete.Pass 1: fileset #6 complete.Pass 1: fileset #7 complete.Pass 1: fileset #8 complete.Pass 1: fileset #9 complete.Pass 1: fileset #10 complete.Pass 1: fileset #11 complete.Pass 1: fileset #12 complete.Pass 1: fileset #13 complete.Pass 1: fileset #14 complete.Pass 1: fileset #15 complete.Pass 1: fileset #16 complete.Pass 1: fileset #17 complete.Pass 1: fileset #18 complete.Pass 1: fileset #19 complete.Pass 1: fileset #20 complete.Pass 1: fileset #21 complete.                                              Merged fileset written to EIRA_merged-merge.bed + EIRA_merged-merge.bim +
+EIRA_merged-merge.fam .
+19613155 variants loaded from .bim file.
+2182 people (0 males, 0 females, 2182 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to EIRA_merged.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 2182 founders and 0 nonfounders present.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+Total genotyping rate is 0.98831.
+19613155 variants and 2182 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to EIRA_merged.bed + EIRA_merged.bim + EIRA_merged.fam ... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.

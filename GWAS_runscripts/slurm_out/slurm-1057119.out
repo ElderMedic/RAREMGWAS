@@ -1,0 +1,125 @@
+merge_CHR.sh: line 6: cd: /exports/reum/knevel_lab/ACPA-/genetic/PostImpCleanedimputed/PostImpCleaned: No such file or directory
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ACPAneg_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out ACPAneg_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Error: Failed to open ACPAneg_chr1.fam.
+mv: cannot stat 'ACPAneg__merged*': No such file or directory
+merge_CHR.sh: line 6: cd: /exports/reum/knevel_lab/EARTH/SetA/genetic/PostImpCleanedimputed/PostImpCleaned: No such file or directory
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to EA127genotypes_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out EA127genotypes_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Error: Failed to open ACPAneg_chr1.fam.
+mv: cannot stat 'EA127genotypes__merged*': No such file or directory
+merge_CHR.sh: line 6: cd: /exports/reum/knevel_lab/EARTH/SetB/genetic/PostImpCleanedimputed/PostImpCleaned: No such file or directory
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to EARTH_setB_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out EARTH_setB_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Error: Failed to open ACPAneg_chr1.fam.
+mv: cannot stat 'EARTH_setB__merged*': No such file or directory
+merge_CHR.sh: line 6: cd: /exports/reum/knevel_lab/Madrid/genetic/PostImpCleanedimputed/PostImpCleaned: No such file or directory
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to madrid_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out madrid_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Error: Failed to open ACPAneg_chr1.fam.
+mv: cannot stat 'madrid__merged*': No such file or directory
+merge_CHR.sh: line 6: cd: /exports/reum/knevel_lab/Princesa/genetic/PostImpCleanedimputed/PostImpCleaned: No such file or directory
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to princesa_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out princesa_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Error: Failed to open ACPAneg_chr1.fam.
+mv: cannot stat 'princesa__merged*': No such file or directory
+merge_CHR.sh: line 6: cd: /exports/reum/knevel_lab/RAMS/genetic/PostImpCleanedimputed/PostImpCleaned: No such file or directory
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to RAMS_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out RAMS_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Error: Failed to open ACPAneg_chr1.fam.
+mv: cannot stat 'RAMS__merged*': No such file or directory
+merge_CHR.sh: line 6: cd: /exports/reum/knevel_lab/SERA/genetic/PostImpCleanedimputed/PostImpCleaned: No such file or directory
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to sera_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out sera_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Error: Failed to open ACPAneg_chr1.fam.
+mv: cannot stat 'sera__merged*': No such file or directory
+merge_CHR.sh: line 6: cd: /exports/reum/knevel_lab/Vienna/genetic/PostImpCleanedimputed/PostImpCleaned: No such file or directory
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to vienna_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out vienna_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Error: Failed to open ACPAneg_chr1.fam.
+mv: cannot stat 'vienna__merged*': No such file or directory
+merge_CHR.sh: line 6: cd: /exports/reum/knevel_lab/EAC_GSA/genetic/PostImpCleanedimputed/PostImpCleaned: No such file or directory
+mkdir: cannot create directory ‘mergedChr’: File exists
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to EAC_merged.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out EAC_merged
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Error: Failed to open ACPAneg_chr1.fam.
+mv: cannot stat 'EAC__merged*': No such file or directory

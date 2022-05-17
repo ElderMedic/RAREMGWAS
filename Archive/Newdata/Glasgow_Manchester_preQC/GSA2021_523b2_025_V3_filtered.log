@@ -1,0 +1,27 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --bfile GSA2021_523b2_025_V3_filtered
+  --out GSA2021_523b2_025_V3_filtered
+  --recode
+
+Hostname: res-hpc-lo02.researchlumc.nl
+Working directory: /exports/reum/CKe/Manchester/PLINK_011121_0443
+Start time: Wed Nov 10 11:11:39 2021
+
+Random number seed: 1636539099
+128524 MB RAM detected; reserving 64262 MB for main workspace.
+725831 variants loaded from .bim file.
+536 people (0 males, 0 females, 536 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to GSA2021_523b2_025_V3_filtered.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 536 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: Nonmissing nonmale Y chromosome genotype(s) present; many commands
+treat these as missing.
+Total genotyping rate is 0.998147.
+725831 variants and 536 people pass filters and QC.
+Note: No phenotypes present.
+--recode ped to GSA2021_523b2_025_V3_filtered.ped +
+GSA2021_523b2_025_V3_filtered.map ... done.
+
+End time: Wed Nov 10 11:11:56 2021

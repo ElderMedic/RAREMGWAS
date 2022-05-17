@@ -1,0 +1,14 @@
+PLINK v2.00a3LM 64-bit Intel (9 Apr 2020)
+Options in effect:
+  --make-pgen
+  --merge-list mergelist.txt
+  --out ACPAneg_merged
+
+Hostname: res-hpc-exe014.researchlumc.nl
+Working directory: /exports/reum/knevel_lab/ACPA-/genetic/PostImpCleaned
+Start time: Fri Mar 19 14:10:03 2021
+
+Error: Unrecognized flag ('--merge-list').
+For more info, try "plink2 --help <flag name>" or "plink2 --help | more".
+
+End time: Fri Mar 19 14:10:03 2021

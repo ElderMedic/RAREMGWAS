@@ -1,0 +1,6 @@
+0it [00:00, ?it/s]0it [00:05, ?it/s]
+[]
+Traceback (most recent call last):
+  File "/exports/reum/CKe/Tacera/Final_imputed/modifyBim.py", line 24, in <module>
+    time.sleep(1)
+NameError: name 'time' is not defined

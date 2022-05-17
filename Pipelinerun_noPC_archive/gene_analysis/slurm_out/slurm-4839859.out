@@ -1,0 +1,26 @@
+Welcome to MAGMA v1.09b (linux)
+Using flags:
+	--bfile /exports/reum/CKe/gene_analysis/ref_Samantha_merged synonyms=/exports/reum/CKe/gene_analysis/dbsnp151.synonyms
+	--pval /exports/reum/CKe/generic-metal/RunMeta/METALresult_filtered.TBL ncol=NMISS use=MarkerName,P-value
+	--gene-annot /exports/reum/CKe/gene_analysis/Meta.genes.annot
+	--gene-model multi
+	--out Meta_gene
+
+Start time is 14:08:38, Wednesday 06 Oct 2021
+
+Loading PLINK-format data...
+Reading file /exports/reum/CKe/gene_analysis/ref_Samantha_merged.fam... 5328 individuals read
+Reading file /exports/reum/CKe/gene_analysis/ref_Samantha_merged.bim... 7655652 SNPs read
+	WARNING: file contains 4779 duplicate SNP IDs; writing list of IDs to supplementary log file
+Preparing file /exports/reum/CKe/gene_analysis/ref_Samantha_merged.bed... 
+
+Reading SNP synonyms from file /exports/reum/CKe/gene_analysis/dbsnp151.synonyms
+	read 0 mapped synonyms from file, mapping to 0 SNPs in the data
+Reading SNP p-values from file /exports/reum/CKe/generic-metal/RunMeta/METALresult_filtered.TBL... 
+	detected 9 variables in file
+	using variable: MarkerName (SNP id)
+	using variable: P-value (p-value)
+
+ERROR - reading p-value file: variable 'NMISS' not found
+
+Terminating program.

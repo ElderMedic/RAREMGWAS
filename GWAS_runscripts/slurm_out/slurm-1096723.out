@@ -1,0 +1,20 @@
+PLINK v1.90p 64-bit (19 Feb 2020)              www.cog-genomics.org/plink/1.9/
+(C) 2005-2020 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to madrid_merged_rsID.log.
+Options in effect:
+  --allow-no-sex
+  --make-bed
+  --merge-list mergelist.txt
+  --out madrid_merged_rsID
+
+386923 MB RAM detected; reserving 193461 MB for main workspace.
+Error: 14440 variants with 3+ alleles present.
+* If you believe this is due to strand inconsistency, try --flip with
+  madrid_merged_rsID-merge.missnp.
+  (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
+  alleles probably remain in your data.  If LD between nearby SNPs is high,
+  --flip-scan should detect them.)
+* If you are dealing with genuine multiallelic variants, we recommend exporting
+  that subset of the data to VCF (via e.g. '--recode vcf'), merging with
+  another tool/script, and then importing the result; PLINK is not yet suited
+  to handling them.

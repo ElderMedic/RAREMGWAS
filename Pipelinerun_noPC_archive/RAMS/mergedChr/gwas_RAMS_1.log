@@ -1,0 +1,33 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --allow-no-sex
+  --bfile /exports/reum/CKe/RAMS/mergedChr/RAMS_merged
+  --ci 0.95
+  --covar /exports/reum/CKe/RAMS/mergedChr/RAMS_re.covar
+  --hide-covar
+  --logistic
+  --out /exports/reum/CKe/RAMS/mergedChr/gwas_RAMS_1
+
+Hostname: res-hpc-exe031.researchlumc.nl
+Working directory: /exports/reum/CKe/RAMS/mergedChr
+Start time: Thu Aug 12 20:39:04 2021
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Random number seed: 1628793544
+515919 MB RAM detected; reserving 257959 MB for main workspace.
+12293615 variants loaded from .bim file.
+245 people (0 males, 0 females, 245 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to /exports/reum/CKe/RAMS/mergedChr/gwas_RAMS_1.nosex
+.
+245 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 2 covariates loaded.
+Before main variant filters, 245 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.989483.
+12293615 variants and 245 people pass filters and QC.
+Among remaining phenotypes, 168 are cases and 77 are controls.
+Writing logistic model association results to
+/exports/reum/CKe/RAMS/mergedChr/gwas_RAMS_1.assoc.logistic ... done.
+
+End time: Thu Aug 12 20:41:22 2021

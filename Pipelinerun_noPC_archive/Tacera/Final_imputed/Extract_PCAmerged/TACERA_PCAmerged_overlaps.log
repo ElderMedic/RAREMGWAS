@@ -1,0 +1,36 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --bfile /exports/reum/CKe/Tacera/Final_imputed/TACERA_HRCv1_1_FINAL
+  --extract /exports/reum/CKe/Tacera/Final_imputed/Extract_PCAmerged/snplist_PCAtacera.txt
+  --make-bed
+  --out /exports/reum/CKe/Tacera/Final_imputed/Extract_PCAmerged/TACERA_PCAmerged_overlaps
+
+Hostname: res-hpc-lo02.researchlumc.nl
+Working directory: /exports/reum/CKe/Tacera/Final_imputed/Extract_PCAmerged
+Start time: Wed Nov  3 17:05:32 2021
+
+Random number seed: 1635955532
+128524 MB RAM detected; reserving 64262 MB for main workspace.
+21193891 variants loaded from .bim file.
+295 people (66 males, 175 females, 54 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/Tacera/Final_imputed/Extract_PCAmerged/TACERA_PCAmerged_overlaps.nosex
+.
+222 phenotype values loaded from .fam.
+--extract: 266608 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 295 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.991354.
+266608 variants and 295 people pass filters and QC.
+Among remaining phenotypes, 84 are cases and 138 are controls.  (73 phenotypes
+are missing.)
+--make-bed to
+/exports/reum/CKe/Tacera/Final_imputed/Extract_PCAmerged/TACERA_PCAmerged_overlaps.bed
++
+/exports/reum/CKe/Tacera/Final_imputed/Extract_PCAmerged/TACERA_PCAmerged_overlaps.bim
++
+/exports/reum/CKe/Tacera/Final_imputed/Extract_PCAmerged/TACERA_PCAmerged_overlaps.fam
+... done.
+
+End time: Wed Nov  3 17:05:58 2021

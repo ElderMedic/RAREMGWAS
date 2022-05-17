@@ -1,0 +1,16 @@
+[2021-11-10 10:22:12 duplicated_samples INFO] Options used:
+[2021-11-10 10:22:12 duplicated_samples INFO]   --sample-concordance-threshold 0.97
+[2021-11-10 10:22:12 duplicated_samples INFO]   --tfile GSA2021_523b2_025_V3
+[2021-11-10 10:22:12 duplicated_samples INFO]   --sample-completion-threshold 0.9
+[2021-11-10 10:22:12 duplicated_samples INFO]   --out GSA2021_523b2_025_V3_dupsamples
+[2021-11-10 10:22:12 duplicated_samples INFO] Reading TFAM
+[2021-11-10 10:22:12 duplicated_samples INFO] Finding duplicated samples
+[2021-11-10 10:22:12 duplicated_samples INFO] Creating TFAM for unique samples
+[2021-11-10 10:22:12 duplicated_samples INFO] Reading TPED (and creating TPED for unique samples)
+[2021-11-10 10:23:13 duplicated_samples INFO] Computing the completion and concordance of duplicated samples
+[2021-11-10 10:33:05 duplicated_samples INFO] Printing the statistics
+[2021-11-10 10:33:05 duplicated_samples INFO] Printing the concordance file
+[2021-11-10 10:33:06 duplicated_samples INFO] Creating TPED and TFAM for duplicated samples
+[2021-11-10 10:33:13 duplicated_samples INFO] Choosing the best duplicates
+[2021-11-10 10:33:13 duplicated_samples INFO] Cleaning and creating unique TPED and TFAM from duplicated samples
+[2021-11-10 10:58:19 duplicated_samples INFO] Creating final TPED and TFAM file

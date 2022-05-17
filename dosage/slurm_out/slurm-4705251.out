@@ -1,0 +1,14 @@
+PLINK v2.00a3LM 64-bit Intel (18 Sep 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to madrid_merged.log.
+Options in effect:
+  --out madrid_merged
+  --pmerge-list mergelist.txt pfile
+
+Start time: Mon Sep 20 15:34:56 2021
+1032002 MiB RAM detected; reserving 516001 MiB for main workspace.
+Using up to 48 threads (change this with --threads).
+--pmerge-list: 66 filesets specified.
+Error: Failed to open madrid_chr1_clean.recode.vcf.psam : No such file or
+directory.
+End time: Mon Sep 20 15:34:56 2021

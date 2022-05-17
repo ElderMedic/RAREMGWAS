@@ -1,0 +1,20 @@
+PLINK v2.00a3LM 64-bit Intel (9 Apr 2020)
+Options in effect:
+  --bfile GSA2021_523b2_025_V3
+  --out GSA2021_523b2_025_V3_rmDup
+  --rm-dup list
+
+Hostname: res-hpc-exe039.researchlumc.nl
+Working directory: /exports/reum/CKe/Manchester/PLINK_011121_0443
+Start time: Tue Nov  9 15:38:50 2021
+
+Random number seed: 1636468730
+386867 MiB RAM detected; reserving 193433 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+575 samples (0 females, 0 males, 575 ambiguous; 575 founders) loaded from
+GSA2021_523b2_025_V3.fam.
+725831 variants loaded from GSA2021_523b2_025_V3.bim.
+Note: No phenotype data present.
+Note: Skipping --rm-dup since no duplicate IDs are present.
+
+End time: Tue Nov  9 15:38:50 2021

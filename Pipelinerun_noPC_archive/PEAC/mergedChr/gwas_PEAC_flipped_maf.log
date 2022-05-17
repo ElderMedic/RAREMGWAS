@@ -1,0 +1,39 @@
+PLINK v1.90p 64-bit (19 Feb 2020)
+Options in effect:
+  --allow-no-sex
+  --bfile /exports/reum/CKe/PEAC/mergedChr/PEAC_merged
+  --biallelic-only strict list
+  --ci 0.95
+  --covar /exports/reum/CKe/PEAC/mergedChr/PEAC_re.covar
+  --hide-covar
+  --logistic
+  --maf 0.01
+  --out /exports/reum/CKe/PEAC/mergedChr/gwas_PEAC_flipped_maf
+
+Hostname: res-hpc-lo02.researchlumc.nl
+Working directory: /exports/reum/CKe
+Start time: Tue Oct  5 22:22:38 2021
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Random number seed: 1633465358
+128525 MB RAM detected; reserving 64262 MB for main workspace.
+18036602 variants loaded from .bim file.
+213 people (0 males, 0 females, 213 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to
+/exports/reum/CKe/PEAC/mergedChr/gwas_PEAC_flipped_maf.nosex .
+103 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 2 covariates loaded.
+92 people were not seen in the covariate file.
+Before main variant filters, 213 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.959483.
+9650703 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+8385899 variants and 213 people pass filters and QC.
+Among remaining phenotypes, 38 are cases and 65 are controls.  (110 phenotypes
+are missing.)
+Writing logistic model association results to
+/exports/reum/CKe/PEAC/mergedChr/gwas_PEAC_flipped_maf.assoc.logistic ... done.
+
+End time: Tue Oct  5 22:23:35 2021

@@ -1,0 +1,256 @@
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to EARTH/SetB/gwas_dosage_EARTHB.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar EARTH/SetB/EARTH_setB_merged.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out EARTH/SetB/gwas_dosage_EARTHB
+  --pfile EARTH/SetB/EARTH_setB_merged
+
+Start time: Mon Sep 27 12:15:26 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+66 samples (0 females, 0 males, 66 ambiguous; 66 founders) loaded from
+EARTH/SetB/EARTH_setB_merged.psam.
+9629990 variants loaded from EARTH/SetB/EARTH_setB_merged.pvar.
+1 binary phenotype loaded (32 cases, 34 controls).
+12 covariates loaded from EARTH/SetB/EARTH_setB_merged.covar.
+--covar-variance-standardize: 12 covariates transformed.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+Warning: --glm remaining case count is less than 10x predictor count for
+phenotype 'PHENO1'.
+Error: Cannot proceed with --glm regression on phenotype 'PHENO1', since
+variance inflation factor for covariate 'PC1' is too high (VIF_TOO_HIGH). You
+may want to remove redundant covariates and try again.
+End time: Mon Sep 27 12:15:37 2021
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to RAMS/gwas_dosage_RAMS.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar RAMS/RAMS.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out RAMS/gwas_dosage_RAMS
+  --pfile RAMS/RAMS_merged
+
+Start time: Mon Sep 27 12:15:37 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+245 samples (0 females, 0 males, 245 ambiguous; 245 founders) loaded from
+RAMS/RAMS_merged.psam.
+12293615 variants loaded from RAMS/RAMS_merged.pvar.
+1 binary phenotype loaded (168 cases, 77 controls).
+12 covariates loaded from RAMS/RAMS.covar.
+--covar-variance-standardize: 12 covariates transformed.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+Warning: --glm remaining control count is less than 10x predictor count for
+phenotype 'PHENO1'.
+--glm logistic-Firth hybrid regression on phenotype 'PHENO1': 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+Results written to RAMS/gwas_dosage_RAMS.PHENO1.glm.logistic.hybrid .
+--adjust: Genomic inflation est. lambda (based on median chisq) = 1.
+--adjust values (12293615 tests) written to
+RAMS/gwas_dosage_RAMS.PHENO1.glm.logistic.hybrid.adjusted .
+End time: Mon Sep 27 12:41:29 2021
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to MADRID/gwas_dosage_madird.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar MADRID/madrid.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out MADRID/gwas_dosage_madird
+  --pfile MADRID/madrid_merged
+
+Start time: Mon Sep 27 12:41:29 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+141 samples (0 females, 0 males, 141 ambiguous; 141 founders) loaded from
+MADRID/madrid_merged.psam.
+13039847 variants loaded from MADRID/madrid_merged.pvar.
+1 binary phenotype loaded (61 cases, 54 controls).
+12 covariates loaded from MADRID/madrid.covar.
+--covar-variance-standardize: 12 covariates transformed.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+Warning: --glm remaining control count is less than 10x predictor count for
+phenotype 'PHENO1'.
+Error: Cannot proceed with --glm regression on phenotype 'PHENO1', since
+variance inflation factor for covariate 'PC4' is too high (VIF_TOO_HIGH). You
+may want to remove redundant covariates and try again.
+End time: Mon Sep 27 12:41:49 2021
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to EIRA/gwas_dosage_EIRA.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar EIRA/EIRA.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out EIRA/gwas_dosage_EIRA
+  --pfile EIRA/EIRA_merged
+
+Start time: Mon Sep 27 12:41:49 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+2183 samples (0 females, 0 males, 2183 ambiguous; 2183 founders) loaded from
+EIRA/EIRA_merged.psam.
+20510411 variants loaded from EIRA/EIRA_merged.pvar.
+1 quantitative phenotype loaded (2076 values).
+12 covariates loaded from EIRA/EIRA.covar.
+--covar-variance-standardize: 12 covariates transformed.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+--glm linear regression on phenotype 'PHENO1': 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+Results written to EIRA/gwas_dosage_EIRA.PHENO1.glm.linear .
+--adjust: Genomic inflation est. lambda (based on median chisq) = 1.39758.
+--adjust values (20501566 tests) written to
+EIRA/gwas_dosage_EIRA.PHENO1.glm.linear.adjusted .
+End time: Mon Sep 27 12:53:35 2021
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to PEAC/gwas_dosage_PEAC.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar PEAC/PEAC.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out PEAC/gwas_dosage_PEAC
+  --pfile PEAC/PEAC_merged
+
+Start time: Mon Sep 27 12:53:35 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+213 samples (0 females, 0 males, 213 ambiguous; 213 founders) loaded from
+PEAC/PEAC_merged.psam.
+18036602 variants loaded from PEAC/PEAC_merged.pvar.
+1 binary phenotype loaded (65 cases, 38 controls).
+12 covariates loaded from PEAC/PEAC.covar.
+--covar-variance-standardize: 12 covariates transformed.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+Warning: --glm remaining control count is less than 10x predictor count for
+phenotype 'PHENO1'.
+Error: Cannot proceed with --glm regression on phenotype 'PHENO1', since
+variance inflation factor for covariate 'PC3' is too high (VIF_TOO_HIGH). You
+may want to remove redundant covariates and try again.
+End time: Mon Sep 27 12:54:18 2021
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to ACPA-/gwas_dosage_ACPA.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar ACPA-/ACPA.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out ACPA-/gwas_dosage_ACPA
+  --pfile ACPA-/ACPAneg_merged
+
+Start time: Mon Sep 27 12:54:18 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+273 samples (0 females, 0 males, 273 ambiguous; 273 founders) loaded from
+ACPA-/ACPAneg_merged.psam.
+12954732 variants loaded from ACPA-/ACPAneg_merged.pvar.
+1 binary phenotype loaded (128 cases, 47 controls).
+12 covariates loaded from ACPA-/ACPA.covar.
+--covar-variance-standardize: 12 covariates transformed.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+Warning: --glm remaining control count is less than 10x predictor count for
+phenotype 'PHENO1'.
+--glm logistic-Firth hybrid regression on phenotype 'PHENO1': 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+Results written to ACPA-/gwas_dosage_ACPA.PHENO1.glm.logistic.hybrid .
+--adjust: Genomic inflation est. lambda (based on median chisq) = 1.
+--adjust values (12793659 tests) written to
+ACPA-/gwas_dosage_ACPA.PHENO1.glm.logistic.hybrid.adjusted .
+End time: Mon Sep 27 13:22:27 2021
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to SERA/gwas_dosage_SERA.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar SERA/sera.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out SERA/gwas_dosage_SERA
+  --pfile SERA/sera_merged
+
+Start time: Mon Sep 27 13:22:27 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+668 samples (0 females, 0 males, 668 ambiguous; 668 founders) loaded from
+SERA/sera_merged.psam.
+15510242 variants loaded from SERA/sera_merged.pvar.
+1 binary phenotype loaded (251 cases, 170 controls).
+12 covariates loaded from SERA/sera.covar.
+--covar-variance-standardize: 12 covariates transformed.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+--glm logistic-Firth hybrid regression on phenotype 'PHENO1': 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+Results written to SERA/gwas_dosage_SERA.PHENO1.glm.logistic.hybrid .
+--adjust: Genomic inflation est. lambda (based on median chisq) = 1.
+--adjust values (15376037 tests) written to
+SERA/gwas_dosage_SERA.PHENO1.glm.logistic.hybrid.adjusted .
+End time: Mon Sep 27 14:19:32 2021
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to EAC/gwas_dosage_EAC.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar EAC/EAC.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out EAC/gwas_dosage_EAC
+  --pfile EAC/EAC_merged
+
+Start time: Mon Sep 27 14:19:32 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+1007 samples (0 females, 0 males, 1007 ambiguous; 1007 founders) loaded from
+EAC/EAC_merged.psam.
+18801643 variants loaded from EAC/EAC_merged.pvar.
+1 binary phenotype loaded (491 cases, 218 controls).
+12 covariates loaded from EAC/EAC.covar.
+--covar-variance-standardize: 12 covariates transformed.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+--glm logistic-Firth hybrid regression on phenotype 'PHENO1': 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+Results written to EAC/gwas_dosage_EAC.PHENO1.glm.logistic.hybrid .
+--adjust: Genomic inflation est. lambda (based on median chisq) = 1.
+--adjust values (18631114 tests) written to
+EAC/gwas_dosage_EAC.PHENO1.glm.logistic.hybrid.adjusted .
+End time: Mon Sep 27 16:07:38 2021
+PLINK v2.00a3LM 64-bit Intel (28 Mar 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to VIENNA/gwas_dosage_vienna.log.
+Options in effect:
+  --adjust
+  --ci 0.95
+  --covar VIENNA/vienna.covar
+  --covar-variance-standardize
+  --glm hide-covar
+  --out VIENNA/gwas_dosage_vienna
+  --pfile VIENNA/vienna_merged
+
+Start time: Mon Sep 27 16:07:38 2021
+386895 MiB RAM detected; reserving 193447 MiB for main workspace.
+Using up to 24 threads (change this with --threads).
+406 samples (0 females, 0 males, 406 ambiguous; 406 founders) loaded from
+VIENNA/vienna_merged.psam.
+14572254 variants loaded from VIENNA/vienna_merged.pvar.
+1 binary phenotype loaded (207 cases, 142 controls).
+12 covariates loaded from VIENNA/vienna.covar.
+--covar-variance-standardize: 12 covariates transformed.
+Calculating allele frequencies... 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+--glm logistic-Firth hybrid regression on phenotype 'PHENO1': 0%1%2%3%4%5%6%7%8%9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%done.
+Results written to VIENNA/gwas_dosage_vienna.PHENO1.glm.logistic.hybrid .
+--adjust: Genomic inflation est. lambda (based on median chisq) = 1.
+--adjust values (14539457 tests) written to
+VIENNA/gwas_dosage_vienna.PHENO1.glm.logistic.hybrid.adjusted .
+End time: Mon Sep 27 16:49:15 2021

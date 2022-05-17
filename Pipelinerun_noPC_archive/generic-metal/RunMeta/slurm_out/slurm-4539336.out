@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/exports/reum/CKe/generic-metal/RunMeta/compareEffectSizes.py", line 40, in <module>
+    z = gaussian_kde(xy)
+  File "/home/cke/.conda/envs/CKe/lib/python3.9/site-packages/scipy/stats/kde.py", line 193, in __init__
+    raise ValueError("`dataset` input should have multiple elements.")
+ValueError: `dataset` input should have multiple elements.
