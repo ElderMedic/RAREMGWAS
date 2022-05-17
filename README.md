@@ -7,6 +7,8 @@ Rheumatoid arthritis (RA), a systemic, inflammatory autoimmune disorder characte
 
 **Keywords**: GWAS, SNP, Rheumatoid Arthritis, remission, meta-analysis, functional annotation
 
+---
+
 ### What is in this repo?
 - jupyter notebooks as records and process reports, all python-based analysis were conducted in these notebooks and were visualized directly. Some of them were used to examine or check for certain facts or phenomenon.
 - shell scripts combined with python and R script to run the whole pipeline or just components. (in shark only shell script can be submitted to job queue)
@@ -22,7 +24,9 @@ Rheumatoid arthritis (RA), a systemic, inflammatory autoimmune disorder characte
 
 #### Dependencies
 Python: pandas, numpy, seaborn, tqdm, argparse, matplotlib. Latest versions and anaconda env are preferred.
+
 R: qqman, meta, stringr
+
 Other software: Plink 1.9p, metal(not necessary)
 
 ### Data Availability
